@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 32
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 33
+  controlID: 112
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 34
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Personagens/MulherDetetive/DetetiveMulherTex
+    - Assets/Personagens
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Personagens/MulherDetetive/DetetiveMulherTex
+  - Assets/Personagens
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Bruno\Documents\Crime-Mystery\CrimeAndMystery
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d0310000
-    m_LastClickedID: 12752
-    m_ExpandedIDs: 00000000e2290000b42e0000b62e0000b82e0000c42e0000ca2e000000ca9a3b
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: ea2a0000
+    m_LastClickedID: 10986
+    m_ExpandedIDs: 00000000e2290000862a0000ea2a00009c3000009e300000a0300000ac30000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2290000b42e0000b62e0000b82e0000
+    m_ExpandedIDs: 00000000e2290000862a0000ea2a00009c3000009e300000a0300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 366}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
@@ -482,7 +482,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 3eb3ffffe6fbffff00000000
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.1101868, y: 1.6859426, z: -0.28173113}
+    m_Target: {x: -1.4784017, y: 1.2841947, z: -0.3980627}
     speed: 2
-    m_Value: {x: -2.1101868, y: 1.6859426, z: -0.28173113}
+    m_Value: {x: -1.4784017, y: 1.2841947, z: -0.3980627}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -567,13 +567,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0011298691, y: 0.9980956, z: -0.058765605, w: -0.019164318}
+    m_Target: {x: -0.0003791886, y: 0.99779665, z: -0.06626083, w: -0.0056859353}
     speed: 2
-    m_Value: {x: -0.0011298597, y: 0.9980872, z: -0.058765113, w: -0.019164158}
+    m_Value: {x: -0.0003791846, y: 0.99778616, z: -0.06626014, w: -0.0056858757}
   m_Size:
-    m_Target: 2.3008327
+    m_Target: 3.8668482
     speed: 2
-    m_Value: 2.3008327
+    m_Value: 3.8668482
   m_Ortho:
     m_Target: 0
     speed: 2
