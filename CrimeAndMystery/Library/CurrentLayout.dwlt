@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Personagens/Prefabs
+    - Assets/Personagens/Nobre/NobreTex
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Personagens/Prefabs
+  - Assets/Personagens/Nobre/NobreTex
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Bruno\Documents\Crime-Mystery\CrimeAndMystery
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: 242d0000
-    m_LastClickedID: 11556
-    m_ExpandedIDs: 00000000e2290000b22a00002e2b0000562b00006a3200006c3200006e3200007a32000000ca9a3b
+    scrollPos: {x: 0, y: 151}
+    m_SelectedIDs: 143a0000
+    m_LastClickedID: 14868
+    m_ExpandedIDs: 00000000e2290000122a0000082b00008e2b0000c02b0000443400004634000048340000543400005a3400006235000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2290000b22a00002e2b0000562b00006a3200006c3200006e320000
+    m_ExpandedIDs: 00000000e2290000122a0000082b00008e2b0000c02b0000443400004634000048340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 120}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
@@ -482,7 +482,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff00000000
+    m_ExpandedIDs: 5610ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.88485, y: 1.1219729, z: -0.9442526}
+    m_Target: {x: 0.1332472, y: 1.2203285, z: -1.7216539}
     speed: 2
-    m_Value: {x: -2.88485, y: 1.1219729, z: -0.9442526}
+    m_Value: {x: 0.1332472, y: 1.2203285, z: -1.7216539}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -567,13 +567,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0061002625, y: 0.9926844, z: -0.10643381, w: 0.05694527}
+    m_Target: {x: 0.0063299527, y: 0.9926704, z: -0.05994114, w: 0.10491817}
     speed: 2
-    m_Value: {x: 0.0061001694, y: 0.9926693, z: -0.106432185, w: 0.056944404}
+    m_Value: {x: 0.006329841, y: 0.9926529, z: -0.05994008, w: 0.10491632}
   m_Size:
-    m_Target: 5.0371485
+    m_Target: 6.061255
     speed: 2
-    m_Value: 5.0371485
+    m_Value: 6.061255
   m_Ortho:
     m_Target: 0
     speed: 2
