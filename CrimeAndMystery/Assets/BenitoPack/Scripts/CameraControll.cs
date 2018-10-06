@@ -114,7 +114,6 @@ public class CameraControll : MonoBehaviour {
             GUI.DrawTexture(new Rect(Screen.width / 2 - mira.width / ecra, Screen.height / 2 - mira.height / 2, mira.width, mira.height), look);
        else  
             GUI.DrawTexture(new Rect(Screen.width / 2 - mira.width / 2, Screen.height / 2 - mira.height / 2, mira.width, mira.height), mira);
-        
-       
+              
     }
 }
