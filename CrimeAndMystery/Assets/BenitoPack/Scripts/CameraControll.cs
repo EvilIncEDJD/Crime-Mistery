@@ -34,13 +34,21 @@ public class CameraControll : MonoBehaviour {
     public float pickUpDistance = 10f;
 
     private bool collide;
+    private Vector3 playerPosition;
     public float ecra;
+
+
+    public GameObject item;
+    public GameObject tempParent;
+    public Transform guide;
+
+
     // Use this for initialization
     void Start()
     {
       
-        FirstPersonCamera.gameObject.active = true;     
-
+        FirstPersonCamera.gameObject.active = true;
+        playerPosition = player.transform.position;
         Vector3 angles = transform.eulerAngles;
         pitch = angles.y;
         yaw = angles.x;
@@ -88,16 +96,34 @@ public class CameraControll : MonoBehaviour {
     void Update()
     {
         // Interact with the item
-
+        
         Ray ray = Camera.main.ScreenPointToRay(Camera.main.transform.position);
         RaycastHit hit;
         
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, pickUpDistance) && hit.collider.gameObject.tag == "Item")
         {
             collide = true;
+            if (Input.GetButton("Pick") == true)//AQUI O JOGADOR N PODE SE MEXER
+            {
+                item.GetComponent<Rigidbody>().useGravity = false;
+                item.GetComponent<Rigidbody>().isKinematic = true;
+                item.transform.position = guide.transform.position;
+                item.transform.parent = tempParent.transform;
+                // gameObject.transform.position = playerPosition + new Vector3(0.5f, 1.0f, 0.5f );
+            }
+           
+            //else if(Input.GetButtonDown("Pick") == false)
+            //{
+            //    item.GetComponent<Rigidbody>().useGravity = true;
+            //    item.GetComponent<Rigidbody>().isKinematic = false;
+            //    item.transform.position = guide.transform.position;
+            //    item.transform.parent = null;
+            //}
+
         }
         else { collide = false; }
     }
+   
 
     public static float ClampAngle(float angle, float min, float max)
     {

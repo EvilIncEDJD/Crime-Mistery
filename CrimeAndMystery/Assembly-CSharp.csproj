@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BenitoPack\Scripts\CameraControll.cs" />
+    <Compile Include="Assets\BenitoPack\Scripts\Grab.cs" />
+    <Compile Include="Assets\BenitoPack\Scripts\GrabTeste.cs" />
     <Compile Include="Assets\BenitoPack\Scripts\InvHud.cs" />
     <Compile Include="Assets\BenitoPack\Scripts\Item.cs" />
     <Compile Include="Assets\BenitoPack\Scripts\ItemBase.cs" />

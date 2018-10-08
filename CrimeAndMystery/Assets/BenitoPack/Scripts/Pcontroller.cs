@@ -23,15 +23,20 @@ public class Pcontroller : MonoBehaviour {
             if (Input.GetAxis("Vertical") > 0 )
             {
                 animator.SetBool("isWalking", true);
-                
-                     if (Input.GetButton("Crouch") == true)
-                        {
-                            animator.SetBool("isCrouched", Input.GetButton("Crouch"));
-                        }
-                        else
-                            animator.SetBool("isCrouched", false);
 
-            transform.rotation = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0);
+                    if (Input.GetButton("Crouch") == true)
+                    {
+                        animator.SetBool("isCrouched", Input.GetButton("Crouch"));
+                        _characterController.height = 1.0f;
+                        _characterController.center = new Vector3(0.0f, 0.5f, 0.0f);
+                    }
+                    else
+                    {
+                        animator.SetBool("isCrouched", false);
+                        _characterController.height = 1.85f;
+                        _characterController.center = new Vector3(0.0f, 0.93f, 0.0f);
+                    }
+                    transform.rotation = Quaternion.Euler(0, Camera.main.transform.eulerAngles.y, 0);
         }
             else
             {
