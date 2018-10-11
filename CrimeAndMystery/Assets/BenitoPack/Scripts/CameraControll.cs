@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class CameraControll : MonoBehaviour {
 
+    public Animator animator;
     public GameObject player;
+    public GameObject head;
     public GameObject FirstPersonCamera;
     //public Texture2D mira;
     public Texture mira;
     public Texture look;
     private GUI DrawTexture;
-    private float yaw = 0.0f;
+    private float yaw1, yaw = 0.0f;
     private float pitch, pitchfirst = 0.0f;
     public float speed;
 
@@ -27,6 +29,11 @@ public class CameraControll : MonoBehaviour {
     public float yMaxLimit = 80f;
     public float yMinLimitfirst = -90f;
     public float yMaxLimitfirst = 60f;
+    public float xMinLimit = -90f;
+    public float xMaxLimit = 60f;
+    private float xMinLimit1;
+    public float xMaxLimit1;
+
 
     public float distanceMin = 4f;
     public float distanceMax = 15f;
@@ -46,13 +53,15 @@ public class CameraControll : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-      
+        animator = player.GetComponent<Animator>();
         FirstPersonCamera.gameObject.active = true;
         playerPosition = player.transform.position;
         Vector3 angles = transform.eulerAngles;
         pitch = angles.y;
         yaw = angles.x;
         collide = false;
+        
+    
 
     }
 
@@ -62,13 +71,19 @@ public class CameraControll : MonoBehaviour {
         pitchfirst -= Input.GetAxis("Mouse Y") * speed;
 
         pitchfirst = ClampAngle(pitchfirst, yMinLimitfirst, yMaxLimitfirst);
-
-        FirstPersonCamera.transform.eulerAngles = new Vector3(pitchfirst, yaw, 0.0f);
-
-
+      
         yaw += Input.GetAxis("Mouse X") * speed;
 
-        pitch -= Input.GetAxis("Mouse Y") * speed;
+        player.transform.eulerAngles = new Vector3(0, yaw, 0);
+        head.transform.eulerAngles = new Vector3(pitchfirst, yaw, 0.0f);
+        
+
+        
+
+
+       
+
+       /* pitch -= Input.GetAxis("Mouse Y") * speed;
 
         pitch = ClampAngle(pitch, yMinLimit, yMaxLimit);
 
@@ -88,7 +103,7 @@ public class CameraControll : MonoBehaviour {
 
         Vector3 negDistance = new Vector3(0.0f, 0.0f, -distance);
         Vector3 heighten = new Vector3(0.0f, height, 0.0f);
-        Vector3 position = rotation * negDistance + player.transform.position + heighten;
+        Vector3 position = rotation * negDistance + player.transform.position + heighten;*/
     }
 
 
@@ -105,20 +120,35 @@ public class CameraControll : MonoBehaviour {
             collide = true;
             if (Input.GetButton("Pick") == true)//AQUI O JOGADOR N PODE SE MEXER
             {
-                item.GetComponent<Rigidbody>().useGravity = false;
-                item.GetComponent<Rigidbody>().isKinematic = true;
-                item.transform.position = guide.transform.position;
-                item.transform.parent = tempParent.transform;
+                hit.collider.gameObject.GetComponent<Rigidbody>().useGravity = false;
+                hit.collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                hit.collider.gameObject.transform.position = guide.transform.position;
+                hit.collider.gameObject.transform.parent = tempParent.transform;
+
+               /* item.gameObject.GetComponent<Rigidbody>().useGravity = false;
+                item.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                item.gameObject.transform.position = guide.transform.position;
+                item.gameObject.transform.parent = tempParent.transform;*/
                 // gameObject.transform.position = playerPosition + new Vector3(0.5f, 1.0f, 0.5f );
+
+                if (Input.GetKeyDown(KeyCode.Mouse1))
+                {
+                    Camera.main.fieldOfView = 30;
+                    Debug.Log("True");
+                }
+               // else Camera.main.fieldOfView = 60;
             }
-           
-            //else if(Input.GetButtonDown("Pick") == false)
-            //{
-            //    item.GetComponent<Rigidbody>().useGravity = true;
-            //    item.GetComponent<Rigidbody>().isKinematic = false;
-            //    item.transform.position = guide.transform.position;
-            //    item.transform.parent = null;
-            //}
+          
+
+           else //if(Input.GetButtonDown("Pick") == false)
+            {
+                hit.collider.gameObject.GetComponent<Rigidbody>().useGravity = true;
+                hit.collider.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+                /*item.gameObject.GetComponent<Rigidbody>().useGravity = true;
+                item.gameObject.GetComponent<Rigidbody>().isKinematic = false;*/
+                // hit.collider.transform.position = guide.transform.position;
+                // hit.collider.transform.parent = null;
+            }
 
         }
         else { collide = false; }

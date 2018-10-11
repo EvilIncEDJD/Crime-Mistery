@@ -1391,7 +1391,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1539072132}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &733588761
 GameObject:
@@ -2043,7 +2043,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1539072132}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044551546
 GameObject:
@@ -3439,7 +3439,6 @@ Transform:
   m_LocalPosition: {x: 0.00000013357405, y: 0.10251976, z: 0.031317722}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1576840515}
   - {fileID: 1017403670}
   - {fileID: 1708812793}
   - {fileID: 671339392}
@@ -3578,12 +3577,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1576840512}
-  m_LocalRotation: {x: -0.0000000037252899, y: 5.6843413e-13, z: 2.131628e-14, w: 1}
-  m_LocalPosition: {x: -0, y: 0.02791395, z: 0.17794338}
+  m_LocalRotation: {x: -0.000000018626448, y: 3.4106043e-13, z: 2.0961006e-12, w: 1}
+  m_LocalPosition: {x: 0, y: 0.13251978, z: 0.17131773}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1539072132}
-  m_RootOrder: 0
+  m_Father: {fileID: 1838336161}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609252366
 GameObject:
@@ -3821,7 +3820,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1539072132}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1716154737
 GameObject:
@@ -3941,6 +3940,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1539072132}
+  - {fileID: 1576840515}
   m_Father: {fileID: 1379970350}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4128,7 +4128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275eab2bdd247c1479a0de026ed3a43c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1904477919}
   player: {fileID: 1904477918}
+  head: {fileID: 1838336160}
   FirstPersonCamera: {fileID: 1576840512}
   mira: {fileID: 2800000, guid: 19ecd974e6341ac4cb7e1585ffb51d1b, type: 3}
   look: {fileID: 2800000, guid: 492755e8586677340af11408571fbe63, type: 3}
@@ -4137,8 +4139,11 @@ MonoBehaviour:
   height: 1
   yMinLimit: -20
   yMaxLimit: 80
-  yMinLimitfirst: -90
+  yMinLimitfirst: -50
   yMaxLimitfirst: 60
+  xMinLimit: -50
+  xMaxLimit: 60
+  xMaxLimit1: 0
   distanceMin: 6
   distanceMax: 15
   pickUpDistance: 2
