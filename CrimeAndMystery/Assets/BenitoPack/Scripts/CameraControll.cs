@@ -41,14 +41,16 @@ public class CameraControll : MonoBehaviour {
     public float pickUpDistance = 10f;
 
     private bool collide;
+    [HideInInspector]
+    public bool zoom;
     private Vector3 playerPosition;
     public float ecra;
-
+    public float rotateSpeed = 20.0f;
 
     public GameObject item;
     public GameObject tempParent;
     public Transform guide;
-
+    
 
     // Use this for initialization
     void Start()
@@ -68,14 +70,17 @@ public class CameraControll : MonoBehaviour {
     private void LateUpdate()
     {
 
+        if (zoom == false)
+        { 
         pitchfirst -= Input.GetAxis("Mouse Y") * speed;
 
         pitchfirst = ClampAngle(pitchfirst, yMinLimitfirst, yMaxLimitfirst);
-      
-        yaw += Input.GetAxis("Mouse X") * speed;
 
-        player.transform.eulerAngles = new Vector3(0, yaw, 0);
-        head.transform.eulerAngles = new Vector3(pitchfirst, yaw, 0.0f);
+        yaw += Input.GetAxis("Mouse X") * speed;
+        }
+       
+            player.transform.eulerAngles = new Vector3(0, yaw, 0);
+            head.transform.eulerAngles = new Vector3(pitchfirst, yaw, 0.0f);
         
 
         
@@ -117,30 +122,51 @@ public class CameraControll : MonoBehaviour {
         
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, pickUpDistance) && hit.collider.gameObject.tag == "Item")
         {
+
             collide = true;
-            if (Input.GetButton("Pick") == true)//AQUI O JOGADOR N PODE SE MEXER
+         
+        }
+        else
+        {
+
+            collide = false;
+
+        }
+
+        if (collide == true)//AQUI O JOGADOR N PODE SE MEXER
+        {
+            if(Input.GetButton("Pick") == true || zoom == true)
             {
                 hit.collider.gameObject.GetComponent<Rigidbody>().useGravity = false;
                 hit.collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                hit.collider.gameObject.transform.position = guide.transform.position;
-                hit.collider.gameObject.transform.parent = tempParent.transform;
+                hit.collider.gameObject.transform.position = Camera.main.transform.position + Camera.main.transform.forward;
+                // hit.collider.gameObject.transform.parent = tempParent.transform;
 
-               /* item.gameObject.GetComponent<Rigidbody>().useGravity = false;
-                item.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-                item.gameObject.transform.position = guide.transform.position;
-                item.gameObject.transform.parent = tempParent.transform;*/
+                /* item.gameObject.GetComponent<Rigidbody>().useGravity = false;
+                 item.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+                 item.gameObject.transform.position = guide.transform.position;
+                 item.gameObject.transform.parent = tempParent.transform;*/
                 // gameObject.transform.position = playerPosition + new Vector3(0.5f, 1.0f, 0.5f );
 
-                if (Input.GetKeyDown(KeyCode.Mouse1))
+                if (Input.GetButton("Fire2"))
+                {
+                    zoom = true;
+
+
+                }
+                else zoom = false;
+
+                if(zoom == true)
                 {
                     Camera.main.fieldOfView = 30;
-                    Debug.Log("True");
+                    hit.collider.gameObject.transform.Rotate(Input.GetAxis("Mouse Y"), -Input.GetAxis("Mouse X"), 0);
+                    /*hit.collider.gameObject.transform.Rotate(Vector3.up, -(Input.GetAxis("Mouse X")*Mathf.Deg2Rad * rotateSpeed));
+                    hit.collider.gameObject.transform.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * Mathf.Deg2Rad * rotateSpeed);*/
                 }
-               // else Camera.main.fieldOfView = 60;
-            }
-          
+                else Camera.main.fieldOfView = 60;
 
-           else //if(Input.GetButtonDown("Pick") == false)
+            }
+            else //if(Input.GetButtonDown("Pick") == false)
             {
                 hit.collider.gameObject.GetComponent<Rigidbody>().useGravity = true;
                 hit.collider.gameObject.GetComponent<Rigidbody>().isKinematic = false;
@@ -150,10 +176,16 @@ public class CameraControll : MonoBehaviour {
                 // hit.collider.transform.parent = null;
             }
 
+
+
+            // else Camera.main.fieldOfView = 60;
         }
-        else { collide = false; }
+
+
+      
+
     }
-   
+
 
     public static float ClampAngle(float angle, float min, float max)
     {
