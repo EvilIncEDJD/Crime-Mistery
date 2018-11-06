@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class TextChange : MonoBehaviour {
+
+    // Use this for initialization
+    public  TextAsset textAsset;
+    static List<string> listText = new List<string>();
+    private Text uiText1, uiText2, uiText3, uiText4;
+    public int linePerPage;
+    private RectTransform parentRect;
+
+    private float longestCharWidth = 50;
+    //public string filename;
+
+    void Start () {
+
+         uiText1 = transform.Find("cover/bookPart/FirstCanvas/FirstText").GetComponent<Text>();
+       // parentRect = transform.Find("cover/bookPart/FirstCanvas/FirstText").GetComponent<RectTransform>();
+        uiText2 = transform.Find("Page/page1/Page1Canvas/Page1Text").GetComponent<Text>();
+          uiText3 = transform.Find("Page/page2/Page2Canvas/Page2Text").GetComponent<Text>();
+          uiText4 = transform.Find("Back/bookPart/LastCanvas/LastText").GetComponent<Text>();
+       // textAsset = Resources.Load(filename) as TextAsset;
+       CountLine();
+      
+    }
+	
+	// Update is called once per frame
+	void Update ()
+    {
+        /*   if(uiText1 != null)
+               Debug.Log("a");
+
+           else Debug.Log("No child with the name 'Gun' attached to the player");*/
+        //Debug.Log(listText.Count);
+
+    }
+
+    public void CountLine()
+    {
+         listText = textAsset.text.Split('\n').ToList();
+   
+     
+    }
+
+     
+
+    
+
+    protected bool CheckTextWidth()
+    {
+        float textWidth = LayoutUtility.GetPreferredWidth(uiText1.rectTransform); //This is the width the text would LIKE to be
+        float parentWidth = parentRect.rect.width; //This is the actual width of the text's parent container
+
+        return (textWidth > (parentWidth - longestCharWidth)); //is the text almost too wide?  Stop when the next character could be too wide
+    }
+}
