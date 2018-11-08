@@ -64,8 +64,10 @@ public class MoveAi : MonoBehaviour
                 case 0:
                     {
                        myCoroutine = StartCoroutine(goSit());
+                        sitting = false;
+                       
                         //StopCoroutine(myCoroutine);
-                   
+
 
                     }
                     break;
@@ -94,7 +96,7 @@ public class MoveAi : MonoBehaviour
                 transform.rotation = Closest(chair).transform.rotation;
                 Sit();
                 //Debug.Log("i should sit");
-                Stop();
+                
                 sitting = true;
             }
 
