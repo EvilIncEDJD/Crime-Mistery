@@ -87,12 +87,12 @@ public class Pcontroller : MonoBehaviour {
                 animator.SetBool("isWalkBack", false);
                 animator.SetBool("isWalking", false);
                 //Se andar com o rato pra esquerda,  animação de virar pra esquerda
-                if (Input.GetAxis("Mouse X") < 0)
+                if (Input.GetAxis("Mouse X") < -0.8)
                 {
                     animator.SetBool("leftTurn", true);
                 }  //Se andar com o rato pra direita, animação de virar pra direita
 
-                else if (Input.GetAxis("Mouse X") > 0)
+                else if (Input.GetAxis("Mouse X") > 0.8)
                 {
                     animator.SetBool("rightTurn", true);
 

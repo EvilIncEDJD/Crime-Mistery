@@ -140,6 +140,7 @@ public class CameraControll : MonoBehaviour {
                 hit.collider.gameObject.GetComponent<Rigidbody>().useGravity = false;
                 hit.collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
                 hit.collider.gameObject.transform.position = Camera.main.transform.position + Camera.main.transform.forward;
+               
                 // hit.collider.gameObject.transform.parent = tempParent.transform;
 
                 /* item.gameObject.GetComponent<Rigidbody>().useGravity = false;
