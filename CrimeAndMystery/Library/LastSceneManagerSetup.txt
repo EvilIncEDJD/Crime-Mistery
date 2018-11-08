@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/Bruno/Downloads/Astar3D/Assets/Test.unity
+- path: Assets/Scenes/scene.unity
   isLoaded: 1
   isActive: 1
