@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/scene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/MenuMain.unity
+=======
+- path: C:/Users/Bruno/Downloads/Astar3D/Assets/Test.unity
+>>>>>>> master
+>>>>>>> master
   isLoaded: 1
   isActive: 1
