@@ -76,6 +76,7 @@
     <Compile Include="Assets\MENUS\Options.cs" />
     <Compile Include="Assets\MENUS\PauseScript.cs" />
     <Compile Include="Assets\Mirror\MirrorReflect.cs" />
+    <Compile Include="Assets\PCGTerreno\Script\Terreno.cs" />
     <Compile Include="Assets\Personagens\Scripts\MoveAi.cs" />
     <Compile Include="Assets\Wander.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
