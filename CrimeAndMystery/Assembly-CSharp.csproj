@@ -76,7 +76,11 @@
     <Compile Include="Assets\MENUS\Options.cs" />
     <Compile Include="Assets\MENUS\PauseScript.cs" />
     <Compile Include="Assets\Mirror\MirrorReflect.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Personagens\Scripts\AnotherAi.cs" />
+=======
+    <Compile Include="Assets\PCGTerreno\Script\Terreno.cs" />
+>>>>>>> master
     <Compile Include="Assets\Personagens\Scripts\MoveAi.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
