@@ -142,6 +142,5 @@ public class PathFinding : MonoBehaviour {
 
         return 14 * distX + 10 * (distY - distX);
     }
-    // Update is called once per frame
-
+  
 }
