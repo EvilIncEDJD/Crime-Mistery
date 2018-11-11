@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/scene.unity
-=======
 - path: Assets/Scenes/TerrenoPCGtest.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
