@@ -54,7 +54,7 @@ public class MoveAi : MonoBehaviour
         while (true)
         {
             timer = Random.Range(5, 10);
-            int x = Random.Range(0, 0);
+            int x = Random.Range(0, 2);
 
             switch (x)
             {
@@ -88,7 +88,7 @@ public class MoveAi : MonoBehaviour
         {
             PathRequestManager.RequestPath(transform.position, Closest(chair).transform.position, OnPathFound);
 
-            if (DistanceFrom(Closest(chair)) < 2)
+            if (DistanceFrom(Closest(chair)) < 1)
             {
                 transform.rotation = Closest(chair).transform.rotation;
                 Sit();
