@@ -7,7 +7,7 @@ public class MoveAi : MonoBehaviour
 
     // Use this for initialization
     float timer;
-    public Animator animator;
+     Animator animator;
     GameObject[] chair, paint;
     GameObject maisPerto;
     Vector3 position, difference;
@@ -54,7 +54,7 @@ public class MoveAi : MonoBehaviour
         while (true)
         {
             timer = Random.Range(5, 10);
-            int x = Random.Range(0, 2);
+            int x = Random.Range(0, 0);
 
             switch (x)
             {

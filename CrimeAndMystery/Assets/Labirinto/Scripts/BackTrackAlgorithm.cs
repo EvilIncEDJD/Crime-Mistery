@@ -31,7 +31,7 @@ public class BackTrackAlgorithm : MazeAlgorithm
 
         while (cellvisited.Count > 0)
         {
-            stuff();
+            CheckToDestroyWall();
             Backtrack();
         }
     }
@@ -48,7 +48,7 @@ public class BackTrackAlgorithm : MazeAlgorithm
 
     }
 
-    public void stuff()
+    public void CheckToDestroyWall()
     {
        
 

@@ -5993,7 +5993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830982a9c688d934aac2852d30962926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DisplayGridGizmos: 1
+  DisplayGridGizmos: 0
   gridWorldSize: {x: 100, y: 100}
   nodeRadius: 0.5
   unwalkableMask:

@@ -19,6 +19,7 @@ public class MazeLoader : MonoBehaviour {
     public GameObject floor;
     public GameObject Parent;
     public GameObject model;
+    public GameObject chara;
 	public float size = 2f;
     public Transform positionXmin, positionXmax;
     public Transform positionZmin, positionZmax;
@@ -36,7 +37,7 @@ public class MazeLoader : MonoBehaviour {
 
         InitializeMaze ();
 
-	    MazeAlgorithm ma = new BackTrackAlgorithm (mazeCells);
+	   MazeAlgorithm ma = new BackTrackAlgorithm (mazeCells);
 
 		ma.CreateMaze ();
 	}
@@ -110,7 +111,7 @@ public class MazeLoader : MonoBehaviour {
             }
 		}
 
-        MakeEntrance();
+        //MakeEntrance();
 
         SpawnObject();
     }
@@ -128,8 +129,10 @@ public class MazeLoader : MonoBehaviour {
         // positionXmin = transform.position;
 
         Vector3 position = new Vector3(Random.Range(0.0f, 89.5f), 0, Random.Range(0.0f, 89.5f));
+        Vector3 position1 = new Vector3(Random.Range(0.0f, 89.5f), 0, Random.Range(0.0f, 89.5f));
         //Vector3 position = new Vector3(Random.Range(positionXmin.position.x, positionXmin.position.x), 0, Random.Range(positionZmin.position.z, positionZmax.position.z));
         Instantiate(model, position, Quaternion.identity);
+        Instantiate(chara, position1, Quaternion.identity);
         
     }
 }
