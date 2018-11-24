@@ -10,6 +10,7 @@ public class Pcontroller : MonoBehaviour {
     public float rotationSpeed = 100.0f;
     CameraControll cameraControll;
     
+    
 
     void Start () {       
         animator = GetComponent<Animator>();
@@ -19,7 +20,7 @@ public class Pcontroller : MonoBehaviour {
     void Update()
     {
 
-
+        
         /*  float translation = Input.GetAxis("Vertical") * speed;
           float rotation = Input.GetAxis("Horizontal") * rotationSpeed;*/
 
@@ -110,11 +111,9 @@ public class Pcontroller : MonoBehaviour {
             animator.SetBool("isRunning", Input.GetButton("Run"));
             animator.SetFloat("direction", Input.GetAxis("Horizontal"));
 
-
-
-
         }
-
     }
+
+     
 
 }
