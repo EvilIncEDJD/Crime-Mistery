@@ -10,7 +10,10 @@ public class UIController : MonoBehaviour {
 
 	public static bool infoOpen = false;
 	public static bool notebookOpen = false;
-    public Button[] botoes;
+    
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
 
     public Transform player;
 	
@@ -22,18 +25,20 @@ public class UIController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
     
-        if(infoOpen){
-            
-        }
+
+        
 
         if(notebookOpen){
             //para de mexer
             //notebook.SetActive(true);
             Time.timeScale = 0f;
+            Cursor.visible = true;
+             Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             player.GetComponent<CameraControll>().enabled = false;
         }else{
             Time.timeScale = 1f;
             player.GetComponent<CameraControll>().enabled = true;
+            Cursor.visible = false;
         }
         OpenInfo();
 		OpenNotebook();
@@ -86,6 +91,8 @@ public class UIController : MonoBehaviour {
     
 	 void FlipPag(){
 		
-         //Som a virar a pagina
+        
 	 }
+
+    
 }
