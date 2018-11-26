@@ -10,6 +10,7 @@ public class TextChange : MonoBehaviour {
     // Use this for initialization
     public  TextAsset textAsset;
     static List<string> listText = new List<string>();
+    
     private Text uiText1, uiText2, uiText3, uiText4;
     public int linePerPage;
     private RectTransform parentRect;
@@ -18,7 +19,7 @@ public class TextChange : MonoBehaviour {
     //public string filename;
 
     void Start () {
-
+        
          uiText1 = transform.Find("cover/bookPart/FirstCanvas/FirstText").GetComponent<Text>();
        // parentRect = transform.Find("cover/bookPart/FirstCanvas/FirstText").GetComponent<RectTransform>();
         uiText2 = transform.Find("Page/page1/Page1Canvas/Page1Text").GetComponent<Text>();
@@ -42,8 +43,19 @@ public class TextChange : MonoBehaviour {
 
     public void CountLine()
     {
+        
          listText = textAsset.text.Split('\n').ToList();
-   
+         for(int i = 0; i < listText.Count(); i++)
+         {
+            uiText1.text += listText[i] + "\n" ;
+         }
+        
+       /*  uiText1.text = listText[1];
+        uiText1.text = listText[2];
+        uiText1.text = listText[3];
+        uiText1.text = listText[4];
+        uiText1.text = listText[5];*/
+
      
     }
 
