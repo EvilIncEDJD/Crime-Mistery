@@ -1,0 +1,5161 @@
+fileFormatVersion: 2
+guid: ca01c2dc99fb78b4a9a5818cd2037556
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 22
+    100002: 25-bottom0
+    100004: 34
+    100006: 555
+    100008: 6
+    100010: 'ar0605ed #'
+    100012: 'ar0605ed #01'
+    100014: Arc01
+    100016: Arc01 1
+    100018: Arc02
+    100020: Arc02 1
+    100022: Arc03
+    100024: Arc03 1
+    100026: Arc04
+    100028: Arc04 1
+    100030: Arc05
+    100032: Arc05 1
+    100034: Arc06
+    100036: Arc06 1
+    100038: Arc07
+    100040: Arc07 1
+    100042: Arc08
+    100044: Arc09
+    100046: Arc09 1
+    100048: Arc10
+    100050: Arc11
+    100052: Arc12
+    100054: Arc13
+    100056: Arc14
+    100058: Arc15
+    100060: Arc16
+    100062: Arc17
+    100064: Arc18
+    100066: Arc19
+    100068: arch24_006_01
+    100070: Arch41_028_obj_08
+    100072: Arch41_028_obj_10
+    100074: Archinteriors7_06_13
+    100076: Archinteriors7_06_14
+    100078: ARCorRose02
+    100080: ARCorRose03
+    100082: ARCorRose04
+    100084: ARCorRose05
+    100086: ARCorRose1
+    100088: ARCorRoset
+    100090: ARCorRoset01
+    100092: ARCorRoset02
+    100094: ARCorRoset03
+    100096: ARCorRoset04
+    100098: asdad
+    100100: Box01
+    100102: Box01 1
+    100104: Box01 2
+    100106: Box01 3
+    100108: Box02
+    100110: Box03
+    100112: Box04
+    100114: Box05
+    100116: Box06
+    100118: Box060
+    100120: Box07
+    100122: Box08
+    100124: Box08 1
+    100126: Box08 2
+    100128: Box08.Box13
+    100130: Box09
+    100132: Box09 1
+    100134: Box09 2
+    100136: Box09.Box11
+    100138: Box10
+    100140: Box10 1
+    100142: Box10 2
+    100144: Box10.Box12
+    100146: Box11
+    100148: Box11 1
+    100150: Box12
+    100152: Box15
+    100154: Box16
+    100156: Box17
+    100158: Box18
+    100160: Box61
+    100162: Box72
+    100164: Box74
+    100166: Box77
+    100168: Camera01
+    100170: Camera01.Target
+    100172: CHAMFERB83
+    100174: ChamferBox01
+    100176: ChamferBox03dfg
+    100178: Circle01
+    100180: Circle01 1
+    100182: Circle02
+    100184: Circle02 1
+    100186: Circle02 2
+    100188: Circle03
+    100190: Circle03 1
+    100192: Circle04
+    100194: Circle05
+    100196: Circle05 1
+    100198: Circle06
+    100200: Circle06 1
+    100202: Circle07
+    100204: Circle07 1
+    100206: Circle08
+    100208: Circle08 1
+    100210: Circle09
+    100212: Circle09 1
+    100214: Circle10
+    100216: Circle10 1
+    100218: Circle11
+    100220: Circle11 1
+    100222: Circle12
+    100224: Circle1669
+    100226: Circle1670
+    100228: Circle1671
+    100230: Circle1672
+    100232: Circle1673
+    100234: Circle1674
+    100236: Circle1675
+    100238: Circle1676
+    100240: Circle1677
+    100242: Circle1678
+    100244: Circle1679
+    100246: Circle1680
+    100248: Circle1681
+    100250: Circle1682
+    100252: Circle1683
+    100254: Circle1684
+    100256: Circle1685
+    100258: Circle1686
+    100260: Circle1687
+    100262: Circle1688
+    100264: Circle1689
+    100266: Circle1690
+    100268: Circle1691
+    100270: Circle1692
+    100272: Circle1693
+    100274: Circle1694
+    100276: Circle1695
+    100278: Circle1696
+    100280: Circle1697
+    100282: Circle1698
+    100284: Circle1699
+    100286: Circle1700
+    100288: Circle1701
+    100290: Circle1702
+    100292: Circle1703
+    100294: Circle1704
+    100296: Circle1705
+    100298: Circle1706
+    100300: Circle1707
+    100302: Circle1708
+    100304: Circle1709
+    100306: Cylinder01
+    100308: Cylinder01 1
+    100310: Cylinder01 2
+    100312: Cylinder01 3
+    100314: Cylinder02
+    100316: Cylinder02 1
+    100318: Cylinder02 2
+    100320: Cylinder03
+    100322: Cylinder03 1
+    100324: Cylinder03 2
+    100326: Cylinder04
+    100328: Cylinder04 1
+    100330: Cylinder04 2
+    100332: Cylinder05
+    100334: Cylinder05 1
+    100336: Cylinder05 2
+    100338: Cylinder06
+    100340: Cylinder06 1
+    100342: Cylinder07
+    100344: Cylinder11
+    100346: Cylinder12
+    100348: Cylinder13
+    100350: Cylinder14
+    100352: Cylinder16
+    100354: Cylinder17
+    100356: Cylinder18
+    100358: Cylinder19
+    100360: Cylinder20
+    100362: Cylinder25
+    100364: Cylinder26
+    100366: Cylinder27
+    100368: Cylinder28
+    100370: Cylinder29
+    100372: Cylinder30
+    100374: Cylinder43
+    100376: ddd
+    100378: dfgfdgdf
+    100380: dsaffd
+    100382: f
+    100384: fghfh
+    100386: fghg
+    100388: FPoint01
+    100390: FPoint02
+    100392: FPoint03
+    100394: FPoint04
+    100396: FPoint05
+    100398: FPoint06
+    100400: FPoint07
+    100402: FPoint08
+    100404: FPoint09
+    100406: FPoint10
+    100408: FPoint11
+    100410: FPoint12
+    100412: FPoint13
+    100414: FPoint14
+    100416: FPoint15
+    100418: FPoint16
+    100420: FPoint17
+    100422: FPoint18
+    100424: FPoint19
+    100426: FPoint20
+    100428: FPoint21
+    100430: FPoint22
+    100432: FPoint23
+    100434: FPoint24
+    100436: FPoint25
+    100438: FPoint26
+    100440: FPoint27
+    100442: FPoint28
+    100444: FPoint29
+    100446: FPoint30
+    100448: FPoint31
+    100450: FPoint32
+    100452: FPoint33
+    100454: FPoint34
+    100456: FPoint35
+    100458: FPoint36
+    100460: FPoint37
+    100462: FPoint38
+    100464: FPoint39
+    100466: FPoint41
+    100468: FPoint42
+    100470: FPoint43
+    100472: FPoint44
+    100474: FPoint45
+    100476: FPoint46
+    100478: FPoint47
+    100480: FPoint48
+    100482: FPoint49
+    100484: FPoint50
+    100486: FPoint51
+    100488: FPoint52
+    100490: FPoint53
+    100492: g
+    100494: ggh
+    100496: ghj
+    100498: Group01
+    100500: Group01 1
+    100502: Group02
+    100504: Group02 1
+    100506: Group03
+    100508: Group03 1
+    100510: Group04
+    100512: Group05
+    100514: Group06
+    100516: Group11
+    100518: Group12
+    100520: Group12380
+    100522: Group13
+    100524: Group14
+    100526: Group33549
+    100528: Group33550
+    100530: Group33551
+    100532: Group33552
+    100534: Group33553
+    100536: Group33553 1
+    100538: Group33554
+    100540: Group33555
+    100542: Group33555 1
+    100544: Group33556
+    100546: Group33556 1
+    100548: Group33557
+    100550: Group33558
+    100552: Group33559
+    100554: Group33560
+    100556: Group33561
+    100558: Group33562
+    100560: Group33563
+    100562: Group33564
+    100564: Group33565
+    100566: Group33566
+    100568: Group33567
+    100570: Group33568
+    100572: Group33569
+    100574: Group33570
+    100576: Group33571
+    100578: Group33572
+    100580: Group33573
+    100582: Group33574
+    100584: Group33575
+    100586: Group33576
+    100588: Group33577
+    100590: Group33578
+    100592: Group33579
+    100594: Group33580
+    100596: Group33581
+    100598: Group33597
+    100600: Group33598
+    100602: jkjh
+    100604: Layer:252
+    100606: Line01
+    100608: Line01 1
+    100610: Line02
+    100612: Line02 1
+    100614: Line02 2
+    100616: Line02 3
+    100618: Line03
+    100620: Line03 1
+    100622: Line03 2
+    100624: Line03 3
+    100626: Line04
+    100628: Line04 1
+    100630: Line04 2
+    100632: Line04 3
+    100634: Line05
+    100636: Line05 1
+    100638: Line05 2
+    100640: Line06
+    100642: Line07
+    100644: Line07 1
+    100646: Line08
+    100648: Line08 1
+    100650: Line09
+    100652: Line09 1
+    100654: Line10
+    100656: Line10 1
+    100658: Line11
+    100660: Line11 1
+    100662: Line12
+    100664: Line13
+    100666: Line13 1
+    100668: Line14
+    100670: Line15
+    100672: Line16
+    100674: Line17
+    100676: Line1789527166
+    100678: Line1789527167
+    100680: Line1789527168
+    100682: Line1789527169
+    100684: Line1789527170
+    100686: Line1789527171
+    100688: Line1789527172
+    100690: Line1789527178
+    100692: Line1789527179
+    100694: Line1789527180
+    100696: Line1789527181
+    100698: Line1789527182
+    100700: Line1789527183
+    100702: Line1789527184
+    100704: Line1789527185
+    100706: Line1789527186
+    100708: Line1789527187
+    100710: Line1789527188
+    100712: Line1789527189
+    100714: Line1789527190
+    100716: Line1789527191
+    100718: Line1789527192
+    100720: Line1789527193
+    100722: Line1789527194
+    100724: Line1789527195
+    100726: Line1789527196
+    100728: Line1789527197
+    100730: Line1789527198
+    100732: Line1789527199
+    100734: Line1789527200
+    100736: Line1789527201
+    100738: Line1789527202
+    100740: Line1789527203
+    100742: Line1789527204
+    100744: Line1789527205
+    100746: Line1789527206
+    100748: Line1789527210
+    100750: Line1789527213
+    100752: Line1789527214
+    100754: Line1789527216
+    100756: Line1789527217
+    100758: Line1789527218
+    100760: Line1789527219
+    100762: Line1789527220
+    100764: Line1789527221
+    100766: Line1789527222
+    100768: Line1789527223
+    100770: Line1789527224
+    100772: Line1789527225
+    100774: Line1789527226
+    100776: Line1789527227
+    100778: Line1789527228
+    100780: Line1789527230
+    100782: Line1789527231
+    100784: Line1789527232
+    100786: Line1789527233
+    100788: Line1789527234
+    100790: Line1789527235
+    100792: Line1789527242
+    100794: Line1789527308
+    100796: Line1789527309
+    100798: Line1789527310
+    100800: Line1789527311
+    100802: Line1789527312
+    100804: Line1789527313
+    100806: Line18
+    100808: Line19
+    100810: Line20
+    100812: Line21
+    100814: Line22
+    100816: Line23
+    100818: Line24
+    100820: Line25
+    100822: Line26
+    100824: Line27
+    100826: Line28
+    100828: Line29
+    100830: Line30
+    100832: Line31
+    100834: Line32
+    100836: Line33
+    100838: Line34
+    100840: Line35
+    100842: Line36
+    100844: Line37
+    100846: Line38
+    100848: Line39
+    100850: Line40
+    100852: Line41
+    100854: Line42
+    100856: Line43
+    100858: Line44
+    100860: LINE45
+    100862: Line45
+    100864: LINE46
+    100866: Line46
+    100868: LINE47
+    100870: Line47
+    100872: LINE48
+    100874: Line48
+    100876: LINE49
+    100878: Line49
+    100880: LINE50
+    100882: Line50
+    100884: LINE51
+    100886: Line51
+    100888: LINE52
+    100890: Line52
+    100892: LINE53
+    100894: Line53
+    100896: LINE54
+    100898: Line54
+    100900: LINE55
+    100902: Line55
+    100904: LINE56
+    100906: Line56
+    100908: Line57
+    100910: Line58
+    100912: Line59
+    100914: Line60
+    100916: Line61
+    100918: Line62
+    100920: Line63
+    100922: Line64
+    100924: Line65
+    100926: Line66
+    100928: Line67
+    100930: Line68
+    100932: Line69
+    100934: Line70
+    100936: Line71
+    100938: Line72
+    100940: Line73
+    100942: Line74
+    100944: Line75
+    100946: Line76
+    100948: Line77
+    100950: Line78
+    100952: Line79
+    100954: Line80
+    100956: Line81
+    100958: Line82
+    100960: Line83
+    100962: Line91
+    100964: //RootNode
+    100966: Loft01
+    100968: Loft02
+    100970: Loft02 1
+    100972: Loft02.Loft03
+    100974: Loft03
+    100976: Loft04
+    100978: Loft05
+    100980: Loft06
+    100982: Loft07
+    100984: Loft07 1
+    100986: Loft08
+    100988: Loft09
+    100990: Loft10
+    100992: Loft11
+    100994: Loft12
+    100996: Loft13
+    100998: Loft14
+    101000: Loft15
+    101002: Loft16
+    101004: Loft17
+    101006: Loft18
+    101008: Loft19
+    101010: Mesh01
+    101012: Mesh02
+    101014: Mesh0DE03
+    101016: Mesh0DE2
+    101018: obj_01
+    101020: obj_02
+    101022: obj_03
+    101024: obj_04
+    101026: obj_05
+    101028: obj_06
+    101030: obj_07
+    101032: obj_08
+    101034: obj_09
+    101036: obj_10
+    101038: obj_11
+    101040: obj_31
+    101042: obj_32
+    101044: obj_33
+    101046: obj_34
+    101048: obj_38
+    101050: obj_39
+    101052: obj_40
+    101054: obj_41
+    101056: obj_42
+    101058: obj_43
+    101060: Object
+    101062: Object01
+    101064: Object01 1
+    101066: Object02
+    101068: Object04
+    101070: Object05
+    101072: Object06
+    101074: Object07
+    101076: Object08
+    101078: Object10
+    101080: Omni01
+    101082: Omni100
+    101084: Omni101
+    101086: Omni102
+    101088: Omni103
+    101090: Omni104
+    101092: Omni105
+    101094: Omni106
+    101096: Omni107
+    101098: Omni108
+    101100: Omni109
+    101102: Omni110
+    101104: Omni111
+    101106: Omni112
+    101108: Omni113
+    101110: Omni114
+    101112: Omni115
+    101114: Omni116
+    101116: Omni117
+    101118: Omni118
+    101120: Omni119
+    101122: Omni120
+    101124: Omni121
+    101126: Omni122
+    101128: Omni123
+    101130: Omni124
+    101132: Omni125
+    101134: Omni126
+    101136: Omni127
+    101138: Omni128
+    101140: Omni129
+    101142: Omni130
+    101144: Omni131
+    101146: Omni132
+    101148: Omni133
+    101150: Omni134
+    101152: Omni135
+    101154: Omni136
+    101156: Omni137
+    101158: Omni138
+    101160: Omni139
+    101162: Omni140
+    101164: Omni141
+    101166: Omni62
+    101168: Omni63
+    101170: Omni64
+    101172: Omni65
+    101174: Omni66
+    101176: Omni67
+    101178: Omni68
+    101180: Omni69
+    101182: Omni70
+    101184: Omni71
+    101186: Omni72
+    101188: Omni73
+    101190: Omni74
+    101192: Omni75
+    101194: Omni76
+    101196: Omni77
+    101198: Omni78
+    101200: Omni79
+    101202: Omni80
+    101204: Omni81
+    101206: Omni82
+    101208: Omni83
+    101210: Omni84
+    101212: Omni85
+    101214: Omni86
+    101216: Omni87
+    101218: Omni88
+    101220: Omni89
+    101222: Omni90
+    101224: Omni91
+    101226: Omni92
+    101228: Omni93
+    101230: Omni94
+    101232: Omni95
+    101234: Omni96
+    101236: Omni97
+    101238: Omni98
+    101240: Omni99
+    101242: Plane02
+    101244: Plane03
+    101246: plant_ob10
+    101248: plant_ob11
+    101250: plant_ob12
+    101252: plant_ob13
+    101254: plant_ob14
+    101256: plant_ob15
+    101258: plant_ob16
+    101260: plant_ob17
+    101262: plant_ob18
+    101264: plant_ob19
+    101266: plant_ob20
+    101268: plant_ob21
+    101270: plant_ob22
+    101272: plant_ob23
+    101274: plant_ob24
+    101276: plant_ob25
+    101278: plant_ob26
+    101280: plant_ob27
+    101282: plant_ob28
+    101284: plant_ob29
+    101286: plant_ob30
+    101288: plant_ob31
+    101290: plant_ob32
+    101292: plant_ob33
+    101294: plant_obj0
+    101296: plant_obj1
+    101298: plant_obj2
+    101300: plant_obj3
+    101302: plant_obj4
+    101304: plant_obj5
+    101306: plant_obj6
+    101308: plant_obj7
+    101310: plant_obj8
+    101312: plant_obj9
+    101314: plant_obj_
+    101316: Rectangle01
+    101318: Rectangle01 1
+    101320: Rectangle01 2
+    101322: Rectangle02
+    101324: Rectangle02 1
+    101326: Rectangle03
+    101328: Rectangle03 1
+    101330: Rectangle04
+    101332: Rectangle04 1
+    101334: Rectangle05
+    101336: Rectangle05 1
+    101338: Rectangle06
+    101340: Rectangle06 1
+    101342: Rectangle07
+    101344: Rectangle08
+    101346: Rectangle08 1
+    101348: Rectangle09
+    101350: Rectangle10
+    101352: Rectangle10 1
+    101354: Rectangle11
+    101356: Rectangle11 1
+    101358: Rectangle12
+    101360: Rectangle12 1
+    101362: Rectangle13
+    101364: Rectangle13 1
+    101366: Rectangle14
+    101368: Rectangle14 1
+    101370: Rectangle15
+    101372: Rectangle16
+    101374: Rectangle17
+    101376: Rectangle18
+    101378: Rectangle19
+    101380: Rectangle20
+    101382: Rectangle21
+    101384: Rectangle21 1
+    101386: Rectangle22
+    101388: Rectangle22 1
+    101390: Rectangle23
+    101392: Rectangle24
+    101394: Rectangle24 1
+    101396: Rectangle25
+    101398: Rectangle25 1
+    101400: Rectangle26
+    101402: Rectangle26 1
+    101404: Rectangle27
+    101406: Rectangle28
+    101408: Rectangle29
+    101410: Rectangle30
+    101412: Rectangle31
+    101414: Rectangle31620
+    101416: Rectangle31622
+    101418: Rectangle31623
+    101420: Rectangle31626
+    101422: Rectangle31627
+    101424: Rectangle31628
+    101426: Rectangle31629
+    101428: Rectangle31630
+    101430: Rectangle31631
+    101432: Rectangle31634
+    101434: Rectangle31636
+    101436: Rectangle31638
+    101438: Rectangle31640
+    101440: Rectangle31643
+    101442: Rectangle31645
+    101444: Rectangle31647
+    101446: Rectangle31649
+    101448: Rectangle31651
+    101450: Rectangle31653
+    101452: Rectangle31655
+    101454: Rectangle31657
+    101456: Rectangle31659
+    101458: Rectangle31661
+    101460: Rectangle31662
+    101462: Rectangle31663
+    101464: Rectangle31664
+    101466: Rectangle31665
+    101468: Rectangle31666
+    101470: Rectangle31667
+    101472: Rectangle31668
+    101474: Rectangle31669
+    101476: Rectangle31670
+    101478: Rectangle31671
+    101480: Rectangle31672
+    101482: Rectangle31673
+    101484: Rectangle31674
+    101486: Rectangle31675
+    101488: Rectangle31676
+    101490: Rectangle31677
+    101492: Rectangle31678
+    101494: Rectangle31679
+    101496: Rectangle31681
+    101498: Rectangle31682
+    101500: Rectangle31683
+    101502: Rectangle31684
+    101504: Rectangle31685
+    101506: Rectangle31686
+    101508: Rectangle31687
+    101510: Rectangle31688
+    101512: Rectangle31689
+    101514: Rectangle31690
+    101516: Rectangle31691
+    101518: Rectangle31692
+    101520: Rectangle31693
+    101522: Rectangle31694
+    101524: Rectangle31695
+    101526: Rectangle31696
+    101528: Rectangle31697
+    101530: Rectangle31698
+    101532: Rectangle31699
+    101534: Rectangle31700
+    101536: Rectangle31701
+    101538: Rectangle31702
+    101540: Rectangle31703
+    101542: Rectangle31704
+    101544: Rectangle31705
+    101546: Rectangle31706
+    101548: Rectangle31707
+    101550: Rectangle31708
+    101552: Rectangle31709
+    101554: Rectangle31710
+    101556: Rectangle31711
+    101558: Rectangle31712
+    101560: Rectangle31713
+    101562: Rectangle31714
+    101564: Rectangle31715
+    101566: Rectangle31716
+    101568: Rectangle31717
+    101570: Rectangle31718
+    101572: Rectangle31719
+    101574: Rectangle31720
+    101576: Rectangle31721
+    101578: Rectangle31722
+    101580: Rectangle31723
+    101582: Rectangle31724
+    101584: Rectangle31725
+    101586: Rectangle31726
+    101588: Rectangle31727
+    101590: Rectangle31728
+    101592: Rectangle31729
+    101594: Rectangle31730
+    101596: Rectangle31731
+    101598: Rectangle31732
+    101600: Rectangle31733
+    101602: Rectangle31734
+    101604: Rectangle31735
+    101606: Rectangle31736
+    101608: Rectangle31737
+    101610: Rectangle31738
+    101612: Rectangle31739
+    101614: Rectangle31740
+    101616: Rectangle31741
+    101618: Rectangle31746
+    101620: Rectangle31747
+    101622: Rectangle31748
+    101624: Rectangle31749
+    101626: Rectangle31750
+    101628: Rectangle31751
+    101630: Rectangle31752
+    101632: Rectangle31753
+    101634: Rectangle31755
+    101636: Rectangle31756
+    101638: Rectangle31761
+    101640: Rectangle31762
+    101642: Rectangle31763
+    101644: Rectangle31764
+    101646: Rectangle31765
+    101648: Rectangle31766
+    101650: Rectangle31767
+    101652: Rectangle31768
+    101654: Rectangle31769
+    101656: Rectangle31770
+    101658: Rectangle31771
+    101660: Rectangle31772
+    101662: Rectangle31773
+    101664: Rectangle31774
+    101666: Rectangle31775
+    101668: Rectangle31776
+    101670: Rectangle31777
+    101672: Rectangle31778
+    101674: Rectangle31780
+    101676: Rectangle31781
+    101678: Rectangle31782
+    101680: Rectangle32
+    101682: Rectangle33
+    101684: Rectangle34
+    101686: Rectangle35
+    101688: Rectangle36
+    101690: Rectangle37
+    101692: Rectangle38
+    101694: Rectangle39
+    101696: Rectangle40
+    101698: Rectangle41
+    101700: Rectangle42
+    101702: Rectangle43
+    101704: Rectangle44
+    101706: Rectangle45
+    101708: Rectangle46
+    101710: Rectangle47
+    101712: Rectangle48
+    101714: Rectangle49
+    101716: Rectangle50
+    101718: Rectangle51
+    101720: Rectangle52
+    101722: Rectangle53
+    101724: Rectangle53 1
+    101726: Rectangle54
+    101728: Rectangle55
+    101730: Rectangle55 1
+    101732: Rectangle56
+    101734: Rectangle57
+    101736: Rectangle58
+    101738: Rectangle59
+    101740: Rectangle60
+    101742: Rectangle61
+    101744: Rectangle62
+    101746: Rectangle63
+    101748: Rectangle64
+    101750: Rectangle65
+    101752: Rectangle66
+    101754: Rectangle67
+    101756: Rectangle68
+    101758: Rectangle69
+    101760: s
+    101762: s01
+    101764: s02
+    101766: s03
+    101768: sadasdsad
+    101770: sd
+    101772: Shape01
+    101774: Shape01 1
+    101776: Shape02
+    101778: Shape02 1
+    101780: Shape03
+    101782: Shape04
+    101784: Shape04 1
+    101786: Shape05
+    101788: Shape05 1
+    101790: Shape06
+    101792: Shape07
+    101794: Shape08
+    101796: Shape11
+    101798: Shape12
+    101800: Shape13
+    101802: Shape14
+    101804: Shape15
+    101806: Shape16
+    101808: Shape20
+    101810: Shape35
+    101812: Shape36
+    101814: Shape37
+    101816: Shape38
+    101818: Shape39
+    101820: Shape40
+    101822: Shape41
+    101824: Shape42
+    101826: Shape43
+    101828: Shape44
+    101830: Shape45
+    101832: Shape46
+    101834: Shape47
+    101836: Shape48
+    101838: Shape49
+    101840: Shape50
+    101842: Shape51
+    101844: Sphere01
+    101846: Sphere010
+    101848: Sphere02
+    101850: Sphere020
+    101852: Sphere04
+    101854: Sphere1176
+    101856: Sphere1177
+    101858: Sphere1178
+    101860: Sphere1179
+    101862: Sphere1180
+    101864: Sphere1181
+    101866: Sphere1182
+    101868: Sphere1183
+    101870: Sphere1184
+    101872: Sphere1185
+    101874: Sphere1186
+    101876: Sphere1187
+    101878: Sphere1188
+    101880: Sphere1189
+    101882: Sphere53
+    101884: Sphere54
+    101886: Sphere55
+    101888: Sphere56
+    101890: Sphere57
+    101892: Sphere58
+    101894: Sphere59
+    101896: Sphere60
+    101898: Sphere61
+    101900: Sphere62
+    101902: Sphere63
+    101904: Sphere64
+    101906: Torus188
+    101908: Torus189
+    101910: Torus190
+    101912: Torus191
+    101914: Torus192
+    101916: Torus193
+    101918: Torus194
+    101920: Torus195
+    101922: Torus196
+    101924: Torus197
+    101926: Torus198
+    101928: Torus199
+    101930: Torus200
+    101932: Torus201
+    101934: Torus202
+    101936: Torus203
+    101938: Torus204
+    101940: Torus205
+    101942: Torus206
+    101944: Torus207
+    101946: Torus208
+    101948: Torus209
+    101950: Torus210
+    101952: Torus211
+    101954: Torus212
+    101956: Torus213
+    101958: Torus214
+    101960: Torus215
+    101962: Torus216
+    101964: Torus217
+    101966: Torus218
+    101968: Torus219
+    101970: Torus220
+    101972: Torus221
+    101974: Torus222
+    101976: Torus223
+    101978: Torus224
+    101980: Torus225
+    101982: Torus226
+    101984: Torus227
+    101986: Torus228
+    101988: Torus229
+    101990: Torus230
+    101992: Torus231
+    101994: Torus232
+    101996: Torus233
+    101998: Torus234
+    102000: Torus235
+    102002: TUBE08
+    102004: TUBE09
+    102006: TUBE10
+    102008: TUBE11
+    102010: VRayFur01
+    102012: VRayFur03
+    102014: VRayLight01
+    102016: VRayLight02
+    102018: VRayLight03
+    102020: VRayLight04
+    102022: VRayLight05
+    102024: VRayLight06
+    102026: VRayLight07
+    102028: VRayLight08
+    102030: VRayLight09
+    102032: VRayLight10
+    102034: VRaySun01
+    102036: VRaySun01.Target
+    102038: "\u4E09\u4EBA\u6C99\u53D1"
+    102040: "\u56FE\u5F6202"
+    102042: "\u56FE\u5F6205"
+    102044: "\u5730\u6BEF"
+    102046: "\u5927\u8336\u51E0"
+    102048: "\u5BF9\u8C6101"
+    102050: "\u5BF9\u8C6102"
+    102052: "\u5BF9\u8C6102 1"
+    102054: "\u5BF9\u8C6102.\u5BF9\u8C6103"
+    102056: "\u5BF9\u8C6103"
+    102058: "\u5BF9\u8C6116"
+    102060: "\u5BF9\u8C6117"
+    102062: "\u5BF9\u8C6117.\u5BF9\u8C6145"
+    102064: "\u5BF9\u8C6117.\u5BF9\u8C6146"
+    102066: "\u5BF9\u8C6117.\u5BF9\u8C6147"
+    102068: "\u5BF9\u8C6117.\u5BF9\u8C6148"
+    102070: "\u5BF9\u8C6117.\u5BF9\u8C6149"
+    102072: "\u5BF9\u8C6120"
+    102074: "\u5BF9\u8C6122"
+    102076: "\u5BF9\u8C6123"
+    102078: "\u5BF9\u8C6124"
+    102080: "\u5BF9\u8C6125"
+    102082: "\u5C0F\u8336\u51E01"
+    400000: 22
+    400002: 25-bottom0
+    400004: 34
+    400006: 555
+    400008: 6
+    400010: 'ar0605ed #'
+    400012: 'ar0605ed #01'
+    400014: Arc01
+    400016: Arc01 1
+    400018: Arc02
+    400020: Arc02 1
+    400022: Arc03
+    400024: Arc03 1
+    400026: Arc04
+    400028: Arc04 1
+    400030: Arc05
+    400032: Arc05 1
+    400034: Arc06
+    400036: Arc06 1
+    400038: Arc07
+    400040: Arc07 1
+    400042: Arc08
+    400044: Arc09
+    400046: Arc09 1
+    400048: Arc10
+    400050: Arc11
+    400052: Arc12
+    400054: Arc13
+    400056: Arc14
+    400058: Arc15
+    400060: Arc16
+    400062: Arc17
+    400064: Arc18
+    400066: Arc19
+    400068: arch24_006_01
+    400070: Arch41_028_obj_08
+    400072: Arch41_028_obj_10
+    400074: Archinteriors7_06_13
+    400076: Archinteriors7_06_14
+    400078: ARCorRose02
+    400080: ARCorRose03
+    400082: ARCorRose04
+    400084: ARCorRose05
+    400086: ARCorRose1
+    400088: ARCorRoset
+    400090: ARCorRoset01
+    400092: ARCorRoset02
+    400094: ARCorRoset03
+    400096: ARCorRoset04
+    400098: asdad
+    400100: Box01
+    400102: Box01 1
+    400104: Box01 2
+    400106: Box01 3
+    400108: Box02
+    400110: Box03
+    400112: Box04
+    400114: Box05
+    400116: Box06
+    400118: Box060
+    400120: Box07
+    400122: Box08
+    400124: Box08 1
+    400126: Box08 2
+    400128: Box08.Box13
+    400130: Box09
+    400132: Box09 1
+    400134: Box09 2
+    400136: Box09.Box11
+    400138: Box10
+    400140: Box10 1
+    400142: Box10 2
+    400144: Box10.Box12
+    400146: Box11
+    400148: Box11 1
+    400150: Box12
+    400152: Box15
+    400154: Box16
+    400156: Box17
+    400158: Box18
+    400160: Box61
+    400162: Box72
+    400164: Box74
+    400166: Box77
+    400168: Camera01
+    400170: Camera01.Target
+    400172: CHAMFERB83
+    400174: ChamferBox01
+    400176: ChamferBox03dfg
+    400178: Circle01
+    400180: Circle01 1
+    400182: Circle02
+    400184: Circle02 1
+    400186: Circle02 2
+    400188: Circle03
+    400190: Circle03 1
+    400192: Circle04
+    400194: Circle05
+    400196: Circle05 1
+    400198: Circle06
+    400200: Circle06 1
+    400202: Circle07
+    400204: Circle07 1
+    400206: Circle08
+    400208: Circle08 1
+    400210: Circle09
+    400212: Circle09 1
+    400214: Circle10
+    400216: Circle10 1
+    400218: Circle11
+    400220: Circle11 1
+    400222: Circle12
+    400224: Circle1669
+    400226: Circle1670
+    400228: Circle1671
+    400230: Circle1672
+    400232: Circle1673
+    400234: Circle1674
+    400236: Circle1675
+    400238: Circle1676
+    400240: Circle1677
+    400242: Circle1678
+    400244: Circle1679
+    400246: Circle1680
+    400248: Circle1681
+    400250: Circle1682
+    400252: Circle1683
+    400254: Circle1684
+    400256: Circle1685
+    400258: Circle1686
+    400260: Circle1687
+    400262: Circle1688
+    400264: Circle1689
+    400266: Circle1690
+    400268: Circle1691
+    400270: Circle1692
+    400272: Circle1693
+    400274: Circle1694
+    400276: Circle1695
+    400278: Circle1696
+    400280: Circle1697
+    400282: Circle1698
+    400284: Circle1699
+    400286: Circle1700
+    400288: Circle1701
+    400290: Circle1702
+    400292: Circle1703
+    400294: Circle1704
+    400296: Circle1705
+    400298: Circle1706
+    400300: Circle1707
+    400302: Circle1708
+    400304: Circle1709
+    400306: Cylinder01
+    400308: Cylinder01 1
+    400310: Cylinder01 2
+    400312: Cylinder01 3
+    400314: Cylinder02
+    400316: Cylinder02 1
+    400318: Cylinder02 2
+    400320: Cylinder03
+    400322: Cylinder03 1
+    400324: Cylinder03 2
+    400326: Cylinder04
+    400328: Cylinder04 1
+    400330: Cylinder04 2
+    400332: Cylinder05
+    400334: Cylinder05 1
+    400336: Cylinder05 2
+    400338: Cylinder06
+    400340: Cylinder06 1
+    400342: Cylinder07
+    400344: Cylinder11
+    400346: Cylinder12
+    400348: Cylinder13
+    400350: Cylinder14
+    400352: Cylinder16
+    400354: Cylinder17
+    400356: Cylinder18
+    400358: Cylinder19
+    400360: Cylinder20
+    400362: Cylinder25
+    400364: Cylinder26
+    400366: Cylinder27
+    400368: Cylinder28
+    400370: Cylinder29
+    400372: Cylinder30
+    400374: Cylinder43
+    400376: ddd
+    400378: dfgfdgdf
+    400380: dsaffd
+    400382: f
+    400384: fghfh
+    400386: fghg
+    400388: FPoint01
+    400390: FPoint02
+    400392: FPoint03
+    400394: FPoint04
+    400396: FPoint05
+    400398: FPoint06
+    400400: FPoint07
+    400402: FPoint08
+    400404: FPoint09
+    400406: FPoint10
+    400408: FPoint11
+    400410: FPoint12
+    400412: FPoint13
+    400414: FPoint14
+    400416: FPoint15
+    400418: FPoint16
+    400420: FPoint17
+    400422: FPoint18
+    400424: FPoint19
+    400426: FPoint20
+    400428: FPoint21
+    400430: FPoint22
+    400432: FPoint23
+    400434: FPoint24
+    400436: FPoint25
+    400438: FPoint26
+    400440: FPoint27
+    400442: FPoint28
+    400444: FPoint29
+    400446: FPoint30
+    400448: FPoint31
+    400450: FPoint32
+    400452: FPoint33
+    400454: FPoint34
+    400456: FPoint35
+    400458: FPoint36
+    400460: FPoint37
+    400462: FPoint38
+    400464: FPoint39
+    400466: FPoint41
+    400468: FPoint42
+    400470: FPoint43
+    400472: FPoint44
+    400474: FPoint45
+    400476: FPoint46
+    400478: FPoint47
+    400480: FPoint48
+    400482: FPoint49
+    400484: FPoint50
+    400486: FPoint51
+    400488: FPoint52
+    400490: FPoint53
+    400492: g
+    400494: ggh
+    400496: ghj
+    400498: Group01
+    400500: Group01 1
+    400502: Group02
+    400504: Group02 1
+    400506: Group03
+    400508: Group03 1
+    400510: Group04
+    400512: Group05
+    400514: Group06
+    400516: Group11
+    400518: Group12
+    400520: Group12380
+    400522: Group13
+    400524: Group14
+    400526: Group33549
+    400528: Group33550
+    400530: Group33551
+    400532: Group33552
+    400534: Group33553
+    400536: Group33553 1
+    400538: Group33554
+    400540: Group33555
+    400542: Group33555 1
+    400544: Group33556
+    400546: Group33556 1
+    400548: Group33557
+    400550: Group33558
+    400552: Group33559
+    400554: Group33560
+    400556: Group33561
+    400558: Group33562
+    400560: Group33563
+    400562: Group33564
+    400564: Group33565
+    400566: Group33566
+    400568: Group33567
+    400570: Group33568
+    400572: Group33569
+    400574: Group33570
+    400576: Group33571
+    400578: Group33572
+    400580: Group33573
+    400582: Group33574
+    400584: Group33575
+    400586: Group33576
+    400588: Group33577
+    400590: Group33578
+    400592: Group33579
+    400594: Group33580
+    400596: Group33581
+    400598: Group33597
+    400600: Group33598
+    400602: jkjh
+    400604: Layer:252
+    400606: Line01
+    400608: Line01 1
+    400610: Line02
+    400612: Line02 1
+    400614: Line02 2
+    400616: Line02 3
+    400618: Line03
+    400620: Line03 1
+    400622: Line03 2
+    400624: Line03 3
+    400626: Line04
+    400628: Line04 1
+    400630: Line04 2
+    400632: Line04 3
+    400634: Line05
+    400636: Line05 1
+    400638: Line05 2
+    400640: Line06
+    400642: Line07
+    400644: Line07 1
+    400646: Line08
+    400648: Line08 1
+    400650: Line09
+    400652: Line09 1
+    400654: Line10
+    400656: Line10 1
+    400658: Line11
+    400660: Line11 1
+    400662: Line12
+    400664: Line13
+    400666: Line13 1
+    400668: Line14
+    400670: Line15
+    400672: Line16
+    400674: Line17
+    400676: Line1789527166
+    400678: Line1789527167
+    400680: Line1789527168
+    400682: Line1789527169
+    400684: Line1789527170
+    400686: Line1789527171
+    400688: Line1789527172
+    400690: Line1789527178
+    400692: Line1789527179
+    400694: Line1789527180
+    400696: Line1789527181
+    400698: Line1789527182
+    400700: Line1789527183
+    400702: Line1789527184
+    400704: Line1789527185
+    400706: Line1789527186
+    400708: Line1789527187
+    400710: Line1789527188
+    400712: Line1789527189
+    400714: Line1789527190
+    400716: Line1789527191
+    400718: Line1789527192
+    400720: Line1789527193
+    400722: Line1789527194
+    400724: Line1789527195
+    400726: Line1789527196
+    400728: Line1789527197
+    400730: Line1789527198
+    400732: Line1789527199
+    400734: Line1789527200
+    400736: Line1789527201
+    400738: Line1789527202
+    400740: Line1789527203
+    400742: Line1789527204
+    400744: Line1789527205
+    400746: Line1789527206
+    400748: Line1789527210
+    400750: Line1789527213
+    400752: Line1789527214
+    400754: Line1789527216
+    400756: Line1789527217
+    400758: Line1789527218
+    400760: Line1789527219
+    400762: Line1789527220
+    400764: Line1789527221
+    400766: Line1789527222
+    400768: Line1789527223
+    400770: Line1789527224
+    400772: Line1789527225
+    400774: Line1789527226
+    400776: Line1789527227
+    400778: Line1789527228
+    400780: Line1789527230
+    400782: Line1789527231
+    400784: Line1789527232
+    400786: Line1789527233
+    400788: Line1789527234
+    400790: Line1789527235
+    400792: Line1789527242
+    400794: Line1789527308
+    400796: Line1789527309
+    400798: Line1789527310
+    400800: Line1789527311
+    400802: Line1789527312
+    400804: Line1789527313
+    400806: Line18
+    400808: Line19
+    400810: Line20
+    400812: Line21
+    400814: Line22
+    400816: Line23
+    400818: Line24
+    400820: Line25
+    400822: Line26
+    400824: Line27
+    400826: Line28
+    400828: Line29
+    400830: Line30
+    400832: Line31
+    400834: Line32
+    400836: Line33
+    400838: Line34
+    400840: Line35
+    400842: Line36
+    400844: Line37
+    400846: Line38
+    400848: Line39
+    400850: Line40
+    400852: Line41
+    400854: Line42
+    400856: Line43
+    400858: Line44
+    400860: LINE45
+    400862: Line45
+    400864: LINE46
+    400866: Line46
+    400868: LINE47
+    400870: Line47
+    400872: LINE48
+    400874: Line48
+    400876: LINE49
+    400878: Line49
+    400880: LINE50
+    400882: Line50
+    400884: LINE51
+    400886: Line51
+    400888: LINE52
+    400890: Line52
+    400892: LINE53
+    400894: Line53
+    400896: LINE54
+    400898: Line54
+    400900: LINE55
+    400902: Line55
+    400904: LINE56
+    400906: Line56
+    400908: Line57
+    400910: Line58
+    400912: Line59
+    400914: Line60
+    400916: Line61
+    400918: Line62
+    400920: Line63
+    400922: Line64
+    400924: Line65
+    400926: Line66
+    400928: Line67
+    400930: Line68
+    400932: Line69
+    400934: Line70
+    400936: Line71
+    400938: Line72
+    400940: Line73
+    400942: Line74
+    400944: Line75
+    400946: Line76
+    400948: Line77
+    400950: Line78
+    400952: Line79
+    400954: Line80
+    400956: Line81
+    400958: Line82
+    400960: Line83
+    400962: Line91
+    400964: //RootNode
+    400966: Loft01
+    400968: Loft02
+    400970: Loft02 1
+    400972: Loft02.Loft03
+    400974: Loft03
+    400976: Loft04
+    400978: Loft05
+    400980: Loft06
+    400982: Loft07
+    400984: Loft07 1
+    400986: Loft08
+    400988: Loft09
+    400990: Loft10
+    400992: Loft11
+    400994: Loft12
+    400996: Loft13
+    400998: Loft14
+    401000: Loft15
+    401002: Loft16
+    401004: Loft17
+    401006: Loft18
+    401008: Loft19
+    401010: Mesh01
+    401012: Mesh02
+    401014: Mesh0DE03
+    401016: Mesh0DE2
+    401018: obj_01
+    401020: obj_02
+    401022: obj_03
+    401024: obj_04
+    401026: obj_05
+    401028: obj_06
+    401030: obj_07
+    401032: obj_08
+    401034: obj_09
+    401036: obj_10
+    401038: obj_11
+    401040: obj_31
+    401042: obj_32
+    401044: obj_33
+    401046: obj_34
+    401048: obj_38
+    401050: obj_39
+    401052: obj_40
+    401054: obj_41
+    401056: obj_42
+    401058: obj_43
+    401060: Object
+    401062: Object01
+    401064: Object01 1
+    401066: Object02
+    401068: Object04
+    401070: Object05
+    401072: Object06
+    401074: Object07
+    401076: Object08
+    401078: Object10
+    401080: Omni01
+    401082: Omni100
+    401084: Omni101
+    401086: Omni102
+    401088: Omni103
+    401090: Omni104
+    401092: Omni105
+    401094: Omni106
+    401096: Omni107
+    401098: Omni108
+    401100: Omni109
+    401102: Omni110
+    401104: Omni111
+    401106: Omni112
+    401108: Omni113
+    401110: Omni114
+    401112: Omni115
+    401114: Omni116
+    401116: Omni117
+    401118: Omni118
+    401120: Omni119
+    401122: Omni120
+    401124: Omni121
+    401126: Omni122
+    401128: Omni123
+    401130: Omni124
+    401132: Omni125
+    401134: Omni126
+    401136: Omni127
+    401138: Omni128
+    401140: Omni129
+    401142: Omni130
+    401144: Omni131
+    401146: Omni132
+    401148: Omni133
+    401150: Omni134
+    401152: Omni135
+    401154: Omni136
+    401156: Omni137
+    401158: Omni138
+    401160: Omni139
+    401162: Omni140
+    401164: Omni141
+    401166: Omni62
+    401168: Omni63
+    401170: Omni64
+    401172: Omni65
+    401174: Omni66
+    401176: Omni67
+    401178: Omni68
+    401180: Omni69
+    401182: Omni70
+    401184: Omni71
+    401186: Omni72
+    401188: Omni73
+    401190: Omni74
+    401192: Omni75
+    401194: Omni76
+    401196: Omni77
+    401198: Omni78
+    401200: Omni79
+    401202: Omni80
+    401204: Omni81
+    401206: Omni82
+    401208: Omni83
+    401210: Omni84
+    401212: Omni85
+    401214: Omni86
+    401216: Omni87
+    401218: Omni88
+    401220: Omni89
+    401222: Omni90
+    401224: Omni91
+    401226: Omni92
+    401228: Omni93
+    401230: Omni94
+    401232: Omni95
+    401234: Omni96
+    401236: Omni97
+    401238: Omni98
+    401240: Omni99
+    401242: Plane02
+    401244: Plane03
+    401246: plant_ob10
+    401248: plant_ob11
+    401250: plant_ob12
+    401252: plant_ob13
+    401254: plant_ob14
+    401256: plant_ob15
+    401258: plant_ob16
+    401260: plant_ob17
+    401262: plant_ob18
+    401264: plant_ob19
+    401266: plant_ob20
+    401268: plant_ob21
+    401270: plant_ob22
+    401272: plant_ob23
+    401274: plant_ob24
+    401276: plant_ob25
+    401278: plant_ob26
+    401280: plant_ob27
+    401282: plant_ob28
+    401284: plant_ob29
+    401286: plant_ob30
+    401288: plant_ob31
+    401290: plant_ob32
+    401292: plant_ob33
+    401294: plant_obj0
+    401296: plant_obj1
+    401298: plant_obj2
+    401300: plant_obj3
+    401302: plant_obj4
+    401304: plant_obj5
+    401306: plant_obj6
+    401308: plant_obj7
+    401310: plant_obj8
+    401312: plant_obj9
+    401314: plant_obj_
+    401316: Rectangle01
+    401318: Rectangle01 1
+    401320: Rectangle01 2
+    401322: Rectangle02
+    401324: Rectangle02 1
+    401326: Rectangle03
+    401328: Rectangle03 1
+    401330: Rectangle04
+    401332: Rectangle04 1
+    401334: Rectangle05
+    401336: Rectangle05 1
+    401338: Rectangle06
+    401340: Rectangle06 1
+    401342: Rectangle07
+    401344: Rectangle08
+    401346: Rectangle08 1
+    401348: Rectangle09
+    401350: Rectangle10
+    401352: Rectangle10 1
+    401354: Rectangle11
+    401356: Rectangle11 1
+    401358: Rectangle12
+    401360: Rectangle12 1
+    401362: Rectangle13
+    401364: Rectangle13 1
+    401366: Rectangle14
+    401368: Rectangle14 1
+    401370: Rectangle15
+    401372: Rectangle16
+    401374: Rectangle17
+    401376: Rectangle18
+    401378: Rectangle19
+    401380: Rectangle20
+    401382: Rectangle21
+    401384: Rectangle21 1
+    401386: Rectangle22
+    401388: Rectangle22 1
+    401390: Rectangle23
+    401392: Rectangle24
+    401394: Rectangle24 1
+    401396: Rectangle25
+    401398: Rectangle25 1
+    401400: Rectangle26
+    401402: Rectangle26 1
+    401404: Rectangle27
+    401406: Rectangle28
+    401408: Rectangle29
+    401410: Rectangle30
+    401412: Rectangle31
+    401414: Rectangle31620
+    401416: Rectangle31622
+    401418: Rectangle31623
+    401420: Rectangle31626
+    401422: Rectangle31627
+    401424: Rectangle31628
+    401426: Rectangle31629
+    401428: Rectangle31630
+    401430: Rectangle31631
+    401432: Rectangle31634
+    401434: Rectangle31636
+    401436: Rectangle31638
+    401438: Rectangle31640
+    401440: Rectangle31643
+    401442: Rectangle31645
+    401444: Rectangle31647
+    401446: Rectangle31649
+    401448: Rectangle31651
+    401450: Rectangle31653
+    401452: Rectangle31655
+    401454: Rectangle31657
+    401456: Rectangle31659
+    401458: Rectangle31661
+    401460: Rectangle31662
+    401462: Rectangle31663
+    401464: Rectangle31664
+    401466: Rectangle31665
+    401468: Rectangle31666
+    401470: Rectangle31667
+    401472: Rectangle31668
+    401474: Rectangle31669
+    401476: Rectangle31670
+    401478: Rectangle31671
+    401480: Rectangle31672
+    401482: Rectangle31673
+    401484: Rectangle31674
+    401486: Rectangle31675
+    401488: Rectangle31676
+    401490: Rectangle31677
+    401492: Rectangle31678
+    401494: Rectangle31679
+    401496: Rectangle31681
+    401498: Rectangle31682
+    401500: Rectangle31683
+    401502: Rectangle31684
+    401504: Rectangle31685
+    401506: Rectangle31686
+    401508: Rectangle31687
+    401510: Rectangle31688
+    401512: Rectangle31689
+    401514: Rectangle31690
+    401516: Rectangle31691
+    401518: Rectangle31692
+    401520: Rectangle31693
+    401522: Rectangle31694
+    401524: Rectangle31695
+    401526: Rectangle31696
+    401528: Rectangle31697
+    401530: Rectangle31698
+    401532: Rectangle31699
+    401534: Rectangle31700
+    401536: Rectangle31701
+    401538: Rectangle31702
+    401540: Rectangle31703
+    401542: Rectangle31704
+    401544: Rectangle31705
+    401546: Rectangle31706
+    401548: Rectangle31707
+    401550: Rectangle31708
+    401552: Rectangle31709
+    401554: Rectangle31710
+    401556: Rectangle31711
+    401558: Rectangle31712
+    401560: Rectangle31713
+    401562: Rectangle31714
+    401564: Rectangle31715
+    401566: Rectangle31716
+    401568: Rectangle31717
+    401570: Rectangle31718
+    401572: Rectangle31719
+    401574: Rectangle31720
+    401576: Rectangle31721
+    401578: Rectangle31722
+    401580: Rectangle31723
+    401582: Rectangle31724
+    401584: Rectangle31725
+    401586: Rectangle31726
+    401588: Rectangle31727
+    401590: Rectangle31728
+    401592: Rectangle31729
+    401594: Rectangle31730
+    401596: Rectangle31731
+    401598: Rectangle31732
+    401600: Rectangle31733
+    401602: Rectangle31734
+    401604: Rectangle31735
+    401606: Rectangle31736
+    401608: Rectangle31737
+    401610: Rectangle31738
+    401612: Rectangle31739
+    401614: Rectangle31740
+    401616: Rectangle31741
+    401618: Rectangle31746
+    401620: Rectangle31747
+    401622: Rectangle31748
+    401624: Rectangle31749
+    401626: Rectangle31750
+    401628: Rectangle31751
+    401630: Rectangle31752
+    401632: Rectangle31753
+    401634: Rectangle31755
+    401636: Rectangle31756
+    401638: Rectangle31761
+    401640: Rectangle31762
+    401642: Rectangle31763
+    401644: Rectangle31764
+    401646: Rectangle31765
+    401648: Rectangle31766
+    401650: Rectangle31767
+    401652: Rectangle31768
+    401654: Rectangle31769
+    401656: Rectangle31770
+    401658: Rectangle31771
+    401660: Rectangle31772
+    401662: Rectangle31773
+    401664: Rectangle31774
+    401666: Rectangle31775
+    401668: Rectangle31776
+    401670: Rectangle31777
+    401672: Rectangle31778
+    401674: Rectangle31780
+    401676: Rectangle31781
+    401678: Rectangle31782
+    401680: Rectangle32
+    401682: Rectangle33
+    401684: Rectangle34
+    401686: Rectangle35
+    401688: Rectangle36
+    401690: Rectangle37
+    401692: Rectangle38
+    401694: Rectangle39
+    401696: Rectangle40
+    401698: Rectangle41
+    401700: Rectangle42
+    401702: Rectangle43
+    401704: Rectangle44
+    401706: Rectangle45
+    401708: Rectangle46
+    401710: Rectangle47
+    401712: Rectangle48
+    401714: Rectangle49
+    401716: Rectangle50
+    401718: Rectangle51
+    401720: Rectangle52
+    401722: Rectangle53
+    401724: Rectangle53 1
+    401726: Rectangle54
+    401728: Rectangle55
+    401730: Rectangle55 1
+    401732: Rectangle56
+    401734: Rectangle57
+    401736: Rectangle58
+    401738: Rectangle59
+    401740: Rectangle60
+    401742: Rectangle61
+    401744: Rectangle62
+    401746: Rectangle63
+    401748: Rectangle64
+    401750: Rectangle65
+    401752: Rectangle66
+    401754: Rectangle67
+    401756: Rectangle68
+    401758: Rectangle69
+    401760: s
+    401762: s01
+    401764: s02
+    401766: s03
+    401768: sadasdsad
+    401770: sd
+    401772: Shape01
+    401774: Shape01 1
+    401776: Shape02
+    401778: Shape02 1
+    401780: Shape03
+    401782: Shape04
+    401784: Shape04 1
+    401786: Shape05
+    401788: Shape05 1
+    401790: Shape06
+    401792: Shape07
+    401794: Shape08
+    401796: Shape11
+    401798: Shape12
+    401800: Shape13
+    401802: Shape14
+    401804: Shape15
+    401806: Shape16
+    401808: Shape20
+    401810: Shape35
+    401812: Shape36
+    401814: Shape37
+    401816: Shape38
+    401818: Shape39
+    401820: Shape40
+    401822: Shape41
+    401824: Shape42
+    401826: Shape43
+    401828: Shape44
+    401830: Shape45
+    401832: Shape46
+    401834: Shape47
+    401836: Shape48
+    401838: Shape49
+    401840: Shape50
+    401842: Shape51
+    401844: Sphere01
+    401846: Sphere010
+    401848: Sphere02
+    401850: Sphere020
+    401852: Sphere04
+    401854: Sphere1176
+    401856: Sphere1177
+    401858: Sphere1178
+    401860: Sphere1179
+    401862: Sphere1180
+    401864: Sphere1181
+    401866: Sphere1182
+    401868: Sphere1183
+    401870: Sphere1184
+    401872: Sphere1185
+    401874: Sphere1186
+    401876: Sphere1187
+    401878: Sphere1188
+    401880: Sphere1189
+    401882: Sphere53
+    401884: Sphere54
+    401886: Sphere55
+    401888: Sphere56
+    401890: Sphere57
+    401892: Sphere58
+    401894: Sphere59
+    401896: Sphere60
+    401898: Sphere61
+    401900: Sphere62
+    401902: Sphere63
+    401904: Sphere64
+    401906: Torus188
+    401908: Torus189
+    401910: Torus190
+    401912: Torus191
+    401914: Torus192
+    401916: Torus193
+    401918: Torus194
+    401920: Torus195
+    401922: Torus196
+    401924: Torus197
+    401926: Torus198
+    401928: Torus199
+    401930: Torus200
+    401932: Torus201
+    401934: Torus202
+    401936: Torus203
+    401938: Torus204
+    401940: Torus205
+    401942: Torus206
+    401944: Torus207
+    401946: Torus208
+    401948: Torus209
+    401950: Torus210
+    401952: Torus211
+    401954: Torus212
+    401956: Torus213
+    401958: Torus214
+    401960: Torus215
+    401962: Torus216
+    401964: Torus217
+    401966: Torus218
+    401968: Torus219
+    401970: Torus220
+    401972: Torus221
+    401974: Torus222
+    401976: Torus223
+    401978: Torus224
+    401980: Torus225
+    401982: Torus226
+    401984: Torus227
+    401986: Torus228
+    401988: Torus229
+    401990: Torus230
+    401992: Torus231
+    401994: Torus232
+    401996: Torus233
+    401998: Torus234
+    402000: Torus235
+    402002: TUBE08
+    402004: TUBE09
+    402006: TUBE10
+    402008: TUBE11
+    402010: VRayFur01
+    402012: VRayFur03
+    402014: VRayLight01
+    402016: VRayLight02
+    402018: VRayLight03
+    402020: VRayLight04
+    402022: VRayLight05
+    402024: VRayLight06
+    402026: VRayLight07
+    402028: VRayLight08
+    402030: VRayLight09
+    402032: VRayLight10
+    402034: VRaySun01
+    402036: VRaySun01.Target
+    402038: "\u4E09\u4EBA\u6C99\u53D1"
+    402040: "\u56FE\u5F6202"
+    402042: "\u56FE\u5F6205"
+    402044: "\u5730\u6BEF"
+    402046: "\u5927\u8336\u51E0"
+    402048: "\u5BF9\u8C6101"
+    402050: "\u5BF9\u8C6102"
+    402052: "\u5BF9\u8C6102 1"
+    402054: "\u5BF9\u8C6102.\u5BF9\u8C6103"
+    402056: "\u5BF9\u8C6103"
+    402058: "\u5BF9\u8C6116"
+    402060: "\u5BF9\u8C6117"
+    402062: "\u5BF9\u8C6117.\u5BF9\u8C6145"
+    402064: "\u5BF9\u8C6117.\u5BF9\u8C6146"
+    402066: "\u5BF9\u8C6117.\u5BF9\u8C6147"
+    402068: "\u5BF9\u8C6117.\u5BF9\u8C6148"
+    402070: "\u5BF9\u8C6117.\u5BF9\u8C6149"
+    402072: "\u5BF9\u8C6120"
+    402074: "\u5BF9\u8C6122"
+    402076: "\u5BF9\u8C6123"
+    402078: "\u5BF9\u8C6124"
+    402080: "\u5BF9\u8C6125"
+    402082: "\u5C0F\u8336\u51E01"
+    2000000: Camera01
+    2100000: 'Material #33'
+    2100002: 'Material #115628'
+    2100004: 'Material #115629'
+    2100006: 'Material #34'
+    2100008: 'Material #47'
+    2100010: 'Material #115627'
+    2100012: 'Material #35'
+    2100014: 'Material #36'
+    2100016: 'Material #37'
+    2100018: 'Material #38'
+    2100020: 'Material #39'
+    2100022: 'Material #40'
+    2100024: 'Material #49'
+    2100026: 'Material #115630'
+    2100028: 'Material #43'
+    2100030: 15 - Default
+    2100032: 'Material #45'
+    2100034: 'Material #46'
+    2100036: 21 - Default
+    2100038: 'Material #115631'
+    2100040: "\u753B"
+    2100042: 'Material #48'
+    2100044: 'Material #115636'
+    2100046: 'Material #115637'
+    2100048: 'Material #115632'
+    2100050: 'Material #115656'
+    2100052: 'Material #115633'
+    2100054: 'Material #115634'
+    2100056: 'Material #115635'
+    2100058: 'Material #115638'
+    2100060: 'Material #44'
+    2100062: 'Material #50'
+    2100064: 'Material #115641'
+    2100066: 'Material #115645'
+    2100068: 'Material #115646'
+    2100070: 'Material #115642'
+    2100072: 'Material #115643'
+    2100074: 'Material #115644'
+    2100076: "\u7D2B\u6C34\u6676"
+    2100078: 03 - Default
+    2100080: 'Material #115640'
+    2100082: 'Material #115639'
+    2100084: d
+    2100086: 'Material #115647'
+    2100088: 'Material #115615'
+    2100090: "\u4E0D\u9508\u94A2"
+    2100092: 'Material #115648'
+    2100094: "\u80E1\u6843\u6728"
+    2100096: "\u706F\u73BB\u7483"
+    2100098: 'Material #115650'
+    2100100: 'Material #115649'
+    2100102: 'Material #115651'
+    2100104: 'Material #115653'
+    2100106: 'Material #115652'
+    2100108: 'Material #115654'
+    2100110: 'Material #115655'
+    2100112: 1
+    2100114: plant_leaves2
+    2100116: 'Material #115658'
+    2100118: 'Material #115659'
+    2100120: 'Material #115657'
+    2100122: 'Material #115660'
+    2100124: 'Material #115661'
+    2100126: No Name
+    2100128: 'Material #41'
+    2100130: 'Material #115664'
+    2100132: 'Material #115665'
+    2100134: 'Material #42'
+    2100136: 'Material #115666'
+    2100138: 'Material #51'
+    2100140: 'Material #115667'
+    2100142: 'Material #115669'
+    2300000: 22
+    2300002: 25-bottom0
+    2300004: 34
+    2300006: 555
+    2300008: 6
+    2300010: 'ar0605ed #'
+    2300012: 'ar0605ed #01'
+    2300014: Arc01
+    2300016: Arc01 1
+    2300018: Arc02
+    2300020: Arc02 1
+    2300022: Arc03
+    2300024: Arc03 1
+    2300026: Arc04
+    2300028: Arc04 1
+    2300030: Arc05
+    2300032: Arc05 1
+    2300034: Arc06
+    2300036: Arc06 1
+    2300038: Arc07
+    2300040: Arc07 1
+    2300042: Arc08
+    2300044: Arc09
+    2300046: Arc09 1
+    2300048: Arc10
+    2300050: Arc11
+    2300052: Arc12
+    2300054: Arc13
+    2300056: Arc14
+    2300058: Arc15
+    2300060: Arc16
+    2300062: Arc17
+    2300064: Arc18
+    2300066: Arc19
+    2300068: arch24_006_01
+    2300070: Arch41_028_obj_08
+    2300072: Arch41_028_obj_10
+    2300074: Archinteriors7_06_13
+    2300076: Archinteriors7_06_14
+    2300078: ARCorRose02
+    2300080: ARCorRose03
+    2300082: ARCorRose04
+    2300084: ARCorRose05
+    2300086: ARCorRose1
+    2300088: ARCorRoset
+    2300090: ARCorRoset01
+    2300092: ARCorRoset02
+    2300094: ARCorRoset03
+    2300096: ARCorRoset04
+    2300098: asdad
+    2300100: Box01
+    2300102: Box01 1
+    2300104: Box01 2
+    2300106: Box01 3
+    2300108: Box02
+    2300110: Box03
+    2300112: Box04
+    2300114: Box05
+    2300116: Box06
+    2300118: Box060
+    2300120: Box07
+    2300122: Box08
+    2300124: Box08 1
+    2300126: Box08 2
+    2300128: Box08.Box13
+    2300130: Box09
+    2300132: Box09 1
+    2300134: Box09 2
+    2300136: Box09.Box11
+    2300138: Box10
+    2300140: Box10 1
+    2300142: Box10 2
+    2300144: Box10.Box12
+    2300146: Box11
+    2300148: Box11 1
+    2300150: Box12
+    2300152: Box15
+    2300154: Box16
+    2300156: Box17
+    2300158: Box18
+    2300160: Box61
+    2300162: Box72
+    2300164: Box74
+    2300166: Box77
+    2300168: CHAMFERB83
+    2300170: ChamferBox01
+    2300172: ChamferBox03dfg
+    2300174: Circle01
+    2300176: Circle02
+    2300178: Circle02 2
+    2300180: Circle03
+    2300182: Circle03 1
+    2300184: Circle04
+    2300186: Circle05
+    2300188: Circle05 1
+    2300190: Circle06
+    2300192: Circle06 1
+    2300194: Circle07
+    2300196: Circle07 1
+    2300198: Circle08
+    2300200: Circle08 1
+    2300202: Circle09
+    2300204: Circle09 1
+    2300206: Circle10
+    2300208: Circle10 1
+    2300210: Circle11
+    2300212: Circle11 1
+    2300214: Circle12
+    2300216: Circle1669
+    2300218: Circle1670
+    2300220: Circle1671
+    2300222: Circle1672
+    2300224: Circle1673
+    2300226: Circle1674
+    2300228: Circle1675
+    2300230: Circle1676
+    2300232: Circle1677
+    2300234: Circle1678
+    2300236: Circle1679
+    2300238: Circle1680
+    2300240: Circle1681
+    2300242: Circle1682
+    2300244: Circle1683
+    2300246: Circle1684
+    2300248: Circle1685
+    2300250: Circle1686
+    2300252: Circle1687
+    2300254: Circle1688
+    2300256: Circle1690
+    2300258: Circle1692
+    2300260: Circle1693
+    2300262: Circle1694
+    2300264: Circle1695
+    2300266: Circle1696
+    2300268: Circle1697
+    2300270: Circle1698
+    2300272: Circle1699
+    2300274: Circle1700
+    2300276: Circle1701
+    2300278: Circle1702
+    2300280: Circle1703
+    2300282: Circle1704
+    2300284: Circle1705
+    2300286: Circle1706
+    2300288: Circle1707
+    2300290: Circle1708
+    2300292: Circle1709
+    2300294: Cylinder01
+    2300296: Cylinder01 1
+    2300298: Cylinder01 2
+    2300300: Cylinder01 3
+    2300302: Cylinder02
+    2300304: Cylinder02 1
+    2300306: Cylinder02 2
+    2300308: Cylinder03
+    2300310: Cylinder03 1
+    2300312: Cylinder03 2
+    2300314: Cylinder04
+    2300316: Cylinder04 1
+    2300318: Cylinder04 2
+    2300320: Cylinder05
+    2300322: Cylinder05 1
+    2300324: Cylinder05 2
+    2300326: Cylinder06
+    2300328: Cylinder06 1
+    2300330: Cylinder07
+    2300332: Cylinder11
+    2300334: Cylinder12
+    2300336: Cylinder13
+    2300338: Cylinder14
+    2300340: Cylinder16
+    2300342: Cylinder17
+    2300344: Cylinder18
+    2300346: Cylinder19
+    2300348: Cylinder20
+    2300350: Cylinder25
+    2300352: Cylinder26
+    2300354: Cylinder27
+    2300356: Cylinder28
+    2300358: Cylinder29
+    2300360: Cylinder30
+    2300362: Cylinder43
+    2300364: ddd
+    2300366: dfgfdgdf
+    2300368: dsaffd
+    2300370: f
+    2300372: fghfh
+    2300374: fghg
+    2300376: g
+    2300378: ggh
+    2300380: ghj
+    2300382: jkjh
+    2300384: Line01
+    2300386: Line01 1
+    2300388: Line02
+    2300390: Line02 1
+    2300392: Line02 2
+    2300394: Line02 3
+    2300396: Line03 1
+    2300398: Line03 2
+    2300400: Line03 3
+    2300402: Line04
+    2300404: Line04 1
+    2300406: Line04 2
+    2300408: Line04 3
+    2300410: Line05
+    2300412: Line05 1
+    2300414: Line05 2
+    2300416: Line07
+    2300418: Line07 1
+    2300420: Line08
+    2300422: Line08 1
+    2300424: Line09 1
+    2300426: Line10 1
+    2300428: Line11
+    2300430: Line11 1
+    2300432: Line12
+    2300434: Line13
+    2300436: Line13 1
+    2300438: Line14
+    2300440: Line16
+    2300442: Line17
+    2300444: Line1789527167
+    2300446: Line1789527168
+    2300448: Line1789527169
+    2300450: Line1789527170
+    2300452: Line1789527171
+    2300454: Line1789527172
+    2300456: Line1789527178
+    2300458: Line1789527179
+    2300460: Line1789527180
+    2300462: Line1789527181
+    2300464: Line1789527182
+    2300466: Line1789527183
+    2300468: Line1789527184
+    2300470: Line1789527185
+    2300472: Line1789527186
+    2300474: Line1789527187
+    2300476: Line1789527188
+    2300478: Line1789527189
+    2300480: Line1789527190
+    2300482: Line1789527191
+    2300484: Line1789527192
+    2300486: Line1789527193
+    2300488: Line1789527194
+    2300490: Line1789527195
+    2300492: Line1789527196
+    2300494: Line1789527197
+    2300496: Line1789527198
+    2300498: Line1789527199
+    2300500: Line1789527200
+    2300502: Line1789527201
+    2300504: Line1789527202
+    2300506: Line1789527203
+    2300508: Line1789527204
+    2300510: Line1789527205
+    2300512: Line1789527206
+    2300514: Line1789527210
+    2300516: Line1789527213
+    2300518: Line1789527214
+    2300520: Line1789527216
+    2300522: Line1789527217
+    2300524: Line1789527218
+    2300526: Line1789527219
+    2300528: Line1789527220
+    2300530: Line1789527221
+    2300532: Line1789527222
+    2300534: Line1789527223
+    2300536: Line1789527224
+    2300538: Line1789527225
+    2300540: Line1789527226
+    2300542: Line1789527227
+    2300544: Line1789527228
+    2300546: Line1789527230
+    2300548: Line1789527231
+    2300550: Line1789527232
+    2300552: Line1789527233
+    2300554: Line1789527234
+    2300556: Line1789527235
+    2300558: Line1789527242
+    2300560: Line1789527308
+    2300562: Line1789527309
+    2300564: Line1789527310
+    2300566: Line1789527311
+    2300568: Line1789527312
+    2300570: Line1789527313
+    2300572: Line18
+    2300574: Line19
+    2300576: Line20
+    2300578: Line21
+    2300580: Line23
+    2300582: Line24
+    2300584: Line25
+    2300586: Line26
+    2300588: Line27
+    2300590: Line28
+    2300592: Line29
+    2300594: Line30
+    2300596: Line32
+    2300598: Line33
+    2300600: Line34
+    2300602: Line35
+    2300604: Line36
+    2300606: Line37
+    2300608: Line38
+    2300610: Line39
+    2300612: Line41
+    2300614: Line42
+    2300616: Line43
+    2300618: Line44
+    2300620: LINE45
+    2300622: Line45
+    2300624: LINE46
+    2300626: Line46
+    2300628: LINE47
+    2300630: Line47
+    2300632: LINE48
+    2300634: Line48
+    2300636: LINE49
+    2300638: Line49
+    2300640: LINE50
+    2300642: Line50
+    2300644: LINE51
+    2300646: Line51
+    2300648: LINE52
+    2300650: Line52
+    2300652: LINE53
+    2300654: Line53
+    2300656: LINE54
+    2300658: Line54
+    2300660: LINE55
+    2300662: Line55
+    2300664: LINE56
+    2300666: Line56
+    2300668: Line57
+    2300670: Line58
+    2300672: Line59
+    2300674: Line60
+    2300676: Line61
+    2300678: Line62
+    2300680: Line63
+    2300682: Line64
+    2300684: Line65
+    2300686: Line66
+    2300688: Line67
+    2300690: Line68
+    2300692: Line69
+    2300694: Line70
+    2300696: Line71
+    2300698: Line72
+    2300700: Line73
+    2300702: Line74
+    2300704: Line75
+    2300706: Line76
+    2300708: Line77
+    2300710: Line78
+    2300712: Line79
+    2300714: Line80
+    2300716: Line81
+    2300718: Line82
+    2300720: Line83
+    2300722: Line91
+    2300724: Loft01
+    2300726: Loft02
+    2300728: Loft02 1
+    2300730: Loft02.Loft03
+    2300732: Loft03
+    2300734: Loft04
+    2300736: Loft05
+    2300738: Loft06
+    2300740: Loft07
+    2300742: Loft07 1
+    2300744: Loft08
+    2300746: Loft09
+    2300748: Loft10
+    2300750: Loft11
+    2300752: Loft12
+    2300754: Loft13
+    2300756: Loft14
+    2300758: Loft15
+    2300760: Loft16
+    2300762: Loft17
+    2300764: Loft18
+    2300766: Loft19
+    2300768: Mesh01
+    2300770: Mesh02
+    2300772: Mesh0DE03
+    2300774: Mesh0DE2
+    2300776: obj_01
+    2300778: obj_02
+    2300780: obj_03
+    2300782: obj_04
+    2300784: obj_05
+    2300786: obj_06
+    2300788: obj_07
+    2300790: obj_08
+    2300792: obj_09
+    2300794: obj_10
+    2300796: obj_11
+    2300798: obj_31
+    2300800: obj_32
+    2300802: obj_33
+    2300804: obj_34
+    2300806: obj_38
+    2300808: obj_39
+    2300810: obj_40
+    2300812: obj_41
+    2300814: obj_42
+    2300816: obj_43
+    2300818: Object
+    2300820: Object01
+    2300822: Object01 1
+    2300824: Object02
+    2300826: Object04
+    2300828: Object05
+    2300830: Object06
+    2300832: Object07
+    2300834: Object08
+    2300836: Object10
+    2300838: Plane02
+    2300840: Plane03
+    2300842: plant_ob10
+    2300844: plant_ob11
+    2300846: plant_ob12
+    2300848: plant_ob13
+    2300850: plant_ob14
+    2300852: plant_ob15
+    2300854: plant_ob16
+    2300856: plant_ob17
+    2300858: plant_ob18
+    2300860: plant_ob19
+    2300862: plant_ob20
+    2300864: plant_ob21
+    2300866: plant_ob22
+    2300868: plant_ob23
+    2300870: plant_ob24
+    2300872: plant_ob25
+    2300874: plant_ob26
+    2300876: plant_ob27
+    2300878: plant_ob28
+    2300880: plant_ob29
+    2300882: plant_ob30
+    2300884: plant_ob31
+    2300886: plant_ob32
+    2300888: plant_ob33
+    2300890: plant_obj0
+    2300892: plant_obj1
+    2300894: plant_obj2
+    2300896: plant_obj3
+    2300898: plant_obj4
+    2300900: plant_obj5
+    2300902: plant_obj6
+    2300904: plant_obj7
+    2300906: plant_obj8
+    2300908: plant_obj9
+    2300910: plant_obj_
+    2300912: Rectangle01
+    2300914: Rectangle01 1
+    2300916: Rectangle01 2
+    2300918: Rectangle02
+    2300920: Rectangle02 1
+    2300922: Rectangle03
+    2300924: Rectangle03 1
+    2300926: Rectangle04
+    2300928: Rectangle04 1
+    2300930: Rectangle05
+    2300932: Rectangle05 1
+    2300934: Rectangle06
+    2300936: Rectangle06 1
+    2300938: Rectangle07
+    2300940: Rectangle08 1
+    2300942: Rectangle09
+    2300944: Rectangle10
+    2300946: Rectangle10 1
+    2300948: Rectangle11
+    2300950: Rectangle11 1
+    2300952: Rectangle12
+    2300954: Rectangle12 1
+    2300956: Rectangle13
+    2300958: Rectangle13 1
+    2300960: Rectangle14
+    2300962: Rectangle14 1
+    2300964: Rectangle15
+    2300966: Rectangle16
+    2300968: Rectangle17
+    2300970: Rectangle18
+    2300972: Rectangle19
+    2300974: Rectangle20
+    2300976: Rectangle21
+    2300978: Rectangle21 1
+    2300980: Rectangle22
+    2300982: Rectangle22 1
+    2300984: Rectangle23
+    2300986: Rectangle24
+    2300988: Rectangle24 1
+    2300990: Rectangle25
+    2300992: Rectangle25 1
+    2300994: Rectangle26
+    2300996: Rectangle26 1
+    2300998: Rectangle27
+    2301000: Rectangle28
+    2301002: Rectangle29
+    2301004: Rectangle30
+    2301006: Rectangle31
+    2301008: Rectangle31620
+    2301010: Rectangle31622
+    2301012: Rectangle31623
+    2301014: Rectangle31626
+    2301016: Rectangle31627
+    2301018: Rectangle31628
+    2301020: Rectangle31629
+    2301022: Rectangle31630
+    2301024: Rectangle31631
+    2301026: Rectangle31634
+    2301028: Rectangle31636
+    2301030: Rectangle31638
+    2301032: Rectangle31640
+    2301034: Rectangle31643
+    2301036: Rectangle31645
+    2301038: Rectangle31647
+    2301040: Rectangle31649
+    2301042: Rectangle31651
+    2301044: Rectangle31653
+    2301046: Rectangle31655
+    2301048: Rectangle31657
+    2301050: Rectangle31659
+    2301052: Rectangle31661
+    2301054: Rectangle31662
+    2301056: Rectangle31663
+    2301058: Rectangle31664
+    2301060: Rectangle31665
+    2301062: Rectangle31666
+    2301064: Rectangle31667
+    2301066: Rectangle31668
+    2301068: Rectangle31669
+    2301070: Rectangle31670
+    2301072: Rectangle31671
+    2301074: Rectangle31672
+    2301076: Rectangle31673
+    2301078: Rectangle31674
+    2301080: Rectangle31675
+    2301082: Rectangle31676
+    2301084: Rectangle31677
+    2301086: Rectangle31678
+    2301088: Rectangle31679
+    2301090: Rectangle31681
+    2301092: Rectangle31682
+    2301094: Rectangle31683
+    2301096: Rectangle31684
+    2301098: Rectangle31685
+    2301100: Rectangle31686
+    2301102: Rectangle31687
+    2301104: Rectangle31688
+    2301106: Rectangle31689
+    2301108: Rectangle31690
+    2301110: Rectangle31691
+    2301112: Rectangle31692
+    2301114: Rectangle31693
+    2301116: Rectangle31694
+    2301118: Rectangle31695
+    2301120: Rectangle31696
+    2301122: Rectangle31697
+    2301124: Rectangle31698
+    2301126: Rectangle31699
+    2301128: Rectangle31700
+    2301130: Rectangle31701
+    2301132: Rectangle31702
+    2301134: Rectangle31703
+    2301136: Rectangle31704
+    2301138: Rectangle31705
+    2301140: Rectangle31706
+    2301142: Rectangle31707
+    2301144: Rectangle31708
+    2301146: Rectangle31709
+    2301148: Rectangle31710
+    2301150: Rectangle31711
+    2301152: Rectangle31712
+    2301154: Rectangle31713
+    2301156: Rectangle31714
+    2301158: Rectangle31715
+    2301160: Rectangle31716
+    2301162: Rectangle31717
+    2301164: Rectangle31718
+    2301166: Rectangle31719
+    2301168: Rectangle31720
+    2301170: Rectangle31721
+    2301172: Rectangle31722
+    2301174: Rectangle31723
+    2301176: Rectangle31724
+    2301178: Rectangle31725
+    2301180: Rectangle31726
+    2301182: Rectangle31727
+    2301184: Rectangle31728
+    2301186: Rectangle31729
+    2301188: Rectangle31730
+    2301190: Rectangle31731
+    2301192: Rectangle31732
+    2301194: Rectangle31733
+    2301196: Rectangle31734
+    2301198: Rectangle31735
+    2301200: Rectangle31736
+    2301202: Rectangle31737
+    2301204: Rectangle31738
+    2301206: Rectangle31739
+    2301208: Rectangle31740
+    2301210: Rectangle31741
+    2301212: Rectangle31746
+    2301214: Rectangle31747
+    2301216: Rectangle31748
+    2301218: Rectangle31749
+    2301220: Rectangle31750
+    2301222: Rectangle31751
+    2301224: Rectangle31752
+    2301226: Rectangle31753
+    2301228: Rectangle31755
+    2301230: Rectangle31756
+    2301232: Rectangle31761
+    2301234: Rectangle31762
+    2301236: Rectangle31763
+    2301238: Rectangle31764
+    2301240: Rectangle31765
+    2301242: Rectangle31766
+    2301244: Rectangle31767
+    2301246: Rectangle31768
+    2301248: Rectangle31769
+    2301250: Rectangle31770
+    2301252: Rectangle31771
+    2301254: Rectangle31772
+    2301256: Rectangle31773
+    2301258: Rectangle31774
+    2301260: Rectangle31775
+    2301262: Rectangle31776
+    2301264: Rectangle31777
+    2301266: Rectangle31778
+    2301268: Rectangle31780
+    2301270: Rectangle31781
+    2301272: Rectangle31782
+    2301274: Rectangle32
+    2301276: Rectangle33
+    2301278: Rectangle34
+    2301280: Rectangle35
+    2301282: Rectangle36
+    2301284: Rectangle37
+    2301286: Rectangle38
+    2301288: Rectangle39
+    2301290: Rectangle40
+    2301292: Rectangle41
+    2301294: Rectangle42
+    2301296: Rectangle43
+    2301298: Rectangle44
+    2301300: Rectangle45
+    2301302: Rectangle46
+    2301304: Rectangle47
+    2301306: Rectangle48
+    2301308: Rectangle49
+    2301310: Rectangle50
+    2301312: Rectangle51
+    2301314: Rectangle52
+    2301316: Rectangle53
+    2301318: Rectangle53 1
+    2301320: Rectangle54
+    2301322: Rectangle55
+    2301324: Rectangle55 1
+    2301326: Rectangle56
+    2301328: Rectangle57
+    2301330: Rectangle58
+    2301332: Rectangle59
+    2301334: Rectangle60
+    2301336: Rectangle61
+    2301338: Rectangle62
+    2301340: Rectangle63
+    2301342: Rectangle64
+    2301344: Rectangle65
+    2301346: Rectangle66
+    2301348: Rectangle67
+    2301350: Rectangle68
+    2301352: Rectangle69
+    2301354: s
+    2301356: s01
+    2301358: s02
+    2301360: s03
+    2301362: sadasdsad
+    2301364: sd
+    2301366: Shape01
+    2301368: Shape01 1
+    2301370: Shape02 1
+    2301372: Shape03
+    2301374: Shape04
+    2301376: Shape04 1
+    2301378: Shape05
+    2301380: Shape05 1
+    2301382: Shape07
+    2301384: Shape11
+    2301386: Shape12
+    2301388: Shape13
+    2301390: Shape14
+    2301392: Shape15
+    2301394: Shape16
+    2301396: Shape20
+    2301398: Shape35
+    2301400: Shape36
+    2301402: Shape37
+    2301404: Shape38
+    2301406: Shape39
+    2301408: Shape40
+    2301410: Shape41
+    2301412: Shape42
+    2301414: Shape43
+    2301416: Shape44
+    2301418: Shape45
+    2301420: Shape46
+    2301422: Shape47
+    2301424: Shape48
+    2301426: Shape49
+    2301428: Shape50
+    2301430: Shape51
+    2301432: Sphere01
+    2301434: Sphere010
+    2301436: Sphere02
+    2301438: Sphere020
+    2301440: Sphere04
+    2301442: Sphere1176
+    2301444: Sphere1177
+    2301446: Sphere1178
+    2301448: Sphere1179
+    2301450: Sphere1180
+    2301452: Sphere1181
+    2301454: Sphere1182
+    2301456: Sphere1183
+    2301458: Sphere1184
+    2301460: Sphere1185
+    2301462: Sphere1186
+    2301464: Sphere1187
+    2301466: Sphere1188
+    2301468: Sphere1189
+    2301470: Sphere53
+    2301472: Sphere54
+    2301474: Sphere55
+    2301476: Sphere56
+    2301478: Sphere57
+    2301480: Sphere58
+    2301482: Sphere59
+    2301484: Sphere60
+    2301486: Sphere61
+    2301488: Sphere62
+    2301490: Sphere63
+    2301492: Sphere64
+    2301494: Torus188
+    2301496: Torus189
+    2301498: Torus190
+    2301500: Torus191
+    2301502: Torus192
+    2301504: Torus193
+    2301506: Torus194
+    2301508: Torus195
+    2301510: Torus196
+    2301512: Torus197
+    2301514: Torus198
+    2301516: Torus199
+    2301518: Torus200
+    2301520: Torus201
+    2301522: Torus202
+    2301524: Torus203
+    2301526: Torus204
+    2301528: Torus205
+    2301530: Torus206
+    2301532: Torus207
+    2301534: Torus208
+    2301536: Torus209
+    2301538: Torus210
+    2301540: Torus211
+    2301542: Torus212
+    2301544: Torus213
+    2301546: Torus214
+    2301548: Torus215
+    2301550: Torus216
+    2301552: Torus217
+    2301554: Torus218
+    2301556: Torus219
+    2301558: Torus220
+    2301560: Torus221
+    2301562: Torus222
+    2301564: Torus223
+    2301566: Torus224
+    2301568: Torus225
+    2301570: Torus226
+    2301572: Torus227
+    2301574: Torus228
+    2301576: Torus229
+    2301578: Torus230
+    2301580: Torus231
+    2301582: Torus232
+    2301584: Torus233
+    2301586: Torus234
+    2301588: Torus235
+    2301590: TUBE08
+    2301592: TUBE09
+    2301594: TUBE10
+    2301596: TUBE11
+    2301598: "\u56FE\u5F6202"
+    2301600: "\u56FE\u5F6205"
+    2301602: "\u5730\u6BEF"
+    2301604: "\u5BF9\u8C6101"
+    2301606: "\u5BF9\u8C6102"
+    2301608: "\u5BF9\u8C6102 1"
+    2301610: "\u5BF9\u8C6102.\u5BF9\u8C6103"
+    2301612: "\u5BF9\u8C6103"
+    2301614: "\u5BF9\u8C6120"
+    2301616: "\u5BF9\u8C6122"
+    2301618: "\u5BF9\u8C6123"
+    2301620: "\u5BF9\u8C6124"
+    2301622: "\u5BF9\u8C6125"
+    3300000: 22
+    3300002: 25-bottom0
+    3300004: 34
+    3300006: 555
+    3300008: 6
+    3300010: 'ar0605ed #'
+    3300012: 'ar0605ed #01'
+    3300014: Arc01
+    3300016: Arc01 1
+    3300018: Arc02
+    3300020: Arc02 1
+    3300022: Arc03
+    3300024: Arc03 1
+    3300026: Arc04
+    3300028: Arc04 1
+    3300030: Arc05
+    3300032: Arc05 1
+    3300034: Arc06
+    3300036: Arc06 1
+    3300038: Arc07
+    3300040: Arc07 1
+    3300042: Arc08
+    3300044: Arc09
+    3300046: Arc09 1
+    3300048: Arc10
+    3300050: Arc11
+    3300052: Arc12
+    3300054: Arc13
+    3300056: Arc14
+    3300058: Arc15
+    3300060: Arc16
+    3300062: Arc17
+    3300064: Arc18
+    3300066: Arc19
+    3300068: arch24_006_01
+    3300070: Arch41_028_obj_08
+    3300072: Arch41_028_obj_10
+    3300074: Archinteriors7_06_13
+    3300076: Archinteriors7_06_14
+    3300078: ARCorRose02
+    3300080: ARCorRose03
+    3300082: ARCorRose04
+    3300084: ARCorRose05
+    3300086: ARCorRose1
+    3300088: ARCorRoset
+    3300090: ARCorRoset01
+    3300092: ARCorRoset02
+    3300094: ARCorRoset03
+    3300096: ARCorRoset04
+    3300098: asdad
+    3300100: Box01
+    3300102: Box01 1
+    3300104: Box01 2
+    3300106: Box01 3
+    3300108: Box02
+    3300110: Box03
+    3300112: Box04
+    3300114: Box05
+    3300116: Box06
+    3300118: Box060
+    3300120: Box07
+    3300122: Box08
+    3300124: Box08 1
+    3300126: Box08 2
+    3300128: Box08.Box13
+    3300130: Box09
+    3300132: Box09 1
+    3300134: Box09 2
+    3300136: Box09.Box11
+    3300138: Box10
+    3300140: Box10 1
+    3300142: Box10 2
+    3300144: Box10.Box12
+    3300146: Box11
+    3300148: Box11 1
+    3300150: Box12
+    3300152: Box15
+    3300154: Box16
+    3300156: Box17
+    3300158: Box18
+    3300160: Box61
+    3300162: Box72
+    3300164: Box74
+    3300166: Box77
+    3300168: CHAMFERB83
+    3300170: ChamferBox01
+    3300172: ChamferBox03dfg
+    3300174: Circle01
+    3300176: Circle02
+    3300178: Circle02 2
+    3300180: Circle03
+    3300182: Circle03 1
+    3300184: Circle04
+    3300186: Circle05
+    3300188: Circle05 1
+    3300190: Circle06
+    3300192: Circle06 1
+    3300194: Circle07
+    3300196: Circle07 1
+    3300198: Circle08
+    3300200: Circle08 1
+    3300202: Circle09
+    3300204: Circle09 1
+    3300206: Circle10
+    3300208: Circle10 1
+    3300210: Circle11
+    3300212: Circle11 1
+    3300214: Circle12
+    3300216: Circle1669
+    3300218: Circle1670
+    3300220: Circle1671
+    3300222: Circle1672
+    3300224: Circle1673
+    3300226: Circle1674
+    3300228: Circle1675
+    3300230: Circle1676
+    3300232: Circle1677
+    3300234: Circle1678
+    3300236: Circle1679
+    3300238: Circle1680
+    3300240: Circle1681
+    3300242: Circle1682
+    3300244: Circle1683
+    3300246: Circle1684
+    3300248: Circle1685
+    3300250: Circle1686
+    3300252: Circle1687
+    3300254: Circle1688
+    3300256: Circle1690
+    3300258: Circle1692
+    3300260: Circle1693
+    3300262: Circle1694
+    3300264: Circle1695
+    3300266: Circle1696
+    3300268: Circle1697
+    3300270: Circle1698
+    3300272: Circle1699
+    3300274: Circle1700
+    3300276: Circle1701
+    3300278: Circle1702
+    3300280: Circle1703
+    3300282: Circle1704
+    3300284: Circle1705
+    3300286: Circle1706
+    3300288: Circle1707
+    3300290: Circle1708
+    3300292: Circle1709
+    3300294: Cylinder01
+    3300296: Cylinder01 1
+    3300298: Cylinder01 2
+    3300300: Cylinder01 3
+    3300302: Cylinder02
+    3300304: Cylinder02 1
+    3300306: Cylinder02 2
+    3300308: Cylinder03
+    3300310: Cylinder03 1
+    3300312: Cylinder03 2
+    3300314: Cylinder04
+    3300316: Cylinder04 1
+    3300318: Cylinder04 2
+    3300320: Cylinder05
+    3300322: Cylinder05 1
+    3300324: Cylinder05 2
+    3300326: Cylinder06
+    3300328: Cylinder06 1
+    3300330: Cylinder07
+    3300332: Cylinder11
+    3300334: Cylinder12
+    3300336: Cylinder13
+    3300338: Cylinder14
+    3300340: Cylinder16
+    3300342: Cylinder17
+    3300344: Cylinder18
+    3300346: Cylinder19
+    3300348: Cylinder20
+    3300350: Cylinder25
+    3300352: Cylinder26
+    3300354: Cylinder27
+    3300356: Cylinder28
+    3300358: Cylinder29
+    3300360: Cylinder30
+    3300362: Cylinder43
+    3300364: ddd
+    3300366: dfgfdgdf
+    3300368: dsaffd
+    3300370: f
+    3300372: fghfh
+    3300374: fghg
+    3300376: g
+    3300378: ggh
+    3300380: ghj
+    3300382: jkjh
+    3300384: Line01
+    3300386: Line01 1
+    3300388: Line02
+    3300390: Line02 1
+    3300392: Line02 2
+    3300394: Line02 3
+    3300396: Line03 1
+    3300398: Line03 2
+    3300400: Line03 3
+    3300402: Line04
+    3300404: Line04 1
+    3300406: Line04 2
+    3300408: Line04 3
+    3300410: Line05
+    3300412: Line05 1
+    3300414: Line05 2
+    3300416: Line07
+    3300418: Line07 1
+    3300420: Line08
+    3300422: Line08 1
+    3300424: Line09 1
+    3300426: Line10 1
+    3300428: Line11
+    3300430: Line11 1
+    3300432: Line12
+    3300434: Line13
+    3300436: Line13 1
+    3300438: Line14
+    3300440: Line16
+    3300442: Line17
+    3300444: Line1789527167
+    3300446: Line1789527168
+    3300448: Line1789527169
+    3300450: Line1789527170
+    3300452: Line1789527171
+    3300454: Line1789527172
+    3300456: Line1789527178
+    3300458: Line1789527179
+    3300460: Line1789527180
+    3300462: Line1789527181
+    3300464: Line1789527182
+    3300466: Line1789527183
+    3300468: Line1789527184
+    3300470: Line1789527185
+    3300472: Line1789527186
+    3300474: Line1789527187
+    3300476: Line1789527188
+    3300478: Line1789527189
+    3300480: Line1789527190
+    3300482: Line1789527191
+    3300484: Line1789527192
+    3300486: Line1789527193
+    3300488: Line1789527194
+    3300490: Line1789527195
+    3300492: Line1789527196
+    3300494: Line1789527197
+    3300496: Line1789527198
+    3300498: Line1789527199
+    3300500: Line1789527200
+    3300502: Line1789527201
+    3300504: Line1789527202
+    3300506: Line1789527203
+    3300508: Line1789527204
+    3300510: Line1789527205
+    3300512: Line1789527206
+    3300514: Line1789527210
+    3300516: Line1789527213
+    3300518: Line1789527214
+    3300520: Line1789527216
+    3300522: Line1789527217
+    3300524: Line1789527218
+    3300526: Line1789527219
+    3300528: Line1789527220
+    3300530: Line1789527221
+    3300532: Line1789527222
+    3300534: Line1789527223
+    3300536: Line1789527224
+    3300538: Line1789527225
+    3300540: Line1789527226
+    3300542: Line1789527227
+    3300544: Line1789527228
+    3300546: Line1789527230
+    3300548: Line1789527231
+    3300550: Line1789527232
+    3300552: Line1789527233
+    3300554: Line1789527234
+    3300556: Line1789527235
+    3300558: Line1789527242
+    3300560: Line1789527308
+    3300562: Line1789527309
+    3300564: Line1789527310
+    3300566: Line1789527311
+    3300568: Line1789527312
+    3300570: Line1789527313
+    3300572: Line18
+    3300574: Line19
+    3300576: Line20
+    3300578: Line21
+    3300580: Line23
+    3300582: Line24
+    3300584: Line25
+    3300586: Line26
+    3300588: Line27
+    3300590: Line28
+    3300592: Line29
+    3300594: Line30
+    3300596: Line32
+    3300598: Line33
+    3300600: Line34
+    3300602: Line35
+    3300604: Line36
+    3300606: Line37
+    3300608: Line38
+    3300610: Line39
+    3300612: Line41
+    3300614: Line42
+    3300616: Line43
+    3300618: Line44
+    3300620: LINE45
+    3300622: Line45
+    3300624: LINE46
+    3300626: Line46
+    3300628: LINE47
+    3300630: Line47
+    3300632: LINE48
+    3300634: Line48
+    3300636: LINE49
+    3300638: Line49
+    3300640: LINE50
+    3300642: Line50
+    3300644: LINE51
+    3300646: Line51
+    3300648: LINE52
+    3300650: Line52
+    3300652: LINE53
+    3300654: Line53
+    3300656: LINE54
+    3300658: Line54
+    3300660: LINE55
+    3300662: Line55
+    3300664: LINE56
+    3300666: Line56
+    3300668: Line57
+    3300670: Line58
+    3300672: Line59
+    3300674: Line60
+    3300676: Line61
+    3300678: Line62
+    3300680: Line63
+    3300682: Line64
+    3300684: Line65
+    3300686: Line66
+    3300688: Line67
+    3300690: Line68
+    3300692: Line69
+    3300694: Line70
+    3300696: Line71
+    3300698: Line72
+    3300700: Line73
+    3300702: Line74
+    3300704: Line75
+    3300706: Line76
+    3300708: Line77
+    3300710: Line78
+    3300712: Line79
+    3300714: Line80
+    3300716: Line81
+    3300718: Line82
+    3300720: Line83
+    3300722: Line91
+    3300724: Loft01
+    3300726: Loft02
+    3300728: Loft02 1
+    3300730: Loft02.Loft03
+    3300732: Loft03
+    3300734: Loft04
+    3300736: Loft05
+    3300738: Loft06
+    3300740: Loft07
+    3300742: Loft07 1
+    3300744: Loft08
+    3300746: Loft09
+    3300748: Loft10
+    3300750: Loft11
+    3300752: Loft12
+    3300754: Loft13
+    3300756: Loft14
+    3300758: Loft15
+    3300760: Loft16
+    3300762: Loft17
+    3300764: Loft18
+    3300766: Loft19
+    3300768: Mesh01
+    3300770: Mesh02
+    3300772: Mesh0DE03
+    3300774: Mesh0DE2
+    3300776: obj_01
+    3300778: obj_02
+    3300780: obj_03
+    3300782: obj_04
+    3300784: obj_05
+    3300786: obj_06
+    3300788: obj_07
+    3300790: obj_08
+    3300792: obj_09
+    3300794: obj_10
+    3300796: obj_11
+    3300798: obj_31
+    3300800: obj_32
+    3300802: obj_33
+    3300804: obj_34
+    3300806: obj_38
+    3300808: obj_39
+    3300810: obj_40
+    3300812: obj_41
+    3300814: obj_42
+    3300816: obj_43
+    3300818: Object
+    3300820: Object01
+    3300822: Object01 1
+    3300824: Object02
+    3300826: Object04
+    3300828: Object05
+    3300830: Object06
+    3300832: Object07
+    3300834: Object08
+    3300836: Object10
+    3300838: Plane02
+    3300840: Plane03
+    3300842: plant_ob10
+    3300844: plant_ob11
+    3300846: plant_ob12
+    3300848: plant_ob13
+    3300850: plant_ob14
+    3300852: plant_ob15
+    3300854: plant_ob16
+    3300856: plant_ob17
+    3300858: plant_ob18
+    3300860: plant_ob19
+    3300862: plant_ob20
+    3300864: plant_ob21
+    3300866: plant_ob22
+    3300868: plant_ob23
+    3300870: plant_ob24
+    3300872: plant_ob25
+    3300874: plant_ob26
+    3300876: plant_ob27
+    3300878: plant_ob28
+    3300880: plant_ob29
+    3300882: plant_ob30
+    3300884: plant_ob31
+    3300886: plant_ob32
+    3300888: plant_ob33
+    3300890: plant_obj0
+    3300892: plant_obj1
+    3300894: plant_obj2
+    3300896: plant_obj3
+    3300898: plant_obj4
+    3300900: plant_obj5
+    3300902: plant_obj6
+    3300904: plant_obj7
+    3300906: plant_obj8
+    3300908: plant_obj9
+    3300910: plant_obj_
+    3300912: Rectangle01
+    3300914: Rectangle01 1
+    3300916: Rectangle01 2
+    3300918: Rectangle02
+    3300920: Rectangle02 1
+    3300922: Rectangle03
+    3300924: Rectangle03 1
+    3300926: Rectangle04
+    3300928: Rectangle04 1
+    3300930: Rectangle05
+    3300932: Rectangle05 1
+    3300934: Rectangle06
+    3300936: Rectangle06 1
+    3300938: Rectangle07
+    3300940: Rectangle08 1
+    3300942: Rectangle09
+    3300944: Rectangle10
+    3300946: Rectangle10 1
+    3300948: Rectangle11
+    3300950: Rectangle11 1
+    3300952: Rectangle12
+    3300954: Rectangle12 1
+    3300956: Rectangle13
+    3300958: Rectangle13 1
+    3300960: Rectangle14
+    3300962: Rectangle14 1
+    3300964: Rectangle15
+    3300966: Rectangle16
+    3300968: Rectangle17
+    3300970: Rectangle18
+    3300972: Rectangle19
+    3300974: Rectangle20
+    3300976: Rectangle21
+    3300978: Rectangle21 1
+    3300980: Rectangle22
+    3300982: Rectangle22 1
+    3300984: Rectangle23
+    3300986: Rectangle24
+    3300988: Rectangle24 1
+    3300990: Rectangle25
+    3300992: Rectangle25 1
+    3300994: Rectangle26
+    3300996: Rectangle26 1
+    3300998: Rectangle27
+    3301000: Rectangle28
+    3301002: Rectangle29
+    3301004: Rectangle30
+    3301006: Rectangle31
+    3301008: Rectangle31620
+    3301010: Rectangle31622
+    3301012: Rectangle31623
+    3301014: Rectangle31626
+    3301016: Rectangle31627
+    3301018: Rectangle31628
+    3301020: Rectangle31629
+    3301022: Rectangle31630
+    3301024: Rectangle31631
+    3301026: Rectangle31634
+    3301028: Rectangle31636
+    3301030: Rectangle31638
+    3301032: Rectangle31640
+    3301034: Rectangle31643
+    3301036: Rectangle31645
+    3301038: Rectangle31647
+    3301040: Rectangle31649
+    3301042: Rectangle31651
+    3301044: Rectangle31653
+    3301046: Rectangle31655
+    3301048: Rectangle31657
+    3301050: Rectangle31659
+    3301052: Rectangle31661
+    3301054: Rectangle31662
+    3301056: Rectangle31663
+    3301058: Rectangle31664
+    3301060: Rectangle31665
+    3301062: Rectangle31666
+    3301064: Rectangle31667
+    3301066: Rectangle31668
+    3301068: Rectangle31669
+    3301070: Rectangle31670
+    3301072: Rectangle31671
+    3301074: Rectangle31672
+    3301076: Rectangle31673
+    3301078: Rectangle31674
+    3301080: Rectangle31675
+    3301082: Rectangle31676
+    3301084: Rectangle31677
+    3301086: Rectangle31678
+    3301088: Rectangle31679
+    3301090: Rectangle31681
+    3301092: Rectangle31682
+    3301094: Rectangle31683
+    3301096: Rectangle31684
+    3301098: Rectangle31685
+    3301100: Rectangle31686
+    3301102: Rectangle31687
+    3301104: Rectangle31688
+    3301106: Rectangle31689
+    3301108: Rectangle31690
+    3301110: Rectangle31691
+    3301112: Rectangle31692
+    3301114: Rectangle31693
+    3301116: Rectangle31694
+    3301118: Rectangle31695
+    3301120: Rectangle31696
+    3301122: Rectangle31697
+    3301124: Rectangle31698
+    3301126: Rectangle31699
+    3301128: Rectangle31700
+    3301130: Rectangle31701
+    3301132: Rectangle31702
+    3301134: Rectangle31703
+    3301136: Rectangle31704
+    3301138: Rectangle31705
+    3301140: Rectangle31706
+    3301142: Rectangle31707
+    3301144: Rectangle31708
+    3301146: Rectangle31709
+    3301148: Rectangle31710
+    3301150: Rectangle31711
+    3301152: Rectangle31712
+    3301154: Rectangle31713
+    3301156: Rectangle31714
+    3301158: Rectangle31715
+    3301160: Rectangle31716
+    3301162: Rectangle31717
+    3301164: Rectangle31718
+    3301166: Rectangle31719
+    3301168: Rectangle31720
+    3301170: Rectangle31721
+    3301172: Rectangle31722
+    3301174: Rectangle31723
+    3301176: Rectangle31724
+    3301178: Rectangle31725
+    3301180: Rectangle31726
+    3301182: Rectangle31727
+    3301184: Rectangle31728
+    3301186: Rectangle31729
+    3301188: Rectangle31730
+    3301190: Rectangle31731
+    3301192: Rectangle31732
+    3301194: Rectangle31733
+    3301196: Rectangle31734
+    3301198: Rectangle31735
+    3301200: Rectangle31736
+    3301202: Rectangle31737
+    3301204: Rectangle31738
+    3301206: Rectangle31739
+    3301208: Rectangle31740
+    3301210: Rectangle31741
+    3301212: Rectangle31746
+    3301214: Rectangle31747
+    3301216: Rectangle31748
+    3301218: Rectangle31749
+    3301220: Rectangle31750
+    3301222: Rectangle31751
+    3301224: Rectangle31752
+    3301226: Rectangle31753
+    3301228: Rectangle31755
+    3301230: Rectangle31756
+    3301232: Rectangle31761
+    3301234: Rectangle31762
+    3301236: Rectangle31763
+    3301238: Rectangle31764
+    3301240: Rectangle31765
+    3301242: Rectangle31766
+    3301244: Rectangle31767
+    3301246: Rectangle31768
+    3301248: Rectangle31769
+    3301250: Rectangle31770
+    3301252: Rectangle31771
+    3301254: Rectangle31772
+    3301256: Rectangle31773
+    3301258: Rectangle31774
+    3301260: Rectangle31775
+    3301262: Rectangle31776
+    3301264: Rectangle31777
+    3301266: Rectangle31778
+    3301268: Rectangle31780
+    3301270: Rectangle31781
+    3301272: Rectangle31782
+    3301274: Rectangle32
+    3301276: Rectangle33
+    3301278: Rectangle34
+    3301280: Rectangle35
+    3301282: Rectangle36
+    3301284: Rectangle37
+    3301286: Rectangle38
+    3301288: Rectangle39
+    3301290: Rectangle40
+    3301292: Rectangle41
+    3301294: Rectangle42
+    3301296: Rectangle43
+    3301298: Rectangle44
+    3301300: Rectangle45
+    3301302: Rectangle46
+    3301304: Rectangle47
+    3301306: Rectangle48
+    3301308: Rectangle49
+    3301310: Rectangle50
+    3301312: Rectangle51
+    3301314: Rectangle52
+    3301316: Rectangle53
+    3301318: Rectangle53 1
+    3301320: Rectangle54
+    3301322: Rectangle55
+    3301324: Rectangle55 1
+    3301326: Rectangle56
+    3301328: Rectangle57
+    3301330: Rectangle58
+    3301332: Rectangle59
+    3301334: Rectangle60
+    3301336: Rectangle61
+    3301338: Rectangle62
+    3301340: Rectangle63
+    3301342: Rectangle64
+    3301344: Rectangle65
+    3301346: Rectangle66
+    3301348: Rectangle67
+    3301350: Rectangle68
+    3301352: Rectangle69
+    3301354: s
+    3301356: s01
+    3301358: s02
+    3301360: s03
+    3301362: sadasdsad
+    3301364: sd
+    3301366: Shape01
+    3301368: Shape01 1
+    3301370: Shape02 1
+    3301372: Shape03
+    3301374: Shape04
+    3301376: Shape04 1
+    3301378: Shape05
+    3301380: Shape05 1
+    3301382: Shape07
+    3301384: Shape11
+    3301386: Shape12
+    3301388: Shape13
+    3301390: Shape14
+    3301392: Shape15
+    3301394: Shape16
+    3301396: Shape20
+    3301398: Shape35
+    3301400: Shape36
+    3301402: Shape37
+    3301404: Shape38
+    3301406: Shape39
+    3301408: Shape40
+    3301410: Shape41
+    3301412: Shape42
+    3301414: Shape43
+    3301416: Shape44
+    3301418: Shape45
+    3301420: Shape46
+    3301422: Shape47
+    3301424: Shape48
+    3301426: Shape49
+    3301428: Shape50
+    3301430: Shape51
+    3301432: Sphere01
+    3301434: Sphere010
+    3301436: Sphere02
+    3301438: Sphere020
+    3301440: Sphere04
+    3301442: Sphere1176
+    3301444: Sphere1177
+    3301446: Sphere1178
+    3301448: Sphere1179
+    3301450: Sphere1180
+    3301452: Sphere1181
+    3301454: Sphere1182
+    3301456: Sphere1183
+    3301458: Sphere1184
+    3301460: Sphere1185
+    3301462: Sphere1186
+    3301464: Sphere1187
+    3301466: Sphere1188
+    3301468: Sphere1189
+    3301470: Sphere53
+    3301472: Sphere54
+    3301474: Sphere55
+    3301476: Sphere56
+    3301478: Sphere57
+    3301480: Sphere58
+    3301482: Sphere59
+    3301484: Sphere60
+    3301486: Sphere61
+    3301488: Sphere62
+    3301490: Sphere63
+    3301492: Sphere64
+    3301494: Torus188
+    3301496: Torus189
+    3301498: Torus190
+    3301500: Torus191
+    3301502: Torus192
+    3301504: Torus193
+    3301506: Torus194
+    3301508: Torus195
+    3301510: Torus196
+    3301512: Torus197
+    3301514: Torus198
+    3301516: Torus199
+    3301518: Torus200
+    3301520: Torus201
+    3301522: Torus202
+    3301524: Torus203
+    3301526: Torus204
+    3301528: Torus205
+    3301530: Torus206
+    3301532: Torus207
+    3301534: Torus208
+    3301536: Torus209
+    3301538: Torus210
+    3301540: Torus211
+    3301542: Torus212
+    3301544: Torus213
+    3301546: Torus214
+    3301548: Torus215
+    3301550: Torus216
+    3301552: Torus217
+    3301554: Torus218
+    3301556: Torus219
+    3301558: Torus220
+    3301560: Torus221
+    3301562: Torus222
+    3301564: Torus223
+    3301566: Torus224
+    3301568: Torus225
+    3301570: Torus226
+    3301572: Torus227
+    3301574: Torus228
+    3301576: Torus229
+    3301578: Torus230
+    3301580: Torus231
+    3301582: Torus232
+    3301584: Torus233
+    3301586: Torus234
+    3301588: Torus235
+    3301590: TUBE08
+    3301592: TUBE09
+    3301594: TUBE10
+    3301596: TUBE11
+    3301598: "\u56FE\u5F6202"
+    3301600: "\u56FE\u5F6205"
+    3301602: "\u5730\u6BEF"
+    3301604: "\u5BF9\u8C6101"
+    3301606: "\u5BF9\u8C6102"
+    3301608: "\u5BF9\u8C6102 1"
+    3301610: "\u5BF9\u8C6102.\u5BF9\u8C6103"
+    3301612: "\u5BF9\u8C6103"
+    3301614: "\u5BF9\u8C6120"
+    3301616: "\u5BF9\u8C6122"
+    3301618: "\u5BF9\u8C6123"
+    3301620: "\u5BF9\u8C6124"
+    3301622: "\u5BF9\u8C6125"
+    4300000: Line01
+    4300002: Line02
+    4300004: Shape01
+    4300006: Line04
+    4300008: Rectangle01
+    4300010: Arc01
+    4300012: Arc02
+    4300014: Rectangle02
+    4300016: Line07
+    4300018: Line05
+    4300020: Line08
+    4300022: Line11
+    4300024: Line12
+    4300026: Rectangle01
+    4300028: Rectangle02
+    4300030: Line02
+    4300032: Cylinder01
+    4300034: Cylinder02
+    4300036: Line03
+    4300038: Line04
+    4300040: Rectangle04
+    4300042: Rectangle03
+    4300044: ARCorRoset
+    4300046: ARCorRose1
+    4300048: ARCorRoset01
+    4300050: ARCorRose02
+    4300052: Loft13
+    4300054: Loft14
+    4300056: Loft15
+    4300058: Loft16
+    4300060: ARCorRose03
+    4300062: ARCorRoset02
+    4300064: Line13
+    4300066: Line14
+    4300068: Rectangle05
+    4300070: Rectangle06
+    4300072: Rectangle07
+    4300074: Rectangle09
+    4300076: Line16
+    4300078: Circle01
+    4300080: Circle02
+    4300082: Rectangle10
+    4300084: Arc03
+    4300086: Arc04
+    4300088: Arc05
+    4300090: Arc06
+    4300092: Rectangle11
+    4300094: Arc07
+    4300096: Arc10
+    4300098: Line17
+    4300100: Arc11
+    4300102: Rectangle12
+    4300104: Line21
+    4300106: Line18
+    4300108: Line23
+    4300110: Line24
+    4300112: Line25
+    4300114: Line26
+    4300116: Line28
+    4300118: Line29
+    4300120: Line30
+    4300122: Line32
+    4300124: Rectangle13
+    4300126: Rectangle14
+    4300128: Line38
+    4300130: Circle09
+    4300132: Line42
+    4300134: Line43
+    4300136: Rectangle17
+    4300138: Rectangle18
+    4300140: Rectangle19
+    4300142: Line44
+    4300144: Line45
+    4300146: Rectangle20
+    4300148: Line46
+    4300150: Line47
+    4300152: Rectangle21
+    4300154: Rectangle22
+    4300156: Line48
+    4300158: Rectangle23
+    4300160: Line49
+    4300162: Rectangle24
+    4300164: Rectangle25
+    4300166: Line50
+    4300168: Rectangle26
+    4300170: Rectangle27
+    4300172: Line52
+    4300174: Line19
+    4300176: Line20
+    4300178: Circle07
+    4300180: Line35
+    4300182: Line36
+    4300184: Line55
+    4300186: Line56
+    4300188: Rectangle32
+    4300190: Line54
+    4300192: Rectangle33
+    4300194: Line57
+    4300196: Rectangle34
+    4300198: Line58
+    4300200: Object01
+    4300202: Rectangle35
+    4300204: Line37
+    4300206: Line68
+    4300208: Circle1669
+    4300210: Rectangle31620
+    4300212: Sphere1176
+    4300214: Arc09
+    4300216: Sphere1177
+    4300218: Circle1670
+    4300220: Rectangle31627
+    4300222: Arc12
+    4300224: Rectangle15
+    4300226: Rectangle16
+    4300228: Line91
+    4300230: Circle08
+    4300232: obj_01
+    4300234: obj_02
+    4300236: obj_03
+    4300238: obj_04
+    4300240: obj_05
+    4300242: obj_06
+    4300244: obj_07
+    4300246: obj_08
+    4300248: obj_09
+    4300250: obj_10
+    4300252: obj_11
+    4300254: Rectangle28
+    4300256: Line1789527167
+    4300258: Rectangle29
+    4300260: Shape03
+    4300262: Shape05
+    4300264: Shape07
+    4300266: Shape11
+    4300268: Shape12
+    4300270: Shape13
+    4300272: Shape04
+    4300274: Shape14
+    4300276: Shape15
+    4300278: Shape16
+    4300280: Line41
+    4300282: Line69
+    4300284: Line70
+    4300286: Rectangle42
+    4300288: Line71
+    4300290: Line1789527169
+    4300292: Rectangle31672
+    4300294: Rectangle31673
+    4300296: Circle1672
+    4300298: Circle1673
+    4300300: Rectangle44
+    4300302: Rectangle43
+    4300304: Line74
+    4300306: Rectangle46
+    4300308: Rectangle47
+    4300310: Line1789527170
+    4300312: Line75
+    4300314: Rectangle48
+    4300316: Rectangle49
+    4300318: Rectangle45
+    4300320: Circle1686
+    4300322: Circle1687
+    4300324: Line1789527172
+    4300326: Line1789527171
+    4300328: Rectangle40
+    4300330: Rectangle31643
+    4300332: Line72
+    4300334: Line73
+    4300336: Rectangle41
+    4300338: Line1789527168
+    4300340: Rectangle31681
+    4300342: Line1789527178
+    4300344: Rectangle31682
+    4300346: Line76
+    4300348: Line77
+    4300350: s
+    4300352: Rectangle31684
+    4300354: Line1789527184
+    4300356: Object
+    4300358: Object04
+    4300360: Rectangle31769
+    4300362: Line1789527216
+    4300364: Line1789527217
+    4300366: Line1789527190
+    4300368: Line1789527194
+    4300370: Line1789527195
+    4300372: Rectangle50
+    4300374: Rectangle51
+    4300376: Rectangle52
+    4300378: Rectangle53
+    4300380: Rectangle31740
+    4300382: Rectangle31741
+    4300384: Rectangle31746
+    4300386: Rectangle31747
+    4300388: Rectangle31753
+    4300390: Rectangle31755
+    4300392: Rectangle31756
+    4300394: Rectangle31761
+    4300396: Rectangle31762
+    4300398: Rectangle31763
+    4300400: Rectangle31764
+    4300402: Rectangle31765
+    4300404: Cylinder11
+    4300406: TUBE08
+    4300408: Object07
+    4300410: Line1789527210
+    4300412: Rectangle31766
+    4300414: Line1789527213
+    4300416: Rectangle31767
+    4300418: Line1789527214
+    4300420: Rectangle31768
+    4300422: Rectangle55
+    4300424: Rectangle31774
+    4300426: Rectangle31775
+    4300428: Rectangle31781
+    4300430: Mesh01
+    4300432: Box01
+    4300434: Circle02
+    4300436: Circle05
+    4300438: Circle06
+    4300440: "\u5BF9\u8C6101"
+    4300442: Rectangle04
+    4300444: Loft06
+    4300446: Loft05
+    4300448: Box11
+    4300450: Box10
+    4300452: Rectangle12
+    4300454: Box09
+    4300456: ChamferBox01
+    4300458: Box08
+    4300460: Box04
+    4300462: Box05
+    4300464: "\u5BF9\u8C6103"
+    4300466: Rectangle13
+    4300468: Circle09
+    4300470: Rectangle10
+    4300472: "\u5BF9\u8C6102"
+    4300474: Circle08
+    4300476: Circle07
+    4300478: Rectangle14
+    4300480: Rectangle03
+    4300482: Circle10
+    4300484: Circle11
+    4300486: "\u5730\u6BEF"
+    4300488: "\u5BF9\u8C6124"
+    4300490: ChamferBox03dfg
+    4300492: Rectangle53
+    4300494: "\u5BF9\u8C6120"
+    4300496: Rectangle54
+    4300498: Rectangle55
+    4300500: Rectangle56
+    4300502: Rectangle57
+    4300504: Rectangle58
+    4300506: "\u56FE\u5F6205"
+    4300508: Rectangle59
+    4300510: Rectangle60
+    4300512: Rectangle61
+    4300514: Rectangle62
+    4300516: "\u5BF9\u8C6125"
+    4300518: Rectangle11
+    4300520: Rectangle25
+    4300522: Rectangle01
+    4300524: Rectangle05
+    4300526: Rectangle21
+    4300528: "\u56FE\u5F6202"
+    4300530: Rectangle22
+    4300532: Rectangle06
+    4300534: Rectangle08
+    4300536: Rectangle24
+    4300538: Rectangle26
+    4300540: Arc01
+    4300542: Circle03
+    4300544: Line01
+    4300546: Line02
+    4300548: Line03
+    4300550: Line04
+    4300552: Line05
+    4300554: Torus188
+    4300556: Torus189
+    4300558: Torus190
+    4300560: Sphere53
+    4300562: Torus191
+    4300564: Sphere54
+    4300566: Cylinder01
+    4300568: Arc07
+    4300570: Box01
+    4300572: Box02
+    4300574: Box03
+    4300576: Line02
+    4300578: Line05
+    4300580: Line07
+    4300582: Box06
+    4300584: Line08
+    4300586: Line09
+    4300588: Line03
+    4300590: Line10
+    4300592: Box07
+    4300594: Object01
+    4300596: Box08
+    4300598: Line04
+    4300600: Line11
+    4300602: Box09
+    4300604: Plane02
+    4300606: Cylinder01
+    4300608: Line13
+    4300610: Cylinder02
+    4300612: Cylinder03
+    4300614: Cylinder04
+    4300616: Cylinder05
+    4300618: Box10
+    4300620: Box11
+    4300622: Box12
+    4300624: Line1789527220
+    4300626: Line1789527221
+    4300628: Line1789527222
+    4300630: Box15
+    4300632: Line1789527223
+    4300634: Line1789527224
+    4300636: Line1789527225
+    4300638: Line1789527226
+    4300640: Box16
+    4300642: Object10
+    4300644: Box17
+    4300646: Line1789527227
+    4300648: Line1789527228
+    4300650: Box18
+    4300652: Plane03
+    4300654: Cylinder16
+    4300656: Line1789527230
+    4300658: Cylinder17
+    4300660: Cylinder18
+    4300662: Cylinder19
+    4300664: Cylinder20
+    4300666: Circle1688
+    4300668: Sphere04
+    4300670: Sphere020
+    4300672: Sphere010
+    4300674: 6
+    4300676: 555
+    4300678: Mesh0DE2
+    4300680: 25-bottom0
+    4300682: Box060
+    4300684: Loft07
+    4300686: 34
+    4300688: 22
+    4300690: Loft01
+    4300692: Loft03
+    4300694: Loft12
+    4300696: Loft19
+    4300698: ddd
+    4300700: ggh
+    4300702: asdad
+    4300704: fghg
+    4300706: dfgfdgdf
+    4300708: fghfh
+    4300710: dsaffd
+    4300712: sadasdsad
+    4300714: Loft08
+    4300716: Loft09
+    4300718: Loft10
+    4300720: Loft11
+    4300722: g
+    4300724: Loft17
+    4300726: f
+    4300728: sd
+    4300730: Sphere01
+    4300732: Sphere02
+    4300734: jkjh
+    4300736: Loft04
+    4300738: Loft18
+    4300740: ghj
+    4300742: Loft02
+    4300744: Shape46
+    4300746: LINE56
+    4300748: Shape45
+    4300750: Cylinder43
+    4300752: LINE55
+    4300754: Line1789527242
+    4300756: CHAMFERB83
+    4300758: 'ar0605ed #'
+    4300760: Box01
+    4300762: ARCorRoset03
+    4300764: ARCorRose04
+    4300766: Rectangle63
+    4300768: Line1789527308
+    4300770: Loft07
+    4300772: plant_obj_
+    4300774: plant_obj1
+    4300776: plant_obj2
+    4300778: plant_obj3
+    4300780: plant_obj4
+    4300782: plant_obj5
+    4300784: plant_obj6
+    4300786: plant_obj9
+    4300788: plant_ob10
+    4300790: plant_ob11
+    4300792: plant_ob12
+    4300794: plant_ob13
+    4300796: plant_ob14
+    4300798: plant_ob15
+    4300800: plant_ob17
+    4300802: plant_ob18
+    4300804: plant_ob19
+    4300806: plant_ob20
+    4300808: plant_ob21
+    4300810: plant_ob22
+    4300812: plant_ob23
+    4300814: plant_ob25
+    4300816: plant_ob26
+    4300818: plant_ob27
+    4300820: plant_ob28
+    4300822: plant_ob29
+    4300824: plant_ob30
+    4300826: plant_ob31
+    4300828: plant_ob33
+    4300830: plant_ob32
+    4300832: plant_ob24
+    4300834: plant_ob16
+    4300836: plant_obj8
+    4300838: plant_obj7
+    4300840: plant_obj0
+    4300842: Mesh0DE03
+    4300844: Rectangle64
+    4300846: Rectangle65
+    4300848: Circle12
+    4300850: Line78
+    4300852: Arch41_028_obj_08
+    4300854: Arch41_028_obj_10
+    4300856: arch24_006_01
+    4300858: Line79
+    4300860: Line80
+    4300862: Line81
+    4300864: Line82
+    4300866: Line83
+    4300868: Rectangle66
+    4300870: Rectangle67
+    4300872: Rectangle68
+    4300874: Shape47
+    4300876: Shape48
+    4300878: Shape49
+    4300880: Shape50
+    4300882: obj_32
+    4300884: obj_33
+    4300886: obj_34
+    4300888: obj_38
+    4300890: obj_31
+    4300892: Shape51
+    4300894: Shape20
+    4300896: obj_39
+    4300898: obj_40
+    4300900: obj_41
+    4300902: obj_42
+    4300904: obj_43
+    4300906: Line1789527313
+    4300908: Archinteriors7_06_13
+    4300910: Archinteriors7_06_14
+    4300912: Box10
+    4300914: "\u5BF9\u8C6102"
+    4300916: Loft02
+    4300918: Box08
+    4300920: Box09
+    4300922: Box09.Box11
+    4300924: Cylinder07
+    4300926: Cylinder06
+    4300928: Cylinder05
+    4300930: Cylinder04
+    4300932: Cylinder03
+    4300934: Box77
+    4300936: Box74
+    4300938: Box72
+    4300940: Cylinder01
+    4300942: Shape05
+    4300944: Shape04
+    4300946: Shape02
+    4300948: Shape01
+    4300950: Box01
+    4300952: "\u5BF9\u8C6123"
+    4300954: "\u5BF9\u8C6122"
+    4300956: Rectangle69
+    6400000: 22
+    6400002: 25-bottom0
+    6400004: 34
+    6400006: 555
+    6400008: 6
+    6400010: 'ar0605ed #'
+    6400012: 'ar0605ed #01'
+    6400014: Arc01
+    6400016: Arc01 1
+    6400018: Arc02
+    6400020: Arc02 1
+    6400022: Arc03
+    6400024: Arc03 1
+    6400026: Arc04
+    6400028: Arc04 1
+    6400030: Arc05
+    6400032: Arc05 1
+    6400034: Arc06
+    6400036: Arc06 1
+    6400038: Arc07
+    6400040: Arc07 1
+    6400042: Arc08
+    6400044: Arc09
+    6400046: Arc09 1
+    6400048: Arc10
+    6400050: Arc11
+    6400052: Arc12
+    6400054: Arc13
+    6400056: Arc14
+    6400058: Arc15
+    6400060: Arc16
+    6400062: Arc17
+    6400064: Arc18
+    6400066: Arc19
+    6400068: arch24_006_01
+    6400070: Arch41_028_obj_08
+    6400072: Arch41_028_obj_10
+    6400074: Archinteriors7_06_13
+    6400076: Archinteriors7_06_14
+    6400078: ARCorRose02
+    6400080: ARCorRose03
+    6400082: ARCorRose04
+    6400084: ARCorRose05
+    6400086: ARCorRose1
+    6400088: ARCorRoset
+    6400090: ARCorRoset01
+    6400092: ARCorRoset02
+    6400094: ARCorRoset03
+    6400096: ARCorRoset04
+    6400098: asdad
+    6400100: Box01
+    6400102: Box01 1
+    6400104: Box01 2
+    6400106: Box01 3
+    6400108: Box02
+    6400110: Box03
+    6400112: Box04
+    6400114: Box05
+    6400116: Box06
+    6400118: Box060
+    6400120: Box07
+    6400122: Box08
+    6400124: Box08 1
+    6400126: Box08 2
+    6400128: Box08.Box13
+    6400130: Box09
+    6400132: Box09 1
+    6400134: Box09 2
+    6400136: Box09.Box11
+    6400138: Box10
+    6400140: Box10 1
+    6400142: Box10 2
+    6400144: Box10.Box12
+    6400146: Box11
+    6400148: Box11 1
+    6400150: Box12
+    6400152: Box15
+    6400154: Box16
+    6400156: Box17
+    6400158: Box18
+    6400160: Box61
+    6400162: Box72
+    6400164: Box74
+    6400166: Box77
+    6400168: CHAMFERB83
+    6400170: ChamferBox01
+    6400172: ChamferBox03dfg
+    6400174: Circle01
+    6400176: Circle02
+    6400178: Circle02 2
+    6400180: Circle03
+    6400182: Circle03 1
+    6400184: Circle04
+    6400186: Circle05
+    6400188: Circle05 1
+    6400190: Circle06
+    6400192: Circle06 1
+    6400194: Circle07
+    6400196: Circle07 1
+    6400198: Circle08
+    6400200: Circle08 1
+    6400202: Circle09
+    6400204: Circle09 1
+    6400206: Circle10
+    6400208: Circle10 1
+    6400210: Circle11
+    6400212: Circle11 1
+    6400214: Circle12
+    6400216: Circle1669
+    6400218: Circle1670
+    6400220: Circle1671
+    6400222: Circle1672
+    6400224: Circle1673
+    6400226: Circle1674
+    6400228: Circle1675
+    6400230: Circle1676
+    6400232: Circle1677
+    6400234: Circle1678
+    6400236: Circle1679
+    6400238: Circle1680
+    6400240: Circle1681
+    6400242: Circle1682
+    6400244: Circle1683
+    6400246: Circle1684
+    6400248: Circle1685
+    6400250: Circle1686
+    6400252: Circle1687
+    6400254: Circle1688
+    6400256: Circle1690
+    6400258: Circle1692
+    6400260: Circle1693
+    6400262: Circle1694
+    6400264: Circle1695
+    6400266: Circle1696
+    6400268: Circle1697
+    6400270: Circle1698
+    6400272: Circle1699
+    6400274: Circle1700
+    6400276: Circle1701
+    6400278: Circle1702
+    6400280: Circle1703
+    6400282: Circle1704
+    6400284: Circle1705
+    6400286: Circle1706
+    6400288: Circle1707
+    6400290: Circle1708
+    6400292: Circle1709
+    6400294: Cylinder01
+    6400296: Cylinder01 1
+    6400298: Cylinder01 2
+    6400300: Cylinder01 3
+    6400302: Cylinder02
+    6400304: Cylinder02 1
+    6400306: Cylinder02 2
+    6400308: Cylinder03
+    6400310: Cylinder03 1
+    6400312: Cylinder03 2
+    6400314: Cylinder04
+    6400316: Cylinder04 1
+    6400318: Cylinder04 2
+    6400320: Cylinder05
+    6400322: Cylinder05 1
+    6400324: Cylinder05 2
+    6400326: Cylinder06
+    6400328: Cylinder06 1
+    6400330: Cylinder07
+    6400332: Cylinder11
+    6400334: Cylinder12
+    6400336: Cylinder13
+    6400338: Cylinder14
+    6400340: Cylinder16
+    6400342: Cylinder17
+    6400344: Cylinder18
+    6400346: Cylinder19
+    6400348: Cylinder20
+    6400350: Cylinder25
+    6400352: Cylinder26
+    6400354: Cylinder27
+    6400356: Cylinder28
+    6400358: Cylinder29
+    6400360: Cylinder30
+    6400362: Cylinder43
+    6400364: ddd
+    6400366: dfgfdgdf
+    6400368: dsaffd
+    6400370: f
+    6400372: fghfh
+    6400374: fghg
+    6400376: g
+    6400378: ggh
+    6400380: ghj
+    6400382: jkjh
+    6400384: Line01
+    6400386: Line01 1
+    6400388: Line02
+    6400390: Line02 1
+    6400392: Line02 2
+    6400394: Line02 3
+    6400396: Line03 1
+    6400398: Line03 2
+    6400400: Line03 3
+    6400402: Line04
+    6400404: Line04 1
+    6400406: Line04 2
+    6400408: Line04 3
+    6400410: Line05
+    6400412: Line05 1
+    6400414: Line05 2
+    6400416: Line07
+    6400418: Line07 1
+    6400420: Line08
+    6400422: Line08 1
+    6400424: Line09 1
+    6400426: Line10 1
+    6400428: Line11
+    6400430: Line11 1
+    6400432: Line12
+    6400434: Line13
+    6400436: Line13 1
+    6400438: Line14
+    6400440: Line16
+    6400442: Line17
+    6400444: Line1789527167
+    6400446: Line1789527168
+    6400448: Line1789527169
+    6400450: Line1789527170
+    6400452: Line1789527171
+    6400454: Line1789527172
+    6400456: Line1789527178
+    6400458: Line1789527179
+    6400460: Line1789527180
+    6400462: Line1789527181
+    6400464: Line1789527182
+    6400466: Line1789527183
+    6400468: Line1789527184
+    6400470: Line1789527185
+    6400472: Line1789527186
+    6400474: Line1789527187
+    6400476: Line1789527188
+    6400478: Line1789527189
+    6400480: Line1789527190
+    6400482: Line1789527191
+    6400484: Line1789527192
+    6400486: Line1789527193
+    6400488: Line1789527194
+    6400490: Line1789527195
+    6400492: Line1789527196
+    6400494: Line1789527197
+    6400496: Line1789527198
+    6400498: Line1789527199
+    6400500: Line1789527200
+    6400502: Line1789527201
+    6400504: Line1789527202
+    6400506: Line1789527203
+    6400508: Line1789527204
+    6400510: Line1789527205
+    6400512: Line1789527206
+    6400514: Line1789527210
+    6400516: Line1789527213
+    6400518: Line1789527214
+    6400520: Line1789527216
+    6400522: Line1789527217
+    6400524: Line1789527218
+    6400526: Line1789527219
+    6400528: Line1789527220
+    6400530: Line1789527221
+    6400532: Line1789527222
+    6400534: Line1789527223
+    6400536: Line1789527224
+    6400538: Line1789527225
+    6400540: Line1789527226
+    6400542: Line1789527227
+    6400544: Line1789527228
+    6400546: Line1789527230
+    6400548: Line1789527231
+    6400550: Line1789527232
+    6400552: Line1789527233
+    6400554: Line1789527234
+    6400556: Line1789527235
+    6400558: Line1789527242
+    6400560: Line1789527308
+    6400562: Line1789527309
+    6400564: Line1789527310
+    6400566: Line1789527311
+    6400568: Line1789527312
+    6400570: Line1789527313
+    6400572: Line18
+    6400574: Line19
+    6400576: Line20
+    6400578: Line21
+    6400580: Line23
+    6400582: Line24
+    6400584: Line25
+    6400586: Line26
+    6400588: Line27
+    6400590: Line28
+    6400592: Line29
+    6400594: Line30
+    6400596: Line32
+    6400598: Line33
+    6400600: Line34
+    6400602: Line35
+    6400604: Line36
+    6400606: Line37
+    6400608: Line38
+    6400610: Line39
+    6400612: Line41
+    6400614: Line42
+    6400616: Line43
+    6400618: Line44
+    6400620: LINE45
+    6400622: Line45
+    6400624: LINE46
+    6400626: Line46
+    6400628: LINE47
+    6400630: Line47
+    6400632: LINE48
+    6400634: Line48
+    6400636: LINE49
+    6400638: Line49
+    6400640: LINE50
+    6400642: Line50
+    6400644: LINE51
+    6400646: Line51
+    6400648: LINE52
+    6400650: Line52
+    6400652: LINE53
+    6400654: Line53
+    6400656: LINE54
+    6400658: Line54
+    6400660: LINE55
+    6400662: Line55
+    6400664: LINE56
+    6400666: Line56
+    6400668: Line57
+    6400670: Line58
+    6400672: Line59
+    6400674: Line60
+    6400676: Line61
+    6400678: Line62
+    6400680: Line63
+    6400682: Line64
+    6400684: Line65
+    6400686: Line66
+    6400688: Line67
+    6400690: Line68
+    6400692: Line69
+    6400694: Line70
+    6400696: Line71
+    6400698: Line72
+    6400700: Line73
+    6400702: Line74
+    6400704: Line75
+    6400706: Line76
+    6400708: Line77
+    6400710: Line78
+    6400712: Line79
+    6400714: Line80
+    6400716: Line81
+    6400718: Line82
+    6400720: Line83
+    6400722: Line91
+    6400724: Loft01
+    6400726: Loft02
+    6400728: Loft02 1
+    6400730: Loft02.Loft03
+    6400732: Loft03
+    6400734: Loft04
+    6400736: Loft05
+    6400738: Loft06
+    6400740: Loft07
+    6400742: Loft07 1
+    6400744: Loft08
+    6400746: Loft09
+    6400748: Loft10
+    6400750: Loft11
+    6400752: Loft12
+    6400754: Loft13
+    6400756: Loft14
+    6400758: Loft15
+    6400760: Loft16
+    6400762: Loft17
+    6400764: Loft18
+    6400766: Loft19
+    6400768: Mesh01
+    6400770: Mesh02
+    6400772: Mesh0DE03
+    6400774: Mesh0DE2
+    6400776: obj_01
+    6400778: obj_02
+    6400780: obj_03
+    6400782: obj_04
+    6400784: obj_05
+    6400786: obj_06
+    6400788: obj_07
+    6400790: obj_08
+    6400792: obj_09
+    6400794: obj_10
+    6400796: obj_11
+    6400798: obj_31
+    6400800: obj_32
+    6400802: obj_33
+    6400804: obj_34
+    6400806: obj_38
+    6400808: obj_39
+    6400810: obj_40
+    6400812: obj_41
+    6400814: obj_42
+    6400816: obj_43
+    6400818: Object
+    6400820: Object01
+    6400822: Object01 1
+    6400824: Object02
+    6400826: Object04
+    6400828: Object05
+    6400830: Object06
+    6400832: Object07
+    6400834: Object08
+    6400836: Object10
+    6400838: Plane02
+    6400840: Plane03
+    6400842: plant_ob10
+    6400844: plant_ob11
+    6400846: plant_ob12
+    6400848: plant_ob13
+    6400850: plant_ob14
+    6400852: plant_ob15
+    6400854: plant_ob16
+    6400856: plant_ob17
+    6400858: plant_ob18
+    6400860: plant_ob19
+    6400862: plant_ob20
+    6400864: plant_ob21
+    6400866: plant_ob22
+    6400868: plant_ob23
+    6400870: plant_ob24
+    6400872: plant_ob25
+    6400874: plant_ob26
+    6400876: plant_ob27
+    6400878: plant_ob28
+    6400880: plant_ob29
+    6400882: plant_ob30
+    6400884: plant_ob31
+    6400886: plant_ob32
+    6400888: plant_ob33
+    6400890: plant_obj0
+    6400892: plant_obj1
+    6400894: plant_obj2
+    6400896: plant_obj3
+    6400898: plant_obj4
+    6400900: plant_obj5
+    6400902: plant_obj6
+    6400904: plant_obj7
+    6400906: plant_obj8
+    6400908: plant_obj9
+    6400910: plant_obj_
+    6400912: Rectangle01
+    6400914: Rectangle01 1
+    6400916: Rectangle01 2
+    6400918: Rectangle02
+    6400920: Rectangle02 1
+    6400922: Rectangle03
+    6400924: Rectangle03 1
+    6400926: Rectangle04
+    6400928: Rectangle04 1
+    6400930: Rectangle05
+    6400932: Rectangle05 1
+    6400934: Rectangle06
+    6400936: Rectangle06 1
+    6400938: Rectangle07
+    6400940: Rectangle08 1
+    6400942: Rectangle09
+    6400944: Rectangle10
+    6400946: Rectangle10 1
+    6400948: Rectangle11
+    6400950: Rectangle11 1
+    6400952: Rectangle12
+    6400954: Rectangle12 1
+    6400956: Rectangle13
+    6400958: Rectangle13 1
+    6400960: Rectangle14
+    6400962: Rectangle14 1
+    6400964: Rectangle15
+    6400966: Rectangle16
+    6400968: Rectangle17
+    6400970: Rectangle18
+    6400972: Rectangle19
+    6400974: Rectangle20
+    6400976: Rectangle21
+    6400978: Rectangle21 1
+    6400980: Rectangle22
+    6400982: Rectangle22 1
+    6400984: Rectangle23
+    6400986: Rectangle24
+    6400988: Rectangle24 1
+    6400990: Rectangle25
+    6400992: Rectangle25 1
+    6400994: Rectangle26
+    6400996: Rectangle26 1
+    6400998: Rectangle27
+    6401000: Rectangle28
+    6401002: Rectangle29
+    6401004: Rectangle30
+    6401006: Rectangle31
+    6401008: Rectangle31620
+    6401010: Rectangle31622
+    6401012: Rectangle31623
+    6401014: Rectangle31626
+    6401016: Rectangle31627
+    6401018: Rectangle31628
+    6401020: Rectangle31629
+    6401022: Rectangle31630
+    6401024: Rectangle31631
+    6401026: Rectangle31634
+    6401028: Rectangle31636
+    6401030: Rectangle31638
+    6401032: Rectangle31640
+    6401034: Rectangle31643
+    6401036: Rectangle31645
+    6401038: Rectangle31647
+    6401040: Rectangle31649
+    6401042: Rectangle31651
+    6401044: Rectangle31653
+    6401046: Rectangle31655
+    6401048: Rectangle31657
+    6401050: Rectangle31659
+    6401052: Rectangle31661
+    6401054: Rectangle31662
+    6401056: Rectangle31663
+    6401058: Rectangle31664
+    6401060: Rectangle31665
+    6401062: Rectangle31666
+    6401064: Rectangle31667
+    6401066: Rectangle31668
+    6401068: Rectangle31669
+    6401070: Rectangle31670
+    6401072: Rectangle31671
+    6401074: Rectangle31672
+    6401076: Rectangle31673
+    6401078: Rectangle31674
+    6401080: Rectangle31675
+    6401082: Rectangle31676
+    6401084: Rectangle31677
+    6401086: Rectangle31678
+    6401088: Rectangle31679
+    6401090: Rectangle31681
+    6401092: Rectangle31682
+    6401094: Rectangle31683
+    6401096: Rectangle31684
+    6401098: Rectangle31685
+    6401100: Rectangle31686
+    6401102: Rectangle31687
+    6401104: Rectangle31688
+    6401106: Rectangle31689
+    6401108: Rectangle31690
+    6401110: Rectangle31691
+    6401112: Rectangle31692
+    6401114: Rectangle31693
+    6401116: Rectangle31694
+    6401118: Rectangle31695
+    6401120: Rectangle31696
+    6401122: Rectangle31697
+    6401124: Rectangle31698
+    6401126: Rectangle31699
+    6401128: Rectangle31700
+    6401130: Rectangle31701
+    6401132: Rectangle31702
+    6401134: Rectangle31703
+    6401136: Rectangle31704
+    6401138: Rectangle31705
+    6401140: Rectangle31706
+    6401142: Rectangle31707
+    6401144: Rectangle31708
+    6401146: Rectangle31709
+    6401148: Rectangle31710
+    6401150: Rectangle31711
+    6401152: Rectangle31712
+    6401154: Rectangle31713
+    6401156: Rectangle31714
+    6401158: Rectangle31715
+    6401160: Rectangle31716
+    6401162: Rectangle31717
+    6401164: Rectangle31718
+    6401166: Rectangle31719
+    6401168: Rectangle31720
+    6401170: Rectangle31721
+    6401172: Rectangle31722
+    6401174: Rectangle31723
+    6401176: Rectangle31724
+    6401178: Rectangle31725
+    6401180: Rectangle31726
+    6401182: Rectangle31727
+    6401184: Rectangle31728
+    6401186: Rectangle31729
+    6401188: Rectangle31730
+    6401190: Rectangle31731
+    6401192: Rectangle31732
+    6401194: Rectangle31733
+    6401196: Rectangle31734
+    6401198: Rectangle31735
+    6401200: Rectangle31736
+    6401202: Rectangle31737
+    6401204: Rectangle31738
+    6401206: Rectangle31739
+    6401208: Rectangle31740
+    6401210: Rectangle31741
+    6401212: Rectangle31746
+    6401214: Rectangle31747
+    6401216: Rectangle31748
+    6401218: Rectangle31749
+    6401220: Rectangle31750
+    6401222: Rectangle31751
+    6401224: Rectangle31752
+    6401226: Rectangle31753
+    6401228: Rectangle31755
+    6401230: Rectangle31756
+    6401232: Rectangle31761
+    6401234: Rectangle31762
+    6401236: Rectangle31763
+    6401238: Rectangle31764
+    6401240: Rectangle31765
+    6401242: Rectangle31766
+    6401244: Rectangle31767
+    6401246: Rectangle31768
+    6401248: Rectangle31769
+    6401250: Rectangle31770
+    6401252: Rectangle31771
+    6401254: Rectangle31772
+    6401256: Rectangle31773
+    6401258: Rectangle31774
+    6401260: Rectangle31775
+    6401262: Rectangle31776
+    6401264: Rectangle31777
+    6401266: Rectangle31778
+    6401268: Rectangle31780
+    6401270: Rectangle31781
+    6401272: Rectangle31782
+    6401274: Rectangle32
+    6401276: Rectangle33
+    6401278: Rectangle34
+    6401280: Rectangle35
+    6401282: Rectangle36
+    6401284: Rectangle37
+    6401286: Rectangle38
+    6401288: Rectangle39
+    6401290: Rectangle40
+    6401292: Rectangle41
+    6401294: Rectangle42
+    6401296: Rectangle43
+    6401298: Rectangle44
+    6401300: Rectangle45
+    6401302: Rectangle46
+    6401304: Rectangle47
+    6401306: Rectangle48
+    6401308: Rectangle49
+    6401310: Rectangle50
+    6401312: Rectangle51
+    6401314: Rectangle52
+    6401316: Rectangle53
+    6401318: Rectangle53 1
+    6401320: Rectangle54
+    6401322: Rectangle55
+    6401324: Rectangle55 1
+    6401326: Rectangle56
+    6401328: Rectangle57
+    6401330: Rectangle58
+    6401332: Rectangle59
+    6401334: Rectangle60
+    6401336: Rectangle61
+    6401338: Rectangle62
+    6401340: Rectangle63
+    6401342: Rectangle64
+    6401344: Rectangle65
+    6401346: Rectangle66
+    6401348: Rectangle67
+    6401350: Rectangle68
+    6401352: Rectangle69
+    6401354: s
+    6401356: s01
+    6401358: s02
+    6401360: s03
+    6401362: sadasdsad
+    6401364: sd
+    6401366: Shape01
+    6401368: Shape01 1
+    6401370: Shape02 1
+    6401372: Shape03
+    6401374: Shape04
+    6401376: Shape04 1
+    6401378: Shape05
+    6401380: Shape05 1
+    6401382: Shape07
+    6401384: Shape11
+    6401386: Shape12
+    6401388: Shape13
+    6401390: Shape14
+    6401392: Shape15
+    6401394: Shape16
+    6401396: Shape20
+    6401398: Shape35
+    6401400: Shape36
+    6401402: Shape37
+    6401404: Shape38
+    6401406: Shape39
+    6401408: Shape40
+    6401410: Shape41
+    6401412: Shape42
+    6401414: Shape43
+    6401416: Shape44
+    6401418: Shape45
+    6401420: Shape46
+    6401422: Shape47
+    6401424: Shape48
+    6401426: Shape49
+    6401428: Shape50
+    6401430: Shape51
+    6401432: Sphere01
+    6401434: Sphere010
+    6401436: Sphere02
+    6401438: Sphere020
+    6401440: Sphere04
+    6401442: Sphere1176
+    6401444: Sphere1177
+    6401446: Sphere1178
+    6401448: Sphere1179
+    6401450: Sphere1180
+    6401452: Sphere1181
+    6401454: Sphere1182
+    6401456: Sphere1183
+    6401458: Sphere1184
+    6401460: Sphere1185
+    6401462: Sphere1186
+    6401464: Sphere1187
+    6401466: Sphere1188
+    6401468: Sphere1189
+    6401470: Sphere53
+    6401472: Sphere54
+    6401474: Sphere55
+    6401476: Sphere56
+    6401478: Sphere57
+    6401480: Sphere58
+    6401482: Sphere59
+    6401484: Sphere60
+    6401486: Sphere61
+    6401488: Sphere62
+    6401490: Sphere63
+    6401492: Sphere64
+    6401494: Torus188
+    6401496: Torus189
+    6401498: Torus190
+    6401500: Torus191
+    6401502: Torus192
+    6401504: Torus193
+    6401506: Torus194
+    6401508: Torus195
+    6401510: Torus196
+    6401512: Torus197
+    6401514: Torus198
+    6401516: Torus199
+    6401518: Torus200
+    6401520: Torus201
+    6401522: Torus202
+    6401524: Torus203
+    6401526: Torus204
+    6401528: Torus205
+    6401530: Torus206
+    6401532: Torus207
+    6401534: Torus208
+    6401536: Torus209
+    6401538: Torus210
+    6401540: Torus211
+    6401542: Torus212
+    6401544: Torus213
+    6401546: Torus214
+    6401548: Torus215
+    6401550: Torus216
+    6401552: Torus217
+    6401554: Torus218
+    6401556: Torus219
+    6401558: Torus220
+    6401560: Torus221
+    6401562: Torus222
+    6401564: Torus223
+    6401566: Torus224
+    6401568: Torus225
+    6401570: Torus226
+    6401572: Torus227
+    6401574: Torus228
+    6401576: Torus229
+    6401578: Torus230
+    6401580: Torus231
+    6401582: Torus232
+    6401584: Torus233
+    6401586: Torus234
+    6401588: Torus235
+    6401590: TUBE08
+    6401592: TUBE09
+    6401594: TUBE10
+    6401596: TUBE11
+    6401598: "\u56FE\u5F6202"
+    6401600: "\u56FE\u5F6205"
+    6401602: "\u5730\u6BEF"
+    6401604: "\u5BF9\u8C6101"
+    6401606: "\u5BF9\u8C6102"
+    6401608: "\u5BF9\u8C6102 1"
+    6401610: "\u5BF9\u8C6102.\u5BF9\u8C6103"
+    6401612: "\u5BF9\u8C6103"
+    6401614: "\u5BF9\u8C6120"
+    6401616: "\u5BF9\u8C6122"
+    6401618: "\u5BF9\u8C6123"
+    6401620: "\u5BF9\u8C6124"
+    6401622: "\u5BF9\u8C6125"
+    6000828045688606266: Camera01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
