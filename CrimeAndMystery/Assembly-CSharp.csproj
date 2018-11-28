@@ -53,6 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\Grid.cs" />
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\Heap.cs" />
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\Node.cs" />
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\Pathfinding.cs" />
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\PathRequestManager.cs" />
+     <Compile Include="Assets\ALLMANSAO\PGFloresta\RandomForest.cs" />
+     <Compile Include="Assets\ALLMANSAO\PORTAS\Script\Chave.cs" />
+     <Compile Include="Assets\ALLMANSAO\PORTAS\Script\KeypadScript.cs" />
+     <Compile Include="Assets\ALLMANSAO\PORTAS\Script\Porta.cs" />
+     <Compile Include="Assets\ALLMANSAO\Real Materials\Showcase\Scripts\Camera_WASD_movement.cs" />
+     <Compile Include="Assets\ALLMANSAO\Real Materials\Showcase\Scripts\LPPV_lighting_update_only_once.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\coiso\OutlineAnimation.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\coiso\Rotate.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\LinkedSet.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\Outline.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\OutlineEffect.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\SombrasLado\Assets\Scripts\FinalVignette.cs" />
+     <Compile Include="Assets\ALLMANSAO\USAR\SombrasLado\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\CameraControll.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\Grab.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\GrabTeste.cs" />
@@ -101,23 +119,31 @@
      <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\ALLMANSAO\USAR\OUTLINE\Resources\OutlineShader.shader" />
      <None Include="Assets\Book\xxx.txt" />
+     <None Include="Assets\ALLMANSAO\PGFloresta\EnvironmentModels\Materials\WindShader.shader" />
      <None Include="Assets\VIDE\Export\Readme.txt" />
      <None Include="Assets\VIDE\Demos\About.txt" />
+     <None Include="Assets\ALLMANSAO\USAR\SombrasLado\Assets\Shaders\FinalVignette.shader" />
+     <None Include="Assets\ALLMANSAO\USAR\OUTLINE\Resources\OutlineBufferShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\VIDE\Demos\Localization\README.txt" />
      <None Include="Assets\Mirror\Mirror.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\ALLMANSAO\PGFloresta\EnvironmentModels\Materials\WindShaderIllum.shader" />
      <None Include="Assets\VIDE\Demos\MultiInstances\README.txt" />
+     <None Include="Assets\ALLMANSAO\Real Materials\Showcase\Sounds\Seisemic - license.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\ALLMANSAO\Real Materials\Showcase\Sounds\Waves background - license.txt" />
      <None Include="Assets\VIDE\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\ALLMANSAO\Ultimate Materials Lite\READ ME FIRST.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
