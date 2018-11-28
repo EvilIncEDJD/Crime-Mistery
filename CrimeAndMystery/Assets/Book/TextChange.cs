@@ -8,13 +8,15 @@ using UnityEngine.UI;
 public class TextChange : MonoBehaviour {
 
     // Use this for initialization
+       
+    
     public  TextAsset textAsset;
     static List<string> listText = new List<string>();
     
-    private Text uiText1, uiText2, uiText3, uiText4;
+    private Text uiText1, uiText2, uiText3, uiText4, text;
     public int linePerPage;
-    private RectTransform parentRect;
 
+    private RectTransform parentRect;
     private float longestCharWidth = 50;
     //public string filename;
 
@@ -25,19 +27,21 @@ public class TextChange : MonoBehaviour {
         uiText2 = transform.Find("Page/page1/Page1Canvas/Page1Text").GetComponent<Text>();
           uiText3 = transform.Find("Page/page2/Page2Canvas/Page2Text").GetComponent<Text>();
           uiText4 = transform.Find("Back/bookPart/LastCanvas/LastText").GetComponent<Text>();
+        InputField inputField = gameObject.GetComponent<InputField>();
+          text = inputField.textComponent;
        // textAsset = Resources.Load(filename) as TextAsset;
        CountLine();
+
+                parentRect = GetComponent<RectTransform>();
+                
+               
       
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        /*   if(uiText1 != null)
-               Debug.Log("a");
-
-           else Debug.Log("No child with the name 'Gun' attached to the player");*/
-        //Debug.Log(listText.Count);
+        
 
     }
 
@@ -47,7 +51,9 @@ public class TextChange : MonoBehaviour {
          listText = textAsset.text.Split('\n').ToList();
          for(int i = 0; i < listText.Count(); i++)
          {
-            uiText1.text += listText[i] + "\n" ;
+             
+               uiText1.text += listText[i] + "\n" ;
+             
          }
         
        /*  uiText1.text = listText[1];

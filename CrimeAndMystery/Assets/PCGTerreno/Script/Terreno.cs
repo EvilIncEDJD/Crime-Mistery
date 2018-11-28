@@ -9,9 +9,9 @@ public class Terreno : MonoBehaviour {
     public int largura = 256;
     public int altura = 256;
     public float escala = 10f;
-    public float offsetx = 20f;
-    public float offsety = 20;
-    public Transform player;
+    public float offsetx = 100f;
+    public float offsety = 100f;
+   
 
     // Use this for initialization
     void Start () {
@@ -25,8 +25,8 @@ public class Terreno : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //offsetx += Time.deltaTime ;
-        //offsety -= Time.deltaTime ;
+        offsetx += Time.deltaTime ;
+        offsety -= Time.deltaTime ;
         Terrain terreno = GetComponent<Terrain>();
         terreno.terrainData = GeraTerreno(terreno.terrainData);
 
