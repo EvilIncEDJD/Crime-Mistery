@@ -76,6 +76,7 @@
      <Compile Include="Assets\Book\Book.cs" />
      <Compile Include="Assets\Book\TextChange.cs" />
      <Compile Include="Assets\Book\TurnPage.cs" />
+     <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\Labirinto\Scripts\BackTrackAlgorithm.cs" />
      <Compile Include="Assets\Labirinto\Scripts\camera.cs" />
      <Compile Include="Assets\Labirinto\Scripts\MazeAlgorithm.cs" />
@@ -88,13 +89,14 @@
      <Compile Include="Assets\MENUS\Options.cs" />
      <Compile Include="Assets\MENUS\PauseScript.cs" />
      <Compile Include="Assets\Mirror\MirrorReflect.cs" />
+     <Compile Include="Assets\OpenDoor.cs" />
      <Compile Include="Assets\PCGTerreno\Script\Terreno.cs" />
      <Compile Include="Assets\Personagens\Scripts\AnotherAi.cs" />
      <Compile Include="Assets\Personagens\Scripts\MoveAi.cs" />
-     <Compile Include="Assets\Scripts\Grid.cs" />
-     <Compile Include="Assets\Scripts\Node.cs" />
-     <Compile Include="Assets\Scripts\PathFinding.cs" />
-     <Compile Include="Assets\Scripts\PathRequestManager.cs" />
+     <Compile Include="Assets\Scripts\AstarGrid.cs" />
+     <Compile Include="Assets\Scripts\AstarNode.cs" />
+     <Compile Include="Assets\Scripts\AstarPathFinding.cs" />
+     <Compile Include="Assets\Scripts\AstarPathRequestManager.cs" />
      <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
      <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
      <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
