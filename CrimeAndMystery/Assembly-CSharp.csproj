@@ -65,6 +65,7 @@
      <Compile Include="Assets\ALLMANSAO\USAR\OUTLINE\OutlineEffect.cs" />
      <Compile Include="Assets\ALLMANSAO\USAR\SombrasLado\Assets\Scripts\FinalVignette.cs" />
      <Compile Include="Assets\ALLMANSAO\USAR\SombrasLado\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
+     <Compile Include="Assets\ArmarioDoor.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\CameraControll.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\Grab.cs" />
      <Compile Include="Assets\BenitoPack\Scripts\GrabTeste.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Book\Book.cs" />
      <Compile Include="Assets\Book\TextChange.cs" />
      <Compile Include="Assets\Book\TurnPage.cs" />
+     <Compile Include="Assets\candeeiro.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\Labirinto\Scripts\BackTrackAlgorithm.cs" />
      <Compile Include="Assets\Labirinto\Scripts\camera.cs" />
@@ -132,10 +134,12 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\ALLMANSAO\MODELOS\CandeiroPe\archibase.net.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\ALLMANSAO\Real Materials\Showcase\Sounds\Waves background - license.txt" />
      <None Include="Assets\VIDE\ReadMe.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\ALLMANSAO\MODELOS\LuzLaParaFora\archibase.net.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

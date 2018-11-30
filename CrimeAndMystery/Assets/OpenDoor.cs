@@ -5,7 +5,11 @@ using UnityEngine;
 public class OpenDoor : MonoBehaviour {
 
 	bool onDoor = false;
+	bool onDoorA = false;
+	bool onLight = false;
 	private Door door;
+	private ArmarioDoor doorA;
+	private candeeiro doorL;
 	public float openDistance = 10f;
 	private bool close = true;
 	// Use this for initialization
@@ -52,7 +56,67 @@ public class OpenDoor : MonoBehaviour {
 				
 			}
 			else onDoor = false;
-			
+
+			if(hit.collider.gameObject.tag == "Armario")
+			{
+				onDoor = true;
+
+				doorA = hit.collider.gameObject.GetComponentInParent<ArmarioDoor>();
+					if(Input.GetButton("Pick") == true && doorA.Closed == false)
+					{
+						
+						
+					doorA.CoOpenA();
+					
+				
+					}
+					if(Input.GetButton("Pick") == true && doorA.Closed == true)
+					{
+
+						doorA.CoCloseA();
+						
+						
+						
+					}
+
+					if(doorA.Closed == false)
+					close = true;
+					else if ((doorA.Closed == true))
+					close = false;
+
+			}
+			else onDoor = false;
+
+			if(hit.collider.gameObject.tag == "Light")
+			{
+				onDoor = true;
+
+				doorL = hit.collider.gameObject.GetComponentInParent<candeeiro>();
+					if(Input.GetButton("Pick") == true && doorL.Closed == false)
+					{
+						
+						
+					doorL.CoOpenL();
+					
+				
+					}
+					if(Input.GetButton("Pick") == true && doorA.Closed == true)
+					{
+
+						doorL.CoCloseL();
+						
+						
+						
+					}
+
+					if(doorL.Closed == false)
+					close = true;
+					else if ((doorL.Closed == true))
+					close = false;
+
+			}
+			else onDoor = false;
+
 		}
 
 	}

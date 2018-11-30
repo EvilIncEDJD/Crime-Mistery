@@ -8,6 +8,9 @@ TagManager:
   - Chair
   - Painting
   - Btn
+  - Porta
+  - Armario
+  - Light
   layers:
   - Default
   - TransparentFX
