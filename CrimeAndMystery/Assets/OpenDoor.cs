@@ -88,6 +88,7 @@ public class OpenDoor : MonoBehaviour {
 
 			if(hit.collider.gameObject.tag == "Light")
 			{
+				onLight = true;
 				Debug.Log("Light");
 				cand = hit.collider.gameObject.GetComponentInParent<candeeiro>();
 				if(Input.GetButton("Pick") == true && cand.On == true)
@@ -108,6 +109,8 @@ public class OpenDoor : MonoBehaviour {
 					}
 				
 			}
+
+			else onLight = false;
 		}
 	}
 
@@ -127,6 +130,11 @@ void OnGUI()
 	 		  {
 		   		 GUI.Label(new Rect(Screen.width/2, Screen.height/2, 200, 25), "Close");
 	  		 }
+		}
+
+		if(onLight == true)
+		{
+			 GUI.Label(new Rect(Screen.width/2, Screen.height/2, 200, 25), "Light");
 		}
 		
     }

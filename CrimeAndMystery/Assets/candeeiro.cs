@@ -5,12 +5,12 @@ using UnityEngine;
 public class candeeiro : MonoBehaviour {
 
 		private bool oN = true;
-		Light obLight;
+		Light[] obLight;
 	// Use this for initialization
 	void Start () {
 		
 			
-			obLight = transform.GetComponentInChildren<Light>();
+			obLight = transform.GetComponentsInChildren<Light>();
 
 	
 	}
@@ -28,8 +28,10 @@ public class candeeiro : MonoBehaviour {
 	}
 	public IEnumerator LightsOff() 
 	{
-	
-			obLight.enabled = false;
+	for(int i = 0; i < obLight.Length; i++)
+	{
+			obLight[i].enabled = false;
+	}
 			yield return new WaitForSeconds(0.1f);
 			oN = false;
 
@@ -37,7 +39,10 @@ public class candeeiro : MonoBehaviour {
 	public IEnumerator LightsOn() 
 	{
 	
-			obLight.enabled = true;
+			for(int i = 0; i < obLight.Length; i++)
+	{
+			obLight[i].enabled = true;
+	}
 			yield return new WaitForSeconds(0.1f);
 			oN = true;
 
@@ -45,7 +50,7 @@ public class candeeiro : MonoBehaviour {
 
 
 	public bool On{get {return oN;} set{oN = value;}}
-	public Light LightOn{get {return obLight;} set{obLight = value;}}
+	//public Light[] LightOn{get {return obLight;} set{obLight = value;}}
 }
 
 	
