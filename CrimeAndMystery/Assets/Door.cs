@@ -44,7 +44,38 @@ public IEnumerator Open()
 }
 public IEnumerator Close() 
 {
+	
    					anime.Play("Close");
+					Debug.Log("0");
+					yield return new WaitForSeconds(anime.GetCurrentAnimatorStateInfo(0).length);
+					closed = false;
+					
+					
+					
+}
+
+public void CoOpenA()
+{
+	StartCoroutine(OpenA());
+}
+
+public void CoCloseA()
+{
+	StartCoroutine(CloseA());
+}
+
+public IEnumerator OpenA() 
+{
+   				anime.Play("OpenA");
+				Debug.Log("1");
+				yield return new WaitForSeconds(anime.GetCurrentAnimatorStateInfo(0).length);
+				closed = true;
+					
+					
+}
+public IEnumerator CloseA() 
+{
+   					anime.Play("CloseA");
 					Debug.Log("0");
 					yield return new WaitForSeconds(anime.GetCurrentAnimatorStateInfo(0).length);
 					closed = false;

@@ -8,8 +8,7 @@ public class OpenDoor : MonoBehaviour {
 	bool onDoorA = false;
 	bool onLight = false;
 	private Door door;
-	private ArmarioDoor doorA;
-	private candeeiro doorL;
+	private candeeiro cand;
 	public float openDistance = 10f;
 	private bool close = true;
 	// Use this for initialization
@@ -29,6 +28,7 @@ public class OpenDoor : MonoBehaviour {
 
 			if(hit.collider.gameObject.tag == "Porta")
 			{
+					
 					onDoor = true;
 
 					door = hit.collider.gameObject.GetComponentInParent<Door>();
@@ -55,74 +55,65 @@ public class OpenDoor : MonoBehaviour {
 					close = false;
 				
 			}
-			else onDoor = false;
-
-			if(hit.collider.gameObject.tag == "Armario")
+			
+			 else if(hit.collider.gameObject.tag == "Armario")
 			{
 				onDoor = true;
 
-				doorA = hit.collider.gameObject.GetComponentInParent<ArmarioDoor>();
-					if(Input.GetButton("Pick") == true && doorA.Closed == false)
+				door = hit.collider.gameObject.GetComponentInParent<Door>();
+					if(Input.GetButton("Pick") == true && door.Closed == false)
 					{
 						
 						
-					doorA.CoOpenA();
+					door.CoOpenA();
 					
 				
 					}
-					if(Input.GetButton("Pick") == true && doorA.Closed == true)
+					if(Input.GetButton("Pick") == true && door.Closed == true)
 					{
 
-						doorA.CoCloseA();
+						door.CoCloseA();
 						
 						
 						
 					}
 
-					if(doorA.Closed == false)
+					if(door.Closed == false)
 					close = true;
-					else if ((doorA.Closed == true))
+					else if ((door.Closed == true))
 					close = false;
 
 			}
-			else onDoor = false;
+			else onDoor = false; 
 
 			if(hit.collider.gameObject.tag == "Light")
 			{
-				onDoor = true;
-
-				doorL = hit.collider.gameObject.GetComponentInParent<candeeiro>();
-					if(Input.GetButton("Pick") == true && doorL.Closed == false)
+				Debug.Log("Light");
+				cand = hit.collider.gameObject.GetComponentInParent<candeeiro>();
+				if(Input.GetButton("Pick") == true && cand.On == true)
 					{
 						
 						
-					doorL.CoOpenL();
+					cand.TurnLightOff();
 					
 				
 					}
-					if(Input.GetButton("Pick") == true && doorA.Closed == true)
+					if(Input.GetButton("Pick") == true && cand.On == false)
 					{
-
-						doorL.CoCloseL();
 						
 						
-						
+					cand.TurnLightOn();
+					
+				
 					}
-
-					if(doorL.Closed == false)
-					close = true;
-					else if ((doorL.Closed == true))
-					close = false;
-
+				
 			}
-			else onDoor = false;
-
 		}
-
 	}
 
 	public bool Close{get{return close;} set{close = value;}}
 	public bool OnDoor{get{return onDoor;} set{onDoor = value;}}
+
 void OnGUI()
     {
 		if(onDoor == true)

@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 4874872196822078}
   - component: {fileID: 95564442810271114}
   - component: {fileID: 114700770987800392}
+  - component: {fileID: 114965531373239558}
   m_Layer: 0
   m_Name: MesaG
   m_TagString: Porta
@@ -1121,9 +1122,21 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1655068124092716}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 383bcd6e02e1f5344a98cdaf2df36054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openDistance: 10
+--- !u!114 &114965531373239558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1655068124092716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21818e6ae3ecf884cb16cc0b459c2839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   openDistance: 10

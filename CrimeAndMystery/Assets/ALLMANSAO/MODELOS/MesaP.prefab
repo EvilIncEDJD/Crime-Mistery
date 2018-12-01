@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 4167237315497972}
   - component: {fileID: 95657963056030276}
   - component: {fileID: 114938696838834708}
+  - component: {fileID: 114109727320683324}
   m_Layer: 0
   m_Name: MesaP
   m_TagString: Porta
@@ -1115,13 +1116,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114938696838834708
+--- !u!114 &114109727320683324
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1890256197926704}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21818e6ae3ecf884cb16cc0b459c2839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openDistance: 10
+--- !u!114 &114938696838834708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1890256197926704}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 383bcd6e02e1f5344a98cdaf2df36054, type: 3}
   m_Name: 
