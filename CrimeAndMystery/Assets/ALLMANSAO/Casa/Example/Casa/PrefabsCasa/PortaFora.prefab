@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64497002327232066}
   m_Layer: 0
   m_Name: Porta (1)
-  m_TagString: Untagged
+  m_TagString: Porta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4604167178821718}
   - component: {fileID: 95289785184489572}
+  - component: {fileID: 114051042182449860}
   m_Layer: 0
   m_Name: PortaFora
   m_TagString: Untagged
@@ -309,7 +310,7 @@ Animator:
   m_GameObject: {fileID: 1397991477102690}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fa8ced3b1651c274fb9fa96312e89843, type: 2}
+  m_Controller: {fileID: 9100000, guid: b9b40448f3816f843af579e12839beea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -318,3 +319,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114051042182449860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397991477102690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21818e6ae3ecf884cb16cc0b459c2839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openDistance: 10
