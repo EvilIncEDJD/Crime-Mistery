@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 123
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 124
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 66
+  controlID: 125
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,20 +323,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/ALLMANSAO/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/ALLMANSAO/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Bruno\Documents\Crime-Mystery\CrimeAndMystery
+  m_LastProjectPath: D:\UnityProject\Nova pasta\Crime-Mystery\CrimeAndMystery
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 520a0000
-    m_LastClickedID: 2642
-    m_ExpandedIDs: 00000000520a0000640a0000660b0000600e0000c00e000058150000b61600002e1b0000be1c00003a1d00008e1d0000e21d0000e61d0000f41d0000161e0000081f00001c20000048240000e6270000ee270000ca2a00007e2b0000622d0000942e0000f231000096330000303d0000d23d0000763e00005e3f00007c400000d4400000d0040100d2040100d404010000ca9a3b
+    scrollPos: {x: 0, y: 439}
+    m_SelectedIDs: e2a40000
+    m_LastClickedID: 42210
+    m_ExpandedIDs: 00000000007c000038820000408200002c830000e4850000fc850000c28b0000d28b0000e28c0000a88e0000b08e00002c8f0000628f0000828f0000948f0000968f00009a8f0000aa8f0000fc8f000062900000b09300009095000098950000ce9700003498000026990000bc990000aa9b00007aa30000e4a3000000a4000080a40000eea4000038a500007e3c0100803c0100823c010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000520a0000640a0000660b0000600e0000c00e000058150000b61600002e1b0000be1c00003a1d00008e1d0000e21d0000e61d0000f41d0000161e0000081f00001c20000048240000e6270000ee270000ca2a00007e2b0000622d0000942e0000f231000096330000303d0000d23d0000763e00005e3f00007c400000d4400000d0040100d2040100d4040100
+    m_ExpandedIDs: 00000000007c000038820000408200002c830000e4850000fc850000d28b0000e28c0000a88e00002c8f0000628f0000828f0000948f0000968f00009a8f0000aa8f0000fc8f000062900000b09300009095000098950000ce9700003498000026990000bc990000aa9b00007aa30000e4a3000000a4000080a40000eea4000038a500007e3c0100803c0100823c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000ece4f2ff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -408,7 +408,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 162
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -479,10 +479,10 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 2814}
-    m_SelectedIDs: b8ccffff
-    m_LastClickedID: -13128
-    m_ExpandedIDs: 52bfffffb8ccffff06ceffff42d9ffff4ee0fffff2e0ffffbce4fffffee7ffffccf7ffffe6fbffff00000000d4550000f487000034990000
+    scrollPos: {x: 0, y: 4298}
+    m_SelectedIDs: 08a80000
+    m_LastClickedID: 43016
+    m_ExpandedIDs: 7283eefff274f0ff1695f0ff5259f5ffaa74f5ff80b7f5ff88b7f5ffa0b7f5ffa2b7f5ff7c18f6ff8818f6ffae18f6ff1834f6ff8034f6ffa634f6ff865af7ff38a5f8ff166ffbffd8d3fbffe2d5fbffb2defbffbadefbffd2defbffd4defbff88e1fbff0ceafbffc8f5fbff7efafbff4a06fcff00000000aaa7000048aa000040ab0000d0ad0000e0ae0000f6b300005ab40000a6b60000a8b700008ab800002ab9000078ba000090bb00007ebd00000ac0000016c000006cc20000c4c6000060c8000082c80000b8c80000a0cc0000ecce0000bcd300001cd5000064db0000bce5000034e60000b6ea0000f0eb00008eee000018ef0000def00000eef0000062f40000a4f80000fcfc00004afe0000d0ff0000860401004a080100f4090100020a0100fa1301004e1401007e140100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,15 +531,15 @@ MonoBehaviour:
     width: 816
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 2444.7353462
+  m_SceneLighting: 0
+  lastFramingTime: 7811.600360928537
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 36.54289, y: 6.225544, z: 76.32208}
+    m_Target: {x: 88.44818, y: -9.605565, z: 100.100044}
     speed: 2
-    m_Value: {x: 36.54289, y: 6.225544, z: 76.32208}
+    m_Value: {x: 88.44818, y: -9.605565, z: 100.100044}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -567,13 +567,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.19252197, y: -0.7692448, z: 0.27151376, w: 0.54545414}
+    m_Target: {x: 0.13457471, y: 0.06979608, z: -0.009571951, w: 0.98853076}
     speed: 2
-    m_Value: {x: 0.1925179, y: -0.7692286, z: 0.27150804, w: 0.54544264}
+    m_Value: {x: 0.13455679, y: 0.06978678, z: -0.009570675, w: 0.988399}
   m_Size:
-    m_Target: 16.105831
+    m_Target: 113.57437
     speed: 2
-    m_Value: 16.105831
+    m_Value: 113.57437
   m_Ortho:
     m_Target: 0
     speed: 2

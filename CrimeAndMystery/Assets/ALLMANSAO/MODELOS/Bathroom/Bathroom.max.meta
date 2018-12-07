@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 379aa8b447058d04d9f5734923c6189d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bath_border
+    100002: Bath_door
+    100004: bath_tub
+    100006: //RootNode
+    100008: bathroom_walls
+    100010: Birth 01
+    100012: Display 01
+    100014: Display 02
+    100016: Door_frame
+    100018: Dummy01
+    100020: Event 01
+    100022: Event 02
+    100024: flannel
+    100026: Flannel01
+    100028: Floor_mat
+    100030: Floor_mat01
+    100032: Force 01
+    100034: handle
+    100036: handle01
+    100038: handle02
+    100040: metal_shelving01
+    100042: metal_shelving02
+    100044: mirror
+    100046: net
+    100048: net_railing
+    100050: Object03
+    100052: Object04
+    100054: Particle View 01
+    100056: piping
+    100058: plastic shelf
+    100060: Plug01
+    100062: Plug02
+    100064: Position Object 01
+    100066: Render 01
+    100068: Rotation 01
+    100070: Shape 01
+    100072: shower_curtain
+    100074: shower_curtain_ring01
+    100076: shower_curtain_ring02
+    100078: shower_curtain_ring03
+    100080: shower_curtain_ring04
+    100082: shower_curtain_ring05
+    100084: shower_curtain_ring06
+    100086: shower_curtain_ring07
+    100088: shower_curtain_ring08
+    100090: shower_curtain_ring09
+    100092: shower_curtain_ring10
+    100094: shower_curtain_ring11
+    100096: shower_curtain_ring12
+    100098: shower_curtain_ring13
+    100100: shower_curtain_ring14
+    100102: shower_curtain_ring15
+    100104: shower_curtain_ring16
+    100106: shower_curtain_ring17
+    100108: shower_curtain_ring18
+    100110: shower_curtain_ring19
+    100112: shower_curtain_ring20
+    100114: shower_head
+    100116: Shower_holder
+    100118: Shower_pipe
+    100120: shower_rail
+    100122: Sink
+    100124: sink_taps
+    100126: Soap01
+    100128: Speed 01
+    100130: tap
+    100132: tap01
+    100134: toilet
+    100136: Toilet_lid
+    100138: toilet_roll01
+    100140: toilet_roll02
+    100142: toilet_roll03
+    100144: toilet_roll04
+    100146: toilet_roll05
+    100148: toilet_roll06
+    100150: toilet_roll07
+    100152: toilet_roll08
+    100154: toothbrush01
+    100156: toothbrush02
+    100158: toothbrush_cup
+    100160: toothpaste
+    100162: window
+    400000: bath_border
+    400002: Bath_door
+    400004: bath_tub
+    400006: //RootNode
+    400008: bathroom_walls
+    400010: Birth 01
+    400012: Display 01
+    400014: Display 02
+    400016: Door_frame
+    400018: Dummy01
+    400020: Event 01
+    400022: Event 02
+    400024: flannel
+    400026: Flannel01
+    400028: Floor_mat
+    400030: Floor_mat01
+    400032: Force 01
+    400034: handle
+    400036: handle01
+    400038: handle02
+    400040: metal_shelving01
+    400042: metal_shelving02
+    400044: mirror
+    400046: net
+    400048: net_railing
+    400050: Object03
+    400052: Object04
+    400054: Particle View 01
+    400056: piping
+    400058: plastic shelf
+    400060: Plug01
+    400062: Plug02
+    400064: Position Object 01
+    400066: Render 01
+    400068: Rotation 01
+    400070: Shape 01
+    400072: shower_curtain
+    400074: shower_curtain_ring01
+    400076: shower_curtain_ring02
+    400078: shower_curtain_ring03
+    400080: shower_curtain_ring04
+    400082: shower_curtain_ring05
+    400084: shower_curtain_ring06
+    400086: shower_curtain_ring07
+    400088: shower_curtain_ring08
+    400090: shower_curtain_ring09
+    400092: shower_curtain_ring10
+    400094: shower_curtain_ring11
+    400096: shower_curtain_ring12
+    400098: shower_curtain_ring13
+    400100: shower_curtain_ring14
+    400102: shower_curtain_ring15
+    400104: shower_curtain_ring16
+    400106: shower_curtain_ring17
+    400108: shower_curtain_ring18
+    400110: shower_curtain_ring19
+    400112: shower_curtain_ring20
+    400114: shower_head
+    400116: Shower_holder
+    400118: Shower_pipe
+    400120: shower_rail
+    400122: Sink
+    400124: sink_taps
+    400126: Soap01
+    400128: Speed 01
+    400130: tap
+    400132: tap01
+    400134: toilet
+    400136: Toilet_lid
+    400138: toilet_roll01
+    400140: toilet_roll02
+    400142: toilet_roll03
+    400144: toilet_roll04
+    400146: toilet_roll05
+    400148: toilet_roll06
+    400150: toilet_roll07
+    400152: toilet_roll08
+    400154: toothbrush01
+    400156: toothbrush02
+    400158: toothbrush_cup
+    400160: toothpaste
+    400162: window
+    2100000: 'Material #1091'
+    2100002: 'Material #1099'
+    2100004: 'Material #1102'
+    2100006: car paint black1
+    2100008: 'Material #1105'
+    2100010: 'Material #1098'
+    2100012: Pearl
+    2100014: 'Material #1103'
+    2100016: Wood_Oak
+    2100018: 'Material #1121'
+    2100020: 'Material #1122'
+    2100022: 'Material #1136'
+    2100024: 'Material #1092'
+    2100026: 'Material #1095'
+    2100028: 'Material #1128'
+    2100030: 'Material #1127'
+    2100032: 'Material #1130'
+    2100034: 'Material #1131'
+    2100036: 'Material #1132'
+    2100038: 'Material #1133'
+    2100040: toilet_roll
+    2100042: 'Material #1138'
+    2100044: 'Material #1141'
+    2100046: 'Material #1142'
+    2100048: 'Material #1094'
+    2100050: Concrete_Tiles
+    2100052: 'Material #1134'
+    2100054: 'Material #1096'
+    2100056: 'Material #1129'
+    2100058: 'Material #1126'
+    2300000: bath_border
+    2300002: Bath_door
+    2300004: bath_tub
+    2300006: bathroom_walls
+    2300008: Door_frame
+    2300010: flannel
+    2300012: Flannel01
+    2300014: Floor_mat
+    2300016: Floor_mat01
+    2300018: handle
+    2300020: handle01
+    2300022: handle02
+    2300024: metal_shelving01
+    2300026: metal_shelving02
+    2300028: mirror
+    2300030: net
+    2300032: net_railing
+    2300034: Object03
+    2300036: Object04
+    2300038: piping
+    2300040: plastic shelf
+    2300042: Plug01
+    2300044: Plug02
+    2300046: shower_curtain
+    2300048: shower_curtain_ring01
+    2300050: shower_curtain_ring02
+    2300052: shower_curtain_ring03
+    2300054: shower_curtain_ring04
+    2300056: shower_curtain_ring05
+    2300058: shower_curtain_ring06
+    2300060: shower_curtain_ring07
+    2300062: shower_curtain_ring08
+    2300064: shower_curtain_ring09
+    2300066: shower_curtain_ring10
+    2300068: shower_curtain_ring11
+    2300070: shower_curtain_ring12
+    2300072: shower_curtain_ring13
+    2300074: shower_curtain_ring14
+    2300076: shower_curtain_ring15
+    2300078: shower_curtain_ring16
+    2300080: shower_curtain_ring17
+    2300082: shower_curtain_ring18
+    2300084: shower_curtain_ring19
+    2300086: shower_curtain_ring20
+    2300088: shower_head
+    2300090: Shower_holder
+    2300092: Shower_pipe
+    2300094: shower_rail
+    2300096: Sink
+    2300098: sink_taps
+    2300100: Soap01
+    2300102: tap
+    2300104: tap01
+    2300106: toilet
+    2300108: Toilet_lid
+    2300110: toilet_roll01
+    2300112: toilet_roll02
+    2300114: toilet_roll03
+    2300116: toilet_roll04
+    2300118: toilet_roll05
+    2300120: toilet_roll06
+    2300122: toilet_roll07
+    2300124: toilet_roll08
+    2300126: toothbrush01
+    2300128: toothbrush02
+    2300130: toothbrush_cup
+    2300132: toothpaste
+    2300134: window
+    3300000: bath_border
+    3300002: Bath_door
+    3300004: bath_tub
+    3300006: bathroom_walls
+    3300008: Door_frame
+    3300010: flannel
+    3300012: Flannel01
+    3300014: Floor_mat
+    3300016: Floor_mat01
+    3300018: handle
+    3300020: handle01
+    3300022: handle02
+    3300024: metal_shelving01
+    3300026: metal_shelving02
+    3300028: mirror
+    3300030: net
+    3300032: net_railing
+    3300034: Object03
+    3300036: Object04
+    3300038: piping
+    3300040: plastic shelf
+    3300042: Plug01
+    3300044: Plug02
+    3300046: shower_curtain
+    3300048: shower_curtain_ring01
+    3300050: shower_curtain_ring02
+    3300052: shower_curtain_ring03
+    3300054: shower_curtain_ring04
+    3300056: shower_curtain_ring05
+    3300058: shower_curtain_ring06
+    3300060: shower_curtain_ring07
+    3300062: shower_curtain_ring08
+    3300064: shower_curtain_ring09
+    3300066: shower_curtain_ring10
+    3300068: shower_curtain_ring11
+    3300070: shower_curtain_ring12
+    3300072: shower_curtain_ring13
+    3300074: shower_curtain_ring14
+    3300076: shower_curtain_ring15
+    3300078: shower_curtain_ring16
+    3300080: shower_curtain_ring17
+    3300082: shower_curtain_ring18
+    3300084: shower_curtain_ring19
+    3300086: shower_curtain_ring20
+    3300088: shower_head
+    3300090: Shower_holder
+    3300092: Shower_pipe
+    3300094: shower_rail
+    3300096: Sink
+    3300098: sink_taps
+    3300100: Soap01
+    3300102: tap
+    3300104: tap01
+    3300106: toilet
+    3300108: Toilet_lid
+    3300110: toilet_roll01
+    3300112: toilet_roll02
+    3300114: toilet_roll03
+    3300116: toilet_roll04
+    3300118: toilet_roll05
+    3300120: toilet_roll06
+    3300122: toilet_roll07
+    3300124: toilet_roll08
+    3300126: toothbrush01
+    3300128: toothbrush02
+    3300130: toothbrush_cup
+    3300132: toothpaste
+    3300134: window
+    4300000: shower_curtain
+    4300002: bath_tub
+    4300004: shower_curtain_ring19
+    4300006: shower_curtain_ring18
+    4300008: shower_curtain_ring17
+    4300010: shower_curtain_ring16
+    4300012: shower_curtain_ring15
+    4300014: shower_curtain_ring14
+    4300016: shower_curtain_ring13
+    4300018: shower_curtain_ring12
+    4300020: shower_curtain_ring11
+    4300022: shower_curtain_ring10
+    4300024: shower_curtain_ring09
+    4300026: shower_curtain_ring08
+    4300028: shower_curtain_ring07
+    4300030: shower_curtain_ring06
+    4300032: shower_curtain_ring05
+    4300034: shower_curtain_ring04
+    4300036: shower_curtain_ring03
+    4300038: shower_curtain_ring02
+    4300040: shower_curtain_ring01
+    4300042: shower_rail
+    4300044: shower_curtain_ring20
+    4300046: Shower_pipe
+    4300048: window
+    4300050: Sink
+    4300052: piping
+    4300054: net
+    4300056: net_railing
+    4300058: bath_border
+    4300060: mirror
+    4300062: sink_taps
+    4300064: Soap01
+    4300066: Plug01
+    4300068: Plug02
+    4300070: tap
+    4300072: handle
+    4300074: toilet
+    4300076: Toilet_lid
+    4300078: Door_frame
+    4300080: Bath_door
+    4300082: handle01
+    4300084: handle02
+    4300086: Floor_mat
+    4300088: plastic shelf
+    4300090: toothbrush02
+    4300092: toothbrush_cup
+    4300094: toothbrush01
+    4300096: metal_shelving01
+    4300098: Floor_mat01
+    4300100: metal_shelving02
+    4300102: toilet_roll01
+    4300104: toilet_roll02
+    4300106: toilet_roll03
+    4300108: toilet_roll04
+    4300110: toilet_roll05
+    4300112: toilet_roll06
+    4300114: toilet_roll07
+    4300116: toilet_roll08
+    4300118: toothpaste
+    4300120: flannel
+    4300122: Object04
+    4300124: Object03
+    4300126: Flannel01
+    4300128: shower_head
+    4300130: Shower_holder
+    4300132: tap01
+    4300134: bathroom_walls
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
