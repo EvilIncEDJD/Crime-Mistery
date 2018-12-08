@@ -308,7 +308,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1588695980358162}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b9b40448f3816f843af579e12839beea, type: 2}
   m_CullingMode: 0
@@ -331,3 +331,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openDistance: 10
+  speed: 3
