@@ -9,14 +9,19 @@ public class Door : MonoBehaviour {
 	private bool closed ;
 	private GameObject Player;
 	private OpenDoor door;
-	
-	
+	public float speed = 3;
+	float value;
+	private void Update() {
+
+		 
+	}
 	
 	
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag("Player");
 		anime= GetComponent<Animator>();
 		door =Player.GetComponent<OpenDoor>();
+		value = transform.eulerAngles.y +0.1f;
 	}
 	
 	
@@ -34,21 +39,30 @@ public void CoClose()
 }
 
 public IEnumerator Open() 
-{
-   				anime.Play("Open");
-				Debug.Log("1");
-				yield return new WaitForSeconds(anime.GetCurrentAnimatorStateInfo(0).length);
+{				
+	
+				while(transform.eulerAngles.y < value + 89)
+				{
+   				transform.Rotate(Vector3.up *0.8f);
+
+				yield return null;
+				}
 				closed = true;
-					
+					Debug.Log(closed);
 					
 }
 public IEnumerator Close() 
 {
 	
-   					anime.Play("Close");
-					Debug.Log("0");
-					yield return new WaitForSeconds(anime.GetCurrentAnimatorStateInfo(0).length);
+   				
+   				while(transform.eulerAngles.y > value)
+				{
+   				transform.Rotate(Vector3.up *-0.8f);
+
+				yield return null;
+				}
 					closed = false;
+						Debug.Log(closed);
 					
 					
 					

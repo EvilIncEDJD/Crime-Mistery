@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
-public class PathFinding : MonoBehaviour {
+public class AstarPathFinding : MonoBehaviour {
 
 
     AstarPathRequestManager requestManager;

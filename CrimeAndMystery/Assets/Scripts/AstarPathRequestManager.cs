@@ -8,14 +8,14 @@ public class AstarPathRequestManager : MonoBehaviour {
     PathRequest currentPathRequest;
 
     static AstarPathRequestManager instance;
-    PathFinding pathfinding;
+    AstarPathFinding pathfinding;
 
     bool isProcessingPath;
 
     void Awake()
     {
         instance = this;
-        pathfinding = GetComponent<PathFinding>();
+        pathfinding = GetComponent<AstarPathFinding>();
     }
 
     public static void RequestPath(Vector3 pathStart, Vector3 pathEnd, Action<Vector3[], bool> callback)
