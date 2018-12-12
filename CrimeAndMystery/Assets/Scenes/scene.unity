@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 264239200e4f585499642e6e9c741734, type: 2}
 --- !u!1 &6069634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,8 +1010,8 @@ GameObject:
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &148046482
 BoxCollider:
@@ -1477,11 +1477,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36000007
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4428694
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1521,7 +1521,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_Layer
@@ -1562,6 +1562,14 @@ Prefab:
     - target: {fileID: 100018, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1173be9e45a24b444af738a996a3e2f8, type: 3}
@@ -2836,8 +2844,8 @@ GameObject:
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &362104386
 BoxCollider:
@@ -7213,8 +7221,8 @@ GameObject:
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &858228350
 BoxCollider:
@@ -7828,7 +7836,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &972667336
 MeshCollider:
@@ -8919,6 +8927,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83971dacd23d4a141b404e5adf5adca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!195 &1156623220
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156623212}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.34
+  m_Speed: 1
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.61
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 2
 --- !u!1 &1161453613
 GameObject:
   m_ObjectHideFlags: 0
@@ -16607,7 +16636,7 @@ BoxCollider:
   m_GameObject: {fileID: 2120216231}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: -0.15, y: 0.54, z: -0.28}

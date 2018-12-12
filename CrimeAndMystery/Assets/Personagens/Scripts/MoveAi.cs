@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class MoveAi : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class MoveAi : MonoBehaviour
     GameObject[] chair, paint;
     GameObject maisPerto;
     Vector3 position, difference;
-   
+   GameObject goal;
     CharacterController controller;
     bool sitGo = false;
     bool sitting = false;
@@ -20,7 +21,7 @@ public class MoveAi : MonoBehaviour
 
     Vector3[] path;
     int targetIndex;
-
+    NavMeshAgent agent ;
     // Update is called once per frame
     void Update()
     {
@@ -28,9 +29,13 @@ public class MoveAi : MonoBehaviour
         if (sitting == true)
         {
             controller.enabled = false;
+            agent.enabled = false;
         }
-        else controller.enabled = true;
-        
+        else 
+        {
+            controller.enabled = true;
+            agent.enabled = true;
+        }
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
         //Debug.Log("maisPerto" + maisPerto.tag);
     }
@@ -42,7 +47,7 @@ public class MoveAi : MonoBehaviour
         position = transform.position;
         chair = GameObject.FindGameObjectsWithTag("Chair");
         paint = GameObject.FindGameObjectsWithTag("Painting");
-
+         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(DoSomething());
     }
 
@@ -83,14 +88,13 @@ public class MoveAi : MonoBehaviour
 
     private IEnumerator goSit()
     {
-        
+        goal = Closest(chair);
         while (true)
         {
-            AstarPathRequestManager.RequestPath(transform.position, Closest(chair).transform.position, OnPathFound);
-
-            if (DistanceFrom(Closest(chair)) < 1)
+            
+            if (DistanceFrom(goal) < 0.5)
             {
-                transform.rotation = Closest(chair).transform.rotation;
+                transform.rotation = goal.transform.rotation;
                 Sit();
                 //Debug.Log("i should sit");
                 
@@ -99,6 +103,7 @@ public class MoveAi : MonoBehaviour
 
             else if(!sitting)
             {
+                agent.destination = goal.transform.position;
                 Walk();
              
               
@@ -111,17 +116,17 @@ public class MoveAi : MonoBehaviour
 
     private IEnumerator AdmirePainting()
     {
-
+        goal = Closest(paint);
         while (true)
         {
-            AstarPathRequestManager.RequestPath(transform.position, Closest(paint).transform.position, OnPathFound);
-
-            if (DistanceFrom(Closest(paint)) < 2)
+          
+            if (DistanceFrom(goal) < 1)
             {
                 Stop();
             }
             else
             {
+                 agent.destination = goal.transform.position;
                 Walk();
                
             }
@@ -131,57 +136,11 @@ public class MoveAi : MonoBehaviour
         }
     }
 
-    public void OnPathFound(Vector3[] newPath, bool pathSuccessful)
-    {
-        if (pathSuccessful)
-        {
-            path = newPath;
-            targetIndex = 0;
-            StopCoroutine("FollowPath");
-            StartCoroutine("FollowPath");
-        }
-    }
+    
 
-    IEnumerator FollowPath()
-    {
-        targetIndex = 0;
-        Vector3 currentWaypoint = path[0];
-        while (true)
-        {
-            if (transform.position == currentWaypoint)
-            {
-                targetIndex++;
-                if (targetIndex >= path.Length)
-                {
-                    yield break;
-                }
-                currentWaypoint = path[targetIndex];
-            }
-            Vector3 targetDir = currentWaypoint - transform.position;
-            float step = 3 * Time.deltaTime;
-            Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDir, step, 0.0f);
-            transform.rotation = Quaternion.LookRotation(newDir);
+   
 
-            yield return null;
-
-        }
-    }
-
-    public void OnDrawGizmos() {
-		if (path != null) {
-			for (int i = targetIndex ; i < path.Length; i ++) {
-				Gizmos.color = Color.black;
-				Gizmos.DrawCube(path[i], Vector3.one);
-
-				if (i == targetIndex) {
-					Gizmos.DrawLine(transform.position, path[i]);
-				}
-				else {
-					Gizmos.DrawLine(path[i-1],path[i]);
-				}
-			}
-		}
-	}
+    
 
     public GameObject Closest(GameObject[] gameObjects)
     {
