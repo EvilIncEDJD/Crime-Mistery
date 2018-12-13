@@ -18,12 +18,12 @@ MonoBehaviour:
   m_fontInfo:
     Name: moanHand
     PointSize: 120
-    Scale: 0
+    Scale: 1
     CharacterCount: 156
     LineHeight: 161
     Baseline: 0
     Ascender: 97
-    CapHeight: 0
+    CapHeight: 77
     Descender: -64
     CenterLine: 0
     SuperscriptOffset: 97
@@ -33,7 +33,7 @@ MonoBehaviour:
     UnderlineThickness: 2.4
     strikethrough: 12
     strikethroughThickness: 2.4
-    TabWidth: 0
+    TabWidth: 440
     Padding: 5
     AtlasWidth: 1024
     AtlasHeight: 1024
@@ -42,10 +42,10 @@ MonoBehaviour:
   - id: 32
     x: 5
     y: 1019
-    width: 0
-    height: 0
+    width: 44
+    height: 161
     xOffset: 0
-    yOffset: 0
+    yOffset: 97
     xAdvance: 44
     scale: 1
   - id: 33
@@ -1543,7 +1543,7 @@ Material:
     - _VertexOffsetY: 0
     m_Colors:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
-    - _FaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FaceColor: {r: 1, g: 0, b: 0.047468662, a: 1}
 --- !u!28 &28147437825329096
 Texture2D:
   m_ObjectHideFlags: 0
