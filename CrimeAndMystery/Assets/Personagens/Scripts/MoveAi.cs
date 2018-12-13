@@ -8,7 +8,7 @@ public class MoveAi : MonoBehaviour
 
     // Use this for initialization
     float timer;
-     Animator animator;
+    Animator animator;
     GameObject[] chair, paint;
     GameObject maisPerto;
     Vector3 position, difference;
@@ -18,7 +18,7 @@ public class MoveAi : MonoBehaviour
     bool sitting = false;
     bool walkingTo = true;
     Coroutine myCoroutine;
-
+    
     Vector3[] path;
     int targetIndex;
     NavMeshAgent agent ;
