@@ -18,7 +18,7 @@ public class AnotherMoveAi : MonoBehaviour {
 		
 	}
 
-	public bool TheOldSwitcheroo(AiState state)
+/* public bool TheOldSwitcheroo(AiState state)
 	{
 		switch (state)
 		{
@@ -34,5 +34,5 @@ public class AnotherMoveAi : MonoBehaviour {
 			break;
 
 		}
-	}
+	}*/
 }
