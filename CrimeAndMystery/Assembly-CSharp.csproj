@@ -95,6 +95,7 @@
      <Compile Include="Assets\OpenInformacao.cs" />
      <Compile Include="Assets\PCGTerreno\Script\Terreno.cs" />
      <Compile Include="Assets\Personagens\Scripts\AnotherAi.cs" />
+     <Compile Include="Assets\Personagens\Scripts\AnotherMoveAi.cs" />
      <Compile Include="Assets\Personagens\Scripts\MoveAi.cs" />
      <Compile Include="Assets\Scripts\AstarGrid.cs" />
      <Compile Include="Assets\Scripts\AstarNode.cs" />
