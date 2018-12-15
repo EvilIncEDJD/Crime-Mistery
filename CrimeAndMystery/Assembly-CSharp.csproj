@@ -145,6 +145,7 @@
      <Compile Include="Assets\Scripts\AstarNode.cs" />
      <Compile Include="Assets\Scripts\AstarPathFinding.cs" />
      <Compile Include="Assets\Scripts\AstarPathRequestManager.cs" />
+     <Compile Include="Assets\SomPassos.cs" />
      <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
      <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
      <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />

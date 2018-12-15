@@ -18,5 +18,7 @@ public class OpenInformacao : MonoBehaviour {
 	}
 	void OnTriggerExit(){
 		policeUI.SetActive(false);
+		Destroy(this);
+		
 	}
 }
