@@ -77,6 +77,7 @@
      <Compile Include="Assets\Book\Book.cs" />
      <Compile Include="Assets\Book\TextChange.cs" />
      <Compile Include="Assets\Book\TurnPage.cs" />
+     <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\candeeiro.cs" />
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
@@ -143,6 +144,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Saude.cs" />
      <Compile Include="Assets\Scripts\AstarGrid.cs" />
      <Compile Include="Assets\Scripts\AstarNode.cs" />
      <Compile Include="Assets\Scripts\AstarPathFinding.cs" />
