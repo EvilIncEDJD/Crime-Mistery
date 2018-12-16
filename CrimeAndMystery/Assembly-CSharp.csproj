@@ -79,6 +79,7 @@
      <Compile Include="Assets\Book\TurnPage.cs" />
      <Compile Include="Assets\candeeiro.cs" />
      <Compile Include="Assets\Door.cs" />
+     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
      <Compile Include="Assets\Labirinto\Scripts\BackTrackAlgorithm.cs" />
      <Compile Include="Assets\Labirinto\Scripts\camera.cs" />
      <Compile Include="Assets\Labirinto\Scripts\MazeAlgorithm.cs" />
@@ -193,6 +194,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\ALLMANSAO\forest-skyboxes\Plants\readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\ALLMANSAO\MODELOS\eb_nightstand_01\READ_ME.txt" />

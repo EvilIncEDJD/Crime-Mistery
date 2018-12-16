@@ -15350,7 +15350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1904477919
 Animator:
   serializedVersion: 3
@@ -15492,6 +15492,7 @@ MonoBehaviour:
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
   player: {fileID: 1904477920}
+  camerap: {fileID: 0}
 --- !u!1 &1908808289
 GameObject:
   m_ObjectHideFlags: 0

@@ -70,7 +70,7 @@ public class MazeLoader : MonoBehaviour {
     {
        
         //if (Vector3.Distance(transform.position, player.transform.position) < 10f)
-            StartCoroutine("Repetir");
+            //StartCoroutine("Repetir");
 	}
 
 	private void InitializeMaze() {
@@ -113,7 +113,7 @@ public class MazeLoader : MonoBehaviour {
 
         //MakeEntrance();
 
-        SpawnObject();
+       // SpawnObject();
     }
     
     void MakeEntrance()
