@@ -92,6 +92,7 @@
      <Compile Include="Assets\MENUS\Options.cs" />
      <Compile Include="Assets\MENUS\PauseScript.cs" />
      <Compile Include="Assets\Mirror\MirrorReflect.cs" />
+     <Compile Include="Assets\Multiplayer\PControllerM.cs" />
      <Compile Include="Assets\NPC.cs" />
      <Compile Include="Assets\OpenDoor.cs" />
      <Compile Include="Assets\OpenInformacao.cs" />
