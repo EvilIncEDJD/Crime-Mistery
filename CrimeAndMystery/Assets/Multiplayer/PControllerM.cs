@@ -13,11 +13,15 @@ public class PControllerM : NetworkBehaviour {
     
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+    
+    public GameObject servicalPrefab;
+    public Transform servicalSpawn;
 
     void Start () {       
         animator = GetComponent<Animator>();
         _characterController = GetComponent<CharacterController>();
         cameraControll = GetComponent<CameraControll>();
+        
     }
     void Update()
     {
@@ -29,7 +33,8 @@ public class PControllerM : NetworkBehaviour {
 
         if (Input.GetKeyDown (KeyCode.Space))
         {
-         CmdFire();
+
+         //CmdFire();
         }
 
         /*  float translation = Input.GetAxis("Vertical") * speed;
@@ -143,5 +148,23 @@ public class PControllerM : NetworkBehaviour {
 
         // Destrua a bala depois de 2 segundos
         Destroy(bullet, 2.0f);
+    }
+
+     [Command]
+    void CmdPlayer2()
+    {
+         // Cria o Bullet da Bullet Prefab
+        var servical = (GameObject)Instantiate(
+            servicalPrefab,
+            servicalSpawn.position,
+            servicalSpawn.rotation);
+
+        // Adiciona velocidade ao marcador
+        //servical.GetComponent<Rigidbody>().velocity = servical.transform.forward * 6;
+
+        // Spawn a bala nos client
+        NetworkServer.Spawn(servical);
+
+        
     }
 }
