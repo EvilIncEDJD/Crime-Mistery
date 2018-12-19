@@ -9,14 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
-  m_Name: Policia -Welcome - op3
+  m_Name: Policia -Welcome - op4
   m_EditorClassIdentifier: 
   name: Policia
   dialogues:
-  - sentence: 'Inspetor fala 3-6
-
-'
+  - sentence: "\xC0 primeira vista pareceu nos um acidente, ele caiu e bateu com a
+      cabe\xE7a. "
     options:
-    - text: 
+    - text: "Ok, vou l\xE1 dentro ver a situa\xE7\xE3o."
       optionNumber: 0
       response: {fileID: 0}

@@ -23,6 +23,8 @@ public class ConversationManager : Singleton<ConversationManager> {
 
     public TMP_Text nameText;
 
+    public bool inChat = false;
+
     private void Start()
     {
         dialogues = new Queue<Dialogue>();
@@ -111,13 +113,14 @@ public class ConversationManager : Singleton<ConversationManager> {
     }
 
     public void EndConversation()
-    {
+    {   
         ConversationPanel.SetActive(false);
         Debug.Log("End Conversation");
         waitingAnswer = false;
         ClearOptionPanel();
         dialogues.Clear();
         current = null;
+        inChat = false;
     }
 
 

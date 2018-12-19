@@ -13,10 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Policia
   dialogues:
-  - sentence: 'Inspetor fala 2-5
-
-'
+  - sentence: "N\xE3o. Parece um t\xEDpico caso acidental, homem cai e bate com a
+      cabe\xE7a."
     options:
-    - text: 
+    - text: "Ok, quantas pessoas estam a\xED?"
+      optionNumber: 0
+      response: {fileID: 11400000, guid: 930920e79054a8140b2c61fd144d4f50, type: 2}
+    - text: "Vou l\xE1 dentro, quem sabe isto escale para um homicidio."
       optionNumber: 0
       response: {fileID: 0}

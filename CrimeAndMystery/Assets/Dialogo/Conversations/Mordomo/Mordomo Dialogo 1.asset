@@ -9,12 +9,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
-  m_Name: Policia -Welcome - op1
+  m_Name: Mordomo Dialogo 1
   m_EditorClassIdentifier: 
-  name: Policia
+  name: Mordomo
   dialogues:
-  - sentence: Policia fala2
+  - sentence: Boa tarde Senhor...
     options:
-    - text: 'Inspetor Fala: '
+    - text: Detetive Benito, responsavel pelo caso.
+      optionNumber: 0
+      response: {fileID: 0}
+    - text: "N\xE3o encomendaram uma pizza para esta morada?"
+      optionNumber: 0
+      response: {fileID: 0}
+    - text: "Eu \xE9 que fa\xE7o perguntas aqui!"
       optionNumber: 0
       response: {fileID: 0}

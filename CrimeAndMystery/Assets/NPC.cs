@@ -66,8 +66,7 @@ public class NPC : MonoBehaviour {
 	void Update () {
 		
 		
-		Debug.Log("InChat é " + inChat  );
-		Debug.Log("OpenDialogoP é " + openDialogoP);
+	
 		
 		if(policeTriggerState)//enquanto tiver em contacto com o policia
 		{
@@ -84,8 +83,6 @@ public class NPC : MonoBehaviour {
 				{
 				npcWindow.gameObject.SetActive(false);//janela fecha
 				openDialogoP = false;
-				
-				
 				}
 
 

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Policia
   dialogues:
-  - sentence: Polica Falar 1
+  - sentence: "Ah finalmente!!\nAlgu\xE9m para tomar conta da situa\xE7\xE3o."
     options:
-    - text: Inspetor Fala 1
-      optionNumber: 3
+    - text: "Ent\xE3o Soares, conta me o que se passou."
+      optionNumber: 0
       response: {fileID: 11400000, guid: e17311e12721ac842bc2b8aa9f4faef8, type: 2}
-    - text: Inspetor Fala 2
-      optionNumber: 3
+    - text: Notaste alguma coisa estranha?
+      optionNumber: 1
       response: {fileID: 11400000, guid: 8c83d673add348b4d8d43507dcef4487, type: 2}
-    - text: Inspetor Fala 3
-      optionNumber: 3
+    - text: Estava a ocontecer algum evento antes do ocorrido?
+      optionNumber: 2
       response: {fileID: 11400000, guid: 6ae344f95a268764dbe6de7c3ae70519, type: 2}

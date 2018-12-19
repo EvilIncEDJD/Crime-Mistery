@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
+  m_Name: Policia -Welcome - op3
+  m_EditorClassIdentifier: 
+  name: Policia
+  dialogues:
+  - sentence: Sim, algum tipo de festa da alta sociedade, pessoas bastante influentes.
+    options:
+    - text: "Pois, tens registado quantas pessoas estavam l\xE1 dentro?"
+      optionNumber: 0
+      response: {fileID: 11400000, guid: cc4c4269c2e96c849a26295701101d72, type: 2}
+    - text: Quem era a vitima?
+      optionNumber: 0
+      response: {fileID: 11400000, guid: cc4c4269c2e96c849a26295701101d72, type: 2}
+    - text: "Sim, n\xE3o \xE9 qualquer um que tem uma casa destas.\nVou indo..."
+      optionNumber: 0
+      response: {fileID: 0}
