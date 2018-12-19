@@ -1128,6 +1128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openDistance: 10
+  speed: 3
 --- !u!114 &114938696838834708
 MonoBehaviour:
   m_ObjectHideFlags: 1
