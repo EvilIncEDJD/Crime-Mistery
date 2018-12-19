@@ -70,7 +70,7 @@ public class MazeLoader : MonoBehaviour {
     {
        
         //if (Vector3.Distance(transform.position, player.transform.position) < 10f)
-            StartCoroutine("Repetir");
+            //StartCoroutine("Repetir");
 	}
 
 	private void InitializeMaze() {
@@ -111,7 +111,7 @@ public class MazeLoader : MonoBehaviour {
             }
 		}
 
-        //MakeEntrance();
+        MakeEntrance();
 
         SpawnObject();
     }
@@ -119,17 +119,17 @@ public class MazeLoader : MonoBehaviour {
     void MakeEntrance()
     {
         mazeCells[15, 7].southWall.gameObject.active = false;
-        mazeCells[8, 0].westWall.gameObject.active = false;
-        mazeCells[7, 15].eastWall.gameObject.active = false;
-        mazeCells[0, 7].northWall.gameObject.active = false;
+        //mazeCells[8, 0].westWall.gameObject.active = false;
+        //mazeCells[7, 15].eastWall.gameObject.active = false;
+        //mazeCells[0, 7].northWall.gameObject.active = false;
     }
 
     void SpawnObject()
     {
         // positionXmin = transform.position;
 
-        Vector3 position = new Vector3(Random.Range(0.0f, 89.5f), 0, Random.Range(0.0f, 89.5f));
-        Vector3 position1 = new Vector3(Random.Range(0.0f, 89.5f), 0, Random.Range(0.0f, 89.5f));
+        Vector3 position = new Vector3(Random.Range(0.0f, 45f), 0, Random.Range(0.0f, 45f));
+        Vector3 position1 = new Vector3(Random.Range(0.0f, 45f), 0, Random.Range(0.0f, 45f));
         //Vector3 position = new Vector3(Random.Range(positionXmin.position.x, positionXmin.position.x), 0, Random.Range(positionZmin.position.z, positionZmax.position.z));
         Instantiate(model, position, Quaternion.identity);
         Instantiate(chara, position1, Quaternion.identity);

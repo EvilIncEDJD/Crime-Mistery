@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.PostProcessing;
 
 public class NPC : MonoBehaviour {
 
@@ -11,6 +12,7 @@ public class NPC : MonoBehaviour {
 	bool inDialogue1 = true;
 	bool inDialogueLeftSubTree = false;
 	bool inDialogueUpSubTree = false;
+	bool inDialogueRightSubTree = false;
 	[Header("Objects")]
 	public GameObject npcWindow;
 	public Text chatText;
@@ -45,6 +47,7 @@ public class NPC : MonoBehaviour {
 	private bool policeTriggerState = false;
 	public Transform player;
 	public Transform camerap;
+	 private PostProcessingBehaviour PPB;
 	
 
 	public Texture2D cursorTexture;
@@ -62,81 +65,149 @@ public class NPC : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		Debug.Log(policeTriggerState);
-
-		if(policeTriggerState){		
-			if(Input.GetKeyDown("e")){
-				//Se tiver dentro
-				if(inRange && !inChat){
-										
-					openDialogoP = true;
-					npcWindow.gameObject.SetActive(true);
-					chatText.GetComponent<Text>().text = greeting;
-					loadDialogue1();
-					camerap.GetComponent<Behaviour>().enabled = true;
-
+		
+	
+		
+		if(policeTriggerState)//enquanto tiver em contacto com o policia
+		{
+			if(Input.GetKeyDown("e"))
+			{
+				if(!inChat)
+				{
+				npcWindow.gameObject.SetActive(true);//janela abre
+				openDialogoP = true;
+				chatText.GetComponent<Text>().text = greeting;
+				loadDialogue1();
 				}
-				else if(!policeTriggerState && !inRange){
-					
-					npcWindow.gameObject.SetActive(false);
-					
+				else
+				{
+				npcWindow.gameObject.SetActive(false);//janela fecha
+				openDialogoP = false;
 				}
-				
+
+
 			}
-		}
 
-		
-		
+		//Caso a janela de dialogo esteja aberta
+		if(openDialogoP){
+			Time.timeScale = 0f;
+            Cursor.visible = true;
+            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+            player.GetComponent<CameraControll>().enabled = false;
+			camerap.GetComponent<PostProcessingBehaviour>().enabled = true;
+			
+		}else 
+		{
+            Time.timeScale = 1f;
+            player.GetComponent<CameraControll>().enabled = true;
+            Cursor.visible = false;
+			camerap.GetComponent<PostProcessingBehaviour>().enabled = false;
+        }
+
+		}
 	}
 
-	// first set of messages
+
+	// primeiras mensagens
 	void loadDialogue1(){
 		inChat = true;
 		inDialogue1 = true;
 		inDialogueLeftSubTree = false;
 		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = false;
 		leftText.GetComponent<Text>().text = left1;
 		upText.GetComponent<Text>().text = up1;
 		rightText.GetComponent<Text>().text = right1;
 	}
 
-	// first set, left button
+	// lado esquerdo 1s
 	void loadDialogueLeftSubTree(){
 		inDialogue1 = false;
 		inDialogueLeftSubTree = true;
 		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = false;
 		leftText.GetComponent<Text>().text = left2;
 		upText.GetComponent<Text>().text = up2;
 		rightText.GetComponent<Text>().text = right2;
 	}
 
-	// second set, left button
+	// lado esquerdo 2s
 	void loadDialogueLeftSubTree2(){
 		inDialogue1 = false;
-		inDialogueLeftSubTree = false;
+		inDialogueLeftSubTree = true;
 		inDialogueUpSubTree = false;
-		leftText.GetComponent<Text>().text = "";
-		upText.GetComponent<Text>().text = "";
-	}
-
-	// first set, top button
-	void loadDialogueUpSubTree(){
-		inDialogue1 = false;
-		inDialogueLeftSubTree = false;
-		inDialogueUpSubTree = true;
+		inDialogueRightSubTree = false;
 		leftText.GetComponent<Text>().text = left3;
 		upText.GetComponent<Text>().text = up3;
 		rightText.GetComponent<Text>().text = right3;
 	}
 
-	// second set, top button
+	void loadDialogueLeftSubTree3(){
+		inDialogue1 = false;
+		inDialogueLeftSubTree = true;
+		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = false;
+		leftText.GetComponent<Text>().text = "";
+		upText.GetComponent<Text>().text = "";
+		rightText.GetComponent<Text>().text = "";
+	}
+
+
+
+
+
+
+	// lado baixo 1s
+	void loadDialogueUpSubTree(){
+		inDialogue1 = false;
+		inDialogueLeftSubTree = false;
+		inDialogueUpSubTree = true;
+		inDialogueRightSubTree = false;
+		leftText.GetComponent<Text>().text = left3;
+		upText.GetComponent<Text>().text = up3;
+		rightText.GetComponent<Text>().text = right3;
+	}
+
+	// lado baixo 2s
 	void loadDialogueUpSubTree2(){
 		inDialogue1 = false;
 		inDialogueLeftSubTree = false;
 		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = false;
 		leftText.GetComponent<Text>().text = "";
 		upText.GetComponent<Text>().text = "";
+		rightText.GetComponent<Text>().text = "";
 	}
+
+
+
+
+
+
+
+	// lado Direito 1s
+	void loadDialogueRigthSubTree(){
+		inDialogue1 = false;
+		inDialogueLeftSubTree = false;
+		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = true;
+		leftText.GetComponent<Text>().text = left3;
+		upText.GetComponent<Text>().text = up3;
+		rightText.GetComponent<Text>().text = right3;
+	}
+
+	// lado Direito 2s
+	void loadDialogueRigthSubTree2(){
+		inDialogue1 = false;
+		inDialogueLeftSubTree = true;
+		inDialogueUpSubTree = false;
+		inDialogueRightSubTree = false;
+		leftText.GetComponent<Text>().text = "";
+		upText.GetComponent<Text>().text = "";
+		rightText.GetComponent<Text>().text = "";
+	}
+
+
 
 	// if the player presses the left button at any point
 	public void Left(){
@@ -146,9 +217,9 @@ public class NPC : MonoBehaviour {
 		}else if(inDialogueLeftSubTree){
 			chatText.GetComponent<Text>().text = leftResponse2;
 			loadDialogueLeftSubTree2();
-		}else if(inDialogueUpSubTree){
+		}else if(inDialogueLeftSubTree){
 			chatText.GetComponent<Text>().text = leftResponse3;
-			loadDialogueUpSubTree2();
+			loadDialogueLeftSubTree2();
 		}
 	}
 
@@ -167,12 +238,27 @@ public class NPC : MonoBehaviour {
 	}
 		
 	public void Right(){
+		if(inDialogue1){
+			chatText.GetComponent<Text>().text = rightResponse1;
+			loadDialogueRigthSubTree();
+		}else if(inDialogueRightSubTree){
+			chatText.GetComponent<Text>().text = rightResponse2;
+			loadDialogueRigthSubTree2();
+		}else if(inDialogueRightSubTree){
+			chatText.GetComponent<Text>().text = rightResponse3;
+			loadDialogueRigthSubTree2();
+		}
+	}
+
+	public void CloseParle(){
 		CloseDialogue();
 	}
 
 	void CloseDialogue(){
 		npcWindow.gameObject.SetActive(false);
 		inChat = false;
+		openDialogoP = false;
+		
 	}
 
 	void OnTriggerStay(Collider other){
@@ -181,10 +267,15 @@ public class NPC : MonoBehaviour {
 		inRange = true;
 	}
 
-	void OnTriggerExit(Collider other){
+	void OnTriggerExit(){
 		
 		policeTriggerState = false;
 		inRange = false;
+		inChat = false;
+		Time.timeScale = 1f;
+        player.GetComponent<CameraControll>().enabled = true;
+        Cursor.visible = false;
+
 	}
 
 }

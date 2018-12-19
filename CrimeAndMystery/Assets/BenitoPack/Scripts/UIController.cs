@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PostProcessing;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour {
@@ -16,6 +17,8 @@ public class UIController : MonoBehaviour {
     public Vector2 hotSpot = Vector2.zero;
 
     public Transform player;
+    public Transform camerap;
+
 	
 	// Use this for initialization
 	void Start () {
@@ -35,9 +38,11 @@ public class UIController : MonoBehaviour {
             Cursor.visible = true;
              Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             player.GetComponent<CameraControll>().enabled = false;
+            camerap.GetComponent<PostProcessingBehaviour>().enabled = true;
         }else{
             Time.timeScale = 1f;
             player.GetComponent<CameraControll>().enabled = true;
+            camerap.GetComponent<PostProcessingBehaviour>().enabled = false;
             Cursor.visible = false;
         }
         OpenInfo();

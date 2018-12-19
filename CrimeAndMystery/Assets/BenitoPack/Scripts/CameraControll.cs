@@ -38,7 +38,7 @@ public class CameraControll : MonoBehaviour {
     public float distanceMin = 4f;
     public float distanceMax = 15f;
 
-    public float pickUpDistance = 10f;
+    public float pickUpDistance = 3f;
 
     private bool collide;
     [HideInInspector]

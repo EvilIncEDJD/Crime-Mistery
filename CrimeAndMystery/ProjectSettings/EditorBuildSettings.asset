@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuMain.unity
     guid: 0d53e91ebc60c2d40a390fddead6d86e
   - enabled: 1
-    path: Assets/Scenes/scene.unity
-    guid: d727351d5dd1f8f429169a5b070ac174
+    path: Assets/Scenes/cena2.unity
+    guid: 560a172ef85a70f4f92fab8d25d92d71
+  - enabled: 1
+    path: Assets/Labirinto/LabirintoTeste.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}

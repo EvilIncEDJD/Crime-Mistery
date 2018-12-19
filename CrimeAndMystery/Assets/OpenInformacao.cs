@@ -6,6 +6,7 @@ public class OpenInformacao : MonoBehaviour {
 
 	public GameObject policeUI;
 	public static bool policeUIOpen = false;
+	public GameObject textUI;
 	
 	// Use this for initialization
 	void Start () {
@@ -18,5 +19,7 @@ public class OpenInformacao : MonoBehaviour {
 	}
 	void OnTriggerExit(){
 		policeUI.SetActive(false);
+		Destroy(this);
+		
 	}
 }
