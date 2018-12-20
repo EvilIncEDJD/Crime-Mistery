@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
+  m_Name: "Apresenta\xE7\xE3o - - Joana"
+  m_EditorClassIdentifier: 
+  name: 
+  dialogues:
+  - sentence: ' Joana de Serralves, agente imobiliaria'
+    options:
+    - text: Conhecia bem o morto?
+      optionNumber: 0
+      response: {fileID: 11400000, guid: 25a5c1b2c2cabb345944f962f485477b, type: 2}

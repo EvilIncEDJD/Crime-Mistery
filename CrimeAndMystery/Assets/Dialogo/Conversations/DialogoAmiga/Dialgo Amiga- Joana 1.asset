@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
+  m_Name: Dialgo Amiga- Joana 1
+  m_EditorClassIdentifier: 
+  name: ' Joana de Serralves'
+  dialogues:
+  - sentence: Sim?
+    options:
+    - text: Boa Tarde Senhora...
+      optionNumber: 0
+      response: {fileID: 11400000, guid: f23047cd89a74de4caadb538e36a3bd4, type: 2}
+    - text: Pode dizer-me o que se passou?
+      optionNumber: 1
+      response: {fileID: 11400000, guid: 77e20af7b38f7a24b8d0328d9803f0ff, type: 2}
+    - text: Era chegada ao morto?
+      optionNumber: 2
+      response: {fileID: 11400000, guid: 25a5c1b2c2cabb345944f962f485477b, type: 2}
