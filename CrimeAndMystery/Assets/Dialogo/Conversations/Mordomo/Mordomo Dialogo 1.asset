@@ -17,10 +17,10 @@ MonoBehaviour:
     options:
     - text: Detetive Benito, responsavel pelo caso.
       optionNumber: 0
-      response: {fileID: 0}
+      response: {fileID: 11400000, guid: ac02c211883586049985ab33a51d3eda, type: 2}
     - text: "N\xE3o encomendaram uma pizza para esta morada?"
-      optionNumber: 0
-      response: {fileID: 0}
+      optionNumber: 1
+      response: {fileID: 11400000, guid: 1fe3384b4bc5be645a170940fcf2e1be, type: 2}
     - text: "Eu \xE9 que fa\xE7o perguntas aqui!"
-      optionNumber: 0
-      response: {fileID: 0}
+      optionNumber: 2
+      response: {fileID: 11400000, guid: d2e9dffb0e05ba34da6806e1158d619d, type: 2}

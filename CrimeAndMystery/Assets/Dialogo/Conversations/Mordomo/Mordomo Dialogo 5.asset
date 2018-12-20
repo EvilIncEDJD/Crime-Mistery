@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
+  m_Name: Mordomo Dialogo 5
+  m_EditorClassIdentifier: 
+  name: Mordomo
+  dialogues:
+  - sentence: "Desculpe, foi sem inten\xE7\xE3o.\nDeseja algo?"
+    options:
+    - text: 'Sim, quero que saia da frente
+
+        para eu fazer o meu trabalho.'
+      optionNumber: 0
+      response: {fileID: 11400000, guid: d2f3b6a138e1cf340855d1cbd7661916, type: 2}
+    - text: Gostava de saber onde o sr. se encontrava no momento do falecimento da
+        vitima.
+      optionNumber: 1
+      response: {fileID: 11400000, guid: a23e988c6d1316e4aac8e82187625787, type: 2}
+    - text: Quero apenas verificar o sucedido.
+      optionNumber: 2
+      response: {fileID: 11400000, guid: bc8ab87d8fb0d9b4d88e25e7710b28e7, type: 2}

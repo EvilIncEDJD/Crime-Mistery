@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d950b4ec730c7114f8f1dba8173d5b3e, type: 3}
   m_Name: Mordomo Dialogo 2
   m_EditorClassIdentifier: 
-  name: 
-  dialogues: []
+  name: Mordomo
+  dialogues:
+  - sentence: "Sim detetive, fa\xE7a favor entrar."
+    options: []

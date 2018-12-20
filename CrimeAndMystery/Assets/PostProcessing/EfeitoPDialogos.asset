@@ -42,7 +42,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.01
+      intensity: 0.78
       radius: 0.3
       sampleCount: 10
       downsampling: 1
@@ -79,7 +79,7 @@ MonoBehaviour:
   motionBlur:
     m_Enabled: 1
     m_Settings:
-      shutterAngle: 318
+      shutterAngle: 244
       sampleCount: 10
       frameBlending: 0.37
   eyeAdaptation:
@@ -113,15 +113,15 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.02
-        neutralWhiteIn: 10
-        neutralBlackOut: 0
-        neutralWhiteOut: 10
+        neutralBlackIn: -0.025
+        neutralWhiteIn: 7.3
+        neutralBlackOut: -0.01
+        neutralWhiteOut: 13.1
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
         postExposure: -0.42
-        temperature: -13
+        temperature: -14
         tint: -7
         hueShift: 0
         saturation: 1
@@ -322,9 +322,9 @@ MonoBehaviour:
       mode: 0
       color: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 1
-      smoothness: 0.346
-      roundness: 1
+      intensity: 0.543
+      smoothness: 0.603
+      roundness: 0.772
       mask: {fileID: 0}
       opacity: 1
       rounded: 0
