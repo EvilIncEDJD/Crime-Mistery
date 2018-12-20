@@ -91,6 +91,7 @@
      <Compile Include="Assets\Labirinto\Scripts\MazeLoader.cs" />
      <Compile Include="Assets\Labirinto\Scripts\move.cs" />
      <Compile Include="Assets\Labirinto\Scripts\TriggerControllerMaze.cs" />
+     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
      <Compile Include="Assets\MENUS\MainMenu.cs" />
      <Compile Include="Assets\MENUS\MainMENU1.cs" />
      <Compile Include="Assets\MENUS\MoveScene.cs" />
