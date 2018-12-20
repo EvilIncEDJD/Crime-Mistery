@@ -38,7 +38,7 @@ public class CameraControll : MonoBehaviour {
     public float distanceMin = 4f;
     public float distanceMax = 15f;
 
-    public float pickUpDistance = 3f;
+    public float pickUpDistance = 4f;
 
     private bool collide;
     [HideInInspector]
@@ -159,7 +159,7 @@ public class CameraControll : MonoBehaviour {
 
                 if(zoom == true)
                 {
-                    Camera.main.fieldOfView = 30;
+                    Camera.main.fieldOfView = 15;// 30
                     hit.collider.gameObject.transform.Rotate(Input.GetAxis("Mouse Y"), -Input.GetAxis("Mouse X"), 0);
                     /*hit.collider.gameObject.transform.Rotate(Vector3.up, -(Input.GetAxis("Mouse X")*Mathf.Deg2Rad * rotateSpeed));
                     hit.collider.gameObject.transform.Rotate(Vector3.right, Input.GetAxis("Mouse Y") * Mathf.Deg2Rad * rotateSpeed);*/
