@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class candeeiro : MonoBehaviour {
 
+		public AudioSource ligaDesligaSound;
 		private bool oN = true;
 		Light[] obLight;
 	// Use this for initialization
 	void Start () {
 		
-			
+			ligaDesligaSound = GetComponent<AudioSource>();
 			obLight = transform.GetComponentsInChildren<Light>();
 
 	
@@ -30,6 +31,7 @@ public class candeeiro : MonoBehaviour {
 	{
 	for(int i = 0; i < obLight.Length; i++)
 	{
+			ligaDesligaSound.Play();
 			obLight[i].enabled = false;
 	}
 			yield return new WaitForSeconds(0.1f);
@@ -41,6 +43,7 @@ public class candeeiro : MonoBehaviour {
 	
 			for(int i = 0; i < obLight.Length; i++)
 	{
+			ligaDesligaSound.Play();
 			obLight[i].enabled = true;
 	}
 			yield return new WaitForSeconds(0.1f);

@@ -41,7 +41,7 @@ public class KeypadScript : MonoBehaviour {
     void OnGUI()
     {
         if (!doorOpen)
-        {
+        {   Time.timeScale = 1.0f;
             if (onTrigger)
             {
                 GUI.Box(new Rect(0, 0, 200, 25), "Press 'E' to open keypad");
@@ -55,6 +55,7 @@ public class KeypadScript : MonoBehaviour {
 
             if (keypadScreen)
             {
+                Time.timeScale = 0.0f;
                 GUI.Box(new Rect(0, 0, 320, 455), "");
                 GUI.Box(new Rect(5, 5, 310, 25), input);
 

@@ -11,14 +11,17 @@ public class Door : MonoBehaviour {
 	private OpenDoor door;
 	public float speed = 3;
 	float value;
-	private void Update() {
+	public AudioSource portaSound;
 
+	private void Update() {
+	
 		 
 	}
 	
 	
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag("Player");
+		portaSound = GetComponent<AudioSource>();
 		anime= GetComponent<Animator>();
 		door =Player.GetComponent<OpenDoor>();
 		value = transform.eulerAngles.y +0.1f;
@@ -40,25 +43,29 @@ public void CoClose()
 
 public IEnumerator Open() 
 {				
-	
+				portaSound.Play();
 				while(transform.eulerAngles.y < value + 89)
 				{
+					
    				transform.Rotate(Vector3.up *0.8f);
+				  
 
 				yield return null;
 				}
 				closed = true;
 					Debug.Log(closed);
+				
 					
 }
 public IEnumerator Close() 
 {
-	
+				portaSound.Play();
    				
    				while(transform.eulerAngles.y > value)
 				{
+					
    				transform.Rotate(Vector3.up *-0.8f);
-
+				
 				yield return null;
 				}
 					closed = false;
