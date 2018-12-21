@@ -85,7 +85,7 @@ public class AnotherAi : MonoBehaviour {
         
         while (true)
         {
-            AstarPathRequestManager.RequestPath(transform.position, Closest(chair).transform.position, OnPathFound);
+            //AstarPathRequestManager.RequestPath(transform.position, Closest(chair).transform.position, OnPathFound);
 
             if (DistanceFrom(Closest(chair)) < 1)
             {
@@ -113,7 +113,7 @@ public class AnotherAi : MonoBehaviour {
 
         while (true)
         {
-            AstarPathRequestManager.RequestPath(transform.position, Closest(paint).transform.position, OnPathFound);
+            //AstarPathRequestManager.RequestPath(transform.position, Closest(paint).transform.position, OnPathFound);
 
             if (DistanceFrom(Closest(paint)) < 2)
             {
