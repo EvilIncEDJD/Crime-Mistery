@@ -38,11 +38,11 @@ public class UIController : MonoBehaviour {
             Cursor.visible = true;
              Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             player.GetComponent<CameraControll>().enabled = false;
-            camerap.GetComponent<PostProcessingBehaviour>().enabled = true;
+            //camerap.GetComponent<PostProcessingBehaviour>().enabled = true;
         }else{
             Time.timeScale = 1f;
             player.GetComponent<CameraControll>().enabled = true;
-            camerap.GetComponent<PostProcessingBehaviour>().enabled = false;
+            //camerap.GetComponent<PostProcessingBehaviour>().enabled = false;
             Cursor.visible = false;
         }
         OpenInfo();

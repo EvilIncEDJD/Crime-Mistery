@@ -14,4 +14,7 @@ MonoBehaviour:
   name: Mordomo
   dialogues:
   - sentence: "Sim detetive, fa\xE7a favor entrar."
-    options: []
+    options:
+    - text: Obrigado.
+      optionNumber: 0
+      response: {fileID: 0}

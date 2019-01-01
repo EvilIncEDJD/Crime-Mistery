@@ -14,4 +14,7 @@ MonoBehaviour:
   name: Mordomo
   dialogues:
   - sentence: "N\xE3o o incomodo mais."
-    options: []
+    options:
+    - text: Bem.
+      optionNumber: 0
+      response: {fileID: 0}

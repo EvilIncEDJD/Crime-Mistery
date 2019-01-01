@@ -14,4 +14,7 @@ MonoBehaviour:
   name: Mordomo
   dialogues:
   - sentence: Claro, entre!
-    options: []
+    options:
+    - text: "Com licen\xE7a."
+      optionNumber: 0
+      response: {fileID: 0}

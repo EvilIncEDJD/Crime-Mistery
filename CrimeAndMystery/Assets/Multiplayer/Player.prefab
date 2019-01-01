@@ -531,6 +531,7 @@ GameObject:
   - component: {fileID: 114230372218726028}
   - component: {fileID: 114550780916205086}
   - component: {fileID: 114923217741687874}
+  - component: {fileID: 114217699995941946}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3115,6 +3116,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114217699995941946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1307240186840614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1590678366, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 95524656043001336}
+  m_ParameterSendBits: 39
+  param0: 
+  param1: 
+  param2: 
+  param3: 
+  param4: 
+  param5: 
 --- !u!114 &114230372218726028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3336,6 +3356,8 @@ MonoBehaviour:
     type: 2}
   bulletSpawn: {fileID: 4287865372050178, guid: 135411d3b3bb0c1478f13f00bda5ee3d,
     type: 2}
+  servicalPrefab: {fileID: 0}
+  servicalSpawn: {fileID: 0}
 --- !u!114 &114439164512945224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3383,13 +3405,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TransformSyncMode: 4
   m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
+  m_SyncRotationAxis: 4
   m_RotationSyncCompression: 0
   m_SyncSpin: 0
   m_MovementTheshold: 0.001
   m_VelocityThreshold: 0.0001
   m_SnapThreshold: 5
-  m_InterpolateRotation: 1
+  m_InterpolateRotation: 15
   m_InterpolateMovement: 1
 --- !u!114 &114612612487731896
 MonoBehaviour:
@@ -3634,7 +3656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ae1445894fd84e4b85a42af19bd25e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 1
+  currentHealth: 3
 --- !u!137 &137023136871320250
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

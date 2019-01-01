@@ -14,4 +14,7 @@ MonoBehaviour:
   name: Mordomo
   dialogues:
   - sentence: "Qualquer coisa, n\xE3o hesite em chamar."
-    options: []
+    options:
+    - text: Ok, obrigado.
+      optionNumber: 0
+      response: {fileID: 0}

@@ -84,6 +84,7 @@
      <Compile Include="Assets\Dialogo\ConversationManager.cs" />
      <Compile Include="Assets\Dialogo\Singleton.cs" />
      <Compile Include="Assets\Door.cs" />
+     <Compile Include="Assets\InfoCenCrime.cs" />
      <Compile Include="Assets\Labirinto\Scripts\BackTrackAlgorithm.cs" />
      <Compile Include="Assets\Labirinto\Scripts\camera.cs" />
      <Compile Include="Assets\Labirinto\Scripts\MazeAlgorithm.cs" />

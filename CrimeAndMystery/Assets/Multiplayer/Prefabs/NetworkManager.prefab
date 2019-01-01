@@ -83,10 +83,10 @@ MonoBehaviour:
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs:
-  - {fileID: 1508509627387734, guid: a4f86758ca8ff0941aef5648aac3d926, type: 2}
-  - {fileID: 1067020693520464, guid: 8857002fd2580944c92e1e1fa93f6c3a, type: 2}
-  - {fileID: 1524532801699232, guid: e7b25734119a9654bb6afdc0d38e9060, type: 2}
-  - {fileID: 1327851755758262, guid: 478c80f18b1d0b7469bd04ec0a390cc5, type: 2}
+  - {fileID: 1508509627387734, guid: 3ef26ff55c88cc04a883b29a7c49d130, type: 2}
+  - {fileID: 1508509627387734, guid: 3ef26ff55c88cc04a883b29a7c49d130, type: 2}
+  - {fileID: 1508509627387734, guid: 3ef26ff55c88cc04a883b29a7c49d130, type: 2}
+  - {fileID: 1508509627387734, guid: 3ef26ff55c88cc04a883b29a7c49d130, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -143,11 +143,5 @@ MonoBehaviour:
   isNetworkActive: 0
   matchMaker: {fileID: 0}
   spawnPositions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
